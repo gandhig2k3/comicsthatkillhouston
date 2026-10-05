@@ -110,14 +110,15 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 // ===== EDIT YOUR HEADLINE HERE =====
 const HEADLINE = "Curated Houston comedy. Updated daily.";
 const SUBTEXT = "Find the best comedy shows and comedians across Houston.";
-// Your Ticketmaster tracking link is read from the file affiliate.txt (no need to edit this page).
-let AFFILIATE_LINK = "";
+// Your affiliate links are read from the file affiliate.txt (no need to edit this page).
+// Each line: website | tracking link. Only links to a listed website get its tracking link.
+let AFFILIATE_RULES = [];
 fetch("affiliate.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").then(x => {
-  const l = x.split("\n").map(s => s.trim()).find(s => s && !s.startsWith("#"));
-  if (l && l.startsWith("https://")) AFFILIATE_LINK = l;
+  AFFILIATE_RULES = x.split("\n").map(s => s.trim()).filter(s => s && !s.startsWith("#")).map(s => {
+    const i = s.indexOf("|");
+    return i < 0 ? { domain: "ticketmaster.com", link: s } : { domain: s.slice(0, i).trim().toLowerCase().replace(/^www\./, ""), link: s.slice(i + 1).trim() };
+  }).filter(r => r.domain && r.link.startsWith("https://"));
 }).catch(() => {});
-// Only links to these websites get your tracking link. Others (AXS, venue sites) stay as they are.
-const AFFILIATE_DOMAINS = ["ticketmaster.com"];
 const TICKET_URL = "https://www.ticketmaster.com/";
 // ===================================
 document.getElementById("headline").textContent = HEADLINE;
@@ -125,9 +126,10 @@ document.getElementById("subtext").textContent = SUBTEXT;
 document.title = HEADLINE;
 const $ = id => document.getElementById(id);
 const wrap = u => {
-  if (!AFFILIATE_LINK) return u;
-  try { const h = new URL(u).hostname; if (!AFFILIATE_DOMAINS.some(d => h === d || h.endsWith("." + d))) return u; } catch (e) { return u; }
-  return AFFILIATE_LINK + (AFFILIATE_LINK.includes("?") ? "&" : "?") + "u=" + encodeURIComponent(u);
+  let h; try { h = new URL(u).hostname; } catch (e) { return u; }
+  const r = AFFILIATE_RULES.find(r => h === r.domain || h.endsWith("." + r.domain));
+  if (!r) return u;
+  return r.link + (r.link.includes("?") ? "&" : "?") + "u=" + encodeURIComponent(u);
 };
 
 let shows = [], picks = [], picksLoaded = false;

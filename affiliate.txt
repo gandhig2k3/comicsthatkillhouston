@@ -1,6 +1,9 @@
-# YOUR TICKETMASTER AFFILIATE LINK
-# Once Impact approves you, paste your tracking link on the line below (no # at the start).
-# It should look like: https://something.example/c/123456/789012/3456
-# Paste ONLY the link. Do not add a show address to it, the site does that for you.
-# While the line below is empty, the site uses normal links with no tracking.
-
+# YOUR AFFILIATE LINKS
+# One per line, in this format:   website | your tracking link
+# Only tickets sold on a listed website get that tracking link. Everything else stays a normal link.
+#
+# Later, when Ticketmaster approves you, add a line like this (delete the # and use your own link):
+# ticketmaster.com | https://something.example/c/123456/789012/3456
+#
+# TEST LINE (AXS). The Dave Chappelle button goes to toyotacenter.com, which sells through AXS:
+toyotacenter.com | https://axs-uk.sjv.io/c/7879732/1902464/22439
