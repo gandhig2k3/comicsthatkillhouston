@@ -70,6 +70,8 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 .why{margin-top:10px;font-size:14px;background:var(--bg);border-left:3px solid var(--red);padding:8px 12px;border-radius:6px}
 .btn{display:inline-block;margin-top:14px;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:999px;font-size:15px;border:0;cursor:pointer;font-family:inherit}
 .btn:hover{background:var(--redd)}
+.aff{display:block;margin-top:8px;font-size:12px;color:var(--mute)}
+.disc{max-width:760px;margin:0 auto;padding:0 20px 40px;text-align:center;color:var(--mute);font-size:13px;line-height:1.5}
 .nl{text-align:center;max-width:440px}
 .nl h2{font-size:26px;letter-spacing:-.5px;padding-right:0}
 .nl p{margin:0 0 20px;color:var(--mute);line-height:1.5}
@@ -93,6 +95,7 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 </div>
 <div id="cal"></div>
 </main>
+<footer class="disc">Some links on this site are affiliate links. If you buy tickets through them, we may earn a small commission at no extra cost to you. It helps keep our picks free.</footer>
 
 <div class="ov" id="dayov" role="dialog" aria-modal="true" aria-labelledby="dayt"><div class="modal"><button class="x" id="dayx" aria-label="Close">&times;</button><h2 id="dayt"></h2><div id="dayl"></div></div></div>
 
@@ -107,15 +110,25 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 // ===== EDIT YOUR HEADLINE HERE =====
 const HEADLINE = "Curated Houston comedy. Updated daily.";
 const SUBTEXT = "Find the best comedy shows and comedians across Houston.";
-// Replace with your affiliate tracking link once approved
-const AFFILIATE_PREFIX = "";
+// Your Ticketmaster tracking link is read from the file affiliate.txt (no need to edit this page).
+let AFFILIATE_LINK = "";
+fetch("affiliate.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").then(x => {
+  const l = x.split("\n").map(s => s.trim()).find(s => s && !s.startsWith("#"));
+  if (l && l.startsWith("https://")) AFFILIATE_LINK = l;
+}).catch(() => {});
+// Only links to these websites get your tracking link. Others (AXS, venue sites) stay as they are.
+const AFFILIATE_DOMAINS = ["ticketmaster.com"];
 const TICKET_URL = "https://www.ticketmaster.com/";
 // ===================================
 document.getElementById("headline").textContent = HEADLINE;
 document.getElementById("subtext").textContent = SUBTEXT;
 document.title = HEADLINE;
 const $ = id => document.getElementById(id);
-const wrap = u => AFFILIATE_PREFIX ? AFFILIATE_PREFIX + encodeURIComponent(u) : u;
+const wrap = u => {
+  if (!AFFILIATE_LINK) return u;
+  try { const h = new URL(u).hostname; if (!AFFILIATE_DOMAINS.some(d => h === d || h.endsWith("." + d))) return u; } catch (e) { return u; }
+  return AFFILIATE_LINK + (AFFILIATE_LINK.includes("?") ? "&" : "?") + "u=" + encodeURIComponent(u);
+};
 
 let shows = [], picks = [], picksLoaded = false;
 const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
@@ -209,7 +222,9 @@ function openDay(key, items) {
     b.append(w, h, v);
     if (s.note) { const n = document.createElement("div"); n.className = "why"; n.textContent = "\u2605 " + s.note; b.append(n); }
     const a = document.createElement("a"); a.className = "btn"; a.target = "_blank"; a.rel = "sponsored noopener";
-    a.href = wrap(s.url || TICKET_URL); a.textContent = "Get Tickets \u2192"; b.append(a);
+    const dest = s.url || TICKET_URL, link = wrap(dest);
+    a.href = link; a.textContent = "Get Tickets \u2192"; b.append(a);
+    if (link !== dest) { const af = document.createElement("span"); af.className = "aff"; af.textContent = "Affiliate link"; b.append(af); }
     c.append(b); box.append(c);
   });
   $("dayov").classList.add("on"); $("dayx").focus();
