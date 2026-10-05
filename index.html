@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Houston Comedy Calendar (prototype)</title>
+<title>Curated Houston comedy</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
 <style>
 :root{--bg:#f3f4f6;--card:#fff;--ink:#111827;--mute:#6b7280;--line:#e5e7eb;--red:#c8344f;--redd:#b02a43;--navy:#0f1b4c;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -13,149 +13,229 @@
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
 header{background:var(--card);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
 .logo{background:var(--navy);color:#fff;font-weight:800;padding:8px 14px;border-radius:4px;letter-spacing:.5px}
-nav{display:flex;gap:22px;flex-wrap:wrap;font-size:15px;color:var(--ink)}
+nav{display:flex;gap:22px;flex-wrap:wrap;font-size:15px}
 nav a{color:inherit;text-decoration:none}nav a:first-child{color:#2563eb}
-.hero{background:var(--card);text-align:center;padding:48px 20px 40px}
+.hero{background:var(--card);text-align:center;padding:44px 20px 36px}
 .hero h1{font-size:clamp(26px,4.4vw,48px);margin:0 0 14px;font-weight:800;letter-spacing:-1px;background:linear-gradient(90deg,#e0407a,#8b4fd8);-webkit-background-clip:text;background-clip:text;color:transparent}
 .hero p{margin:0 auto;max-width:760px;color:var(--mute);font-size:18px;line-height:1.5}
-main{max-width:1180px;margin:0 auto;padding:32px 20px 60px}
-.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
-.pill{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 20px;border-radius:999px;font:500 15px Inter,sans-serif;cursor:pointer}
-.pill[aria-pressed="true"]{background:var(--red);border-color:var(--red);color:#fff}
-.pill:focus-visible,select:focus-visible,.btn:focus-visible{outline:3px solid #2563eb;outline-offset:2px}
-select{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 16px;border-radius:999px;font:500 14px Inter,sans-serif}
+main{max-width:1180px;margin:0 auto;padding:28px 14px 60px}
+.bar{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin-bottom:16px}
+.bar h2{margin:0;font-size:24px;min-width:190px;text-align:center}
 .sp{flex:1}
-.row2{margin-top:14px;display:flex;gap:10px;align-items:center}
-.day{display:flex;align-items:center;gap:16px;margin:34px 0 18px}
-.day h2{margin:0;font-size:22px}.day i{flex:1;height:1px;background:var(--line)}.day span{color:var(--mute);font-size:14px}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
-.card{background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;display:flex;flex-direction:column}
-.art{aspect-ratio:16/9;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:26px;text-align:center;padding:16px;line-height:1.1}
-.body{padding:18px 20px 20px;display:flex;flex-direction:column;flex:1}
-.when{color:var(--red);font-weight:600;font-size:14px}
-.body h3{margin:8px 0 6px;font-size:20px;line-height:1.25}
-.venue{color:var(--mute);font-size:15px}
-.foot{margin-top:auto;padding-top:18px;display:flex;justify-content:space-between;align-items:center}
-.price{color:var(--mute);font-size:14px}.price b{color:var(--ink);font-size:18px}
-.btn{background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:999px;font-size:15px}
-.btn:hover{background:var(--redd)}
-.note{margin-top:40px;padding:14px 18px;border:1px dashed var(--mute);border-radius:10px;color:var(--mute);font-size:14px;line-height:1.5}
-.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:20px;z-index:50}
+.pill,.nb{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:10px 18px;border-radius:999px;font:500 15px Inter,sans-serif;cursor:pointer}
+.nb{width:44px;padding:10px 0;font-size:18px}
+.pill:disabled,.nb:disabled{opacity:.35;cursor:default}
+select{border:1px solid var(--line);background:var(--card);color:var(--ink);padding:11px 16px;border-radius:999px;font:500 14px Inter,sans-serif}
+button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #2563eb;outline-offset:2px}
+.wk,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.wk div{text-align:center;color:var(--mute);font-size:13px;font-weight:600;padding:6px 0}
+.day{background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:150px;padding:6px;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;gap:5px;position:relative}
+.day.blank{background:transparent;border-color:transparent}
+.day.has{cursor:pointer}.day.has:hover{border-color:var(--red)}
+.num{font-size:13px;font-weight:600;color:var(--mute)}
+.day.today .num{background:var(--red);color:#fff;border-radius:999px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center}
+.thumb{height:44px;border-radius:6px;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;font-size:10px;font-weight:700;display:flex;align-items:flex-end}
+.thumb span{background:rgba(0,0,0,.65);padding:1px 6px;border-top-right-radius:6px}
+.more{font-size:12px;color:var(--red);font-weight:600}
+.cnt{display:none;position:absolute;top:4px;right:4px;background:var(--red);color:#fff;font-size:11px;font-weight:700;border-radius:999px;min-width:20px;height:20px;align-items:center;justify-content:center;padding:0 5px}
+.empty{padding:50px 20px;text-align:center;color:var(--mute);font-size:17px}
+@media (max-width:700px){
+ .grid,.wk{gap:3px}
+ .day{min-height:64px;padding:3px;border-radius:7px}
+ .thumb:nth-child(n+3),.more{display:none}
+ .thumb{height:34px}.thumb span{display:none}
+ .cnt{display:flex}
+ .hero p{font-size:16px}
+}
+.ov{position:fixed;inset:0;background:rgba(0,0,0,.55);display:none;align-items:center;justify-content:center;padding:16px;z-index:50}
 .ov.on{display:flex}
-.modal{background:var(--card);color:var(--ink);border-radius:16px;max-width:440px;width:100%;padding:32px 28px;position:relative;text-align:center}
-.modal h2{margin:0 0 10px;font-size:26px;letter-spacing:-.5px}
-.modal p{margin:0 0 20px;color:var(--mute);line-height:1.5}
-.modal input[type=email]{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:999px;font:16px Inter,sans-serif;background:var(--bg);color:var(--ink);margin-bottom:12px}
-.modal .btn{display:block;width:100%;border:0;cursor:pointer;font-family:inherit}
-.x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:26px;color:var(--mute);cursor:pointer}
+.modal{background:var(--card);color:var(--ink);border-radius:16px;max-width:520px;width:100%;max-height:88vh;overflow:auto;padding:24px 20px;position:relative}
+.modal h2{margin:0 0 14px;font-size:22px;padding-right:30px}
+.x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:28px;color:var(--mute);cursor:pointer}
+.show{border:1px solid var(--line);border-radius:12px;overflow:hidden;margin-bottom:14px}
+.show img{width:100%;aspect-ratio:16/9;object-fit:cover;display:block;background:var(--bg)}
+.show .b{padding:14px 16px 16px}
+.when{color:var(--red);font-weight:600;font-size:14px}
+.show h3{margin:6px 0 4px;font-size:19px}
+.venue{color:var(--mute);font-size:15px}
+.why{margin-top:10px;font-size:14px;background:var(--bg);border-left:3px solid var(--red);padding:8px 12px;border-radius:6px}
+.btn{display:inline-block;margin-top:14px;background:var(--red);color:#fff;text-decoration:none;font-weight:600;padding:12px 22px;border-radius:999px;font-size:15px;border:0;cursor:pointer;font-family:inherit}
+.btn:hover{background:var(--redd)}
+.nl{text-align:center;max-width:440px}
+.nl h2{font-size:26px;letter-spacing:-.5px;padding-right:0}
+.nl p{margin:0 0 20px;color:var(--mute);line-height:1.5}
+.nl input[type=email]{width:100%;padding:14px 16px;border:1px solid var(--line);border-radius:999px;font:16px Inter,sans-serif;background:var(--bg);color:var(--ink);margin-bottom:12px}
+.nl .btn{display:block;width:100%;margin-top:0}
 .later{margin-top:12px;background:none;border:0;color:var(--mute);cursor:pointer;font:14px Inter,sans-serif;text-decoration:underline}
-.why{margin-top:10px;font-size:14px;color:var(--ink);background:var(--bg);border-left:3px solid var(--red);padding:8px 12px;border-radius:6px}
-.empty{padding:40px;text-align:center;color:var(--mute)}
 </style>
 </head>
 <body>
 <header><div class="logo">YOUR LOGO</div>
-<nav><a href="#">Home</a><a href="#">Shows</a><a href="#">Blog</a><a href="#">Services</a><a href="#">Contact</a><a href="#">Houston Comedy Venues</a></nav></header>
-<section class="hero"><h1 id="headline"></h1>
-<p id="subtext"></p></section>
+<nav><a href="#">Home</a><a href="#">Shows</a><a href="#">Blog</a><a href="#">Services</a><a href="#">Contact</a></nav></header>
+<section class="hero"><h1 id="headline"></h1><p id="subtext"></p></section>
 <main>
-<div class="bar" id="pills"></div>
-<div class="row2"><select id="venue" aria-label="Venue"></select><span class="sp"></span>
-<label style="color:var(--mute);font-size:14px">Sort:&nbsp;<select id="sort"><option value="date">Date</option><option value="price">Price</option></select></label></div>
-<div id="list"></div>
-<div class="note"><b>Prototype notes.</b> The shows below are made-up sample data, with dates generated from today's date so the calendar always rolls forward. In the finished site, a script replaces them twice a day with real shows from the Ticketmaster Discovery API. Every Get Tickets button already routes through <code>AFFILIATE_PREFIX</code> in the page code, where your affiliate tracking link will go once approved.</div>
+<div class="bar">
+ <button class="nb" id="prev" aria-label="Previous month">&lsaquo;</button>
+ <h2 id="mtitle" aria-live="polite"></h2>
+ <button class="nb" id="next" aria-label="Next month">&rsaquo;</button>
+ <button class="pill" id="todayBtn">Today</button>
+ <span class="sp"></span>
+ <select id="venue" aria-label="Venue"><option value="">All Venues</option></select>
+</div>
+<div id="cal"></div>
 </main>
-<div class="ov" id="ov" role="dialog" aria-modal="true" aria-labelledby="nt">
-<div class="modal"><button class="x" id="nx" aria-label="Close">&times;</button>
+
+<div class="ov" id="dayov" role="dialog" aria-modal="true" aria-labelledby="dayt"><div class="modal"><button class="x" id="dayx" aria-label="Close">&times;</button><h2 id="dayt"></h2><div id="dayl"></div></div></div>
+
+<div class="ov" id="nov" role="dialog" aria-modal="true" aria-labelledby="nt"><div class="modal nl"><button class="x" id="nx" aria-label="Close">&times;</button>
 <div id="nform"><h2 id="nt">Get tonight's best comedy show in your inbox</h2>
 <p>Hand-picked by us, sent every evening. Save time on comedy night.</p>
-<form id="nf" method="post"><input type="email" name="email" id="nemail" placeholder="you@example.com" required aria-label="Email address">
-<button class="btn" type="submit">Sign me up</button></form>
+<form id="nf" method="post"><input type="email" name="email" id="nemail" placeholder="you@example.com" required aria-label="Email address"><button class="btn" type="submit">Sign me up</button></form>
 <button class="later" id="nl">No thanks</button></div>
-<div id="nok" style="display:none"><h2>You're on the list.</h2><p>Look for our first email soon.</p></div>
-</div></div>
+<div id="nok" style="display:none"><h2>You're on the list.</h2><p>Look for our first email soon.</p></div></div></div>
+
 <script>
 // ===== EDIT YOUR HEADLINE HERE =====
 const HEADLINE = "Curated Houston comedy. Updated daily.";
 const SUBTEXT = "Find the best comedy shows and comedians across Houston.";
+// Replace with your affiliate tracking link once approved
+const AFFILIATE_PREFIX = "";
+const TICKET_URL = "https://www.ticketmaster.com/";
+// ===================================
 document.getElementById("headline").textContent = HEADLINE;
 document.getElementById("subtext").textContent = SUBTEXT;
 document.title = HEADLINE;
-// ===================================
-
-// Replace with your affiliate tracking link once approved (e.g. "https://yourname.example/c/12345?u=")
-const AFFILIATE_PREFIX = "";
-const TICKET_URL = "https://www.ticketmaster.com/";
+const $ = id => document.getElementById(id);
 const wrap = u => AFFILIATE_PREFIX ? AFFILIATE_PREFIX + encodeURIComponent(u) : u;
 
-const venues = ["Houston Improv","Punch Line Houston","The Riot Comedy Club","The Secret Group"];
-const grads = ["linear-gradient(135deg,#e0407a,#8b4fd8)","linear-gradient(135deg,#0f1b4c,#2d5be3)","linear-gradient(135deg,#7a1230,#e0613f)","linear-gradient(135deg,#0f6b5c,#3cb98a)"];
-// [days from today, hour, minute, title, venue index, price or null]
-const seed = [[0,15,30,"Sample Matinee Showcase",1,null],[0,18,0,"Sample Sunday Showcase",2,10],[0,19,0,"Sample All-Star Night",1,null],[0,20,0,"Sample Open Mic",3,0],
-[1,19,30,"Sample Headliner Tour",0,35],[2,20,0,"Sample Late Show",2,15],[3,19,0,"Sample Improv Jam",3,12],[4,20,0,"Sample Stand-Up Special",0,45],
-[5,19,0,"Sample Ladies Night",1,20],[5,21,30,"Sample Late Laughs",2,15],[6,20,0,"Sample Saturday Headliner",0,40],[8,19,30,"Sample Roast Battle",2,18],
-[12,20,0,"Sample Touring Comedian",0,55],[19,19,0,"Sample Charity Night",1,25],[27,20,0,"Sample Monthly Special",3,30]];
-const base = new Date(); base.setHours(0,0,0,0);
-let shows = seed.map(([d,h,m,t,v,p],i)=>{const dt=new Date(base);dt.setDate(dt.getDate()+d);dt.setHours(h,m);return{dt,title:t,venue:venues[v],price:p,g:grads[v]}});
+let shows = [], picks = [], picksLoaded = false;
+const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const now = new Date();
+const thisY = now.getFullYear(), thisM = now.getMonth();
+let y = thisY, m = thisM;
+const pad = n => String(n).padStart(2, "0");
+const keyOf = (yy, mm, dd) => `${yy}-${pad(mm + 1)}-${pad(dd)}`;
+const timeOf = s => { const h = +s.start.slice(11, 13), mi = s.start.slice(14, 16); return `${h % 12 || 12}:${mi} ${h < 12 ? "AM" : "PM"}`; };
+const shortTime = s => timeOf(s).replace(":00", "").replace(" AM", "a").replace(" PM", "p");
+const GRADS = ["linear-gradient(135deg,#e0407a,#8b4fd8)","linear-gradient(135deg,#0f1b4c,#2d5be3)","linear-gradient(135deg,#7a1230,#e0613f)","linear-gradient(135deg,#0f6b5c,#3cb98a)"];
+const grad = s => GRADS[s.venue.length % GRADS.length];
 
-let range="all";
-const ranges=[["all","All Picks"],["today","Today"],["tomorrow","Tomorrow"],["weekend","This Weekend"],["week","This Week"],["month","This Month"]];
-const pills=document.getElementById("pills"),vsel=document.getElementById("venue"),ssel=document.getElementById("sort"),list=document.getElementById("list");
-vsel.innerHTML='<option value="">All Venues</option>'+venues.map(v=>`<option>${v}</option>`).join("");
-function drawPills(){pills.innerHTML=ranges.map(([k,l])=>`<button class="pill" aria-pressed="${k===range}" data-k="${k}">${l}</button>`).join("")}
-pills.onclick=e=>{const k=e.target.dataset.k;if(k){range=k;drawPills();render()}};
-vsel.onchange=ssel.onchange=render;
-const dayDiff=d=>Math.round((new Date(d).setHours(0,0,0,0)-base)/864e5);
-function inRange(s){const n=dayDiff(s.dt),w=base.getDay();
- if(range==="today")return n===0;if(range==="tomorrow")return n===1;
- if(range==="weekend"){const sat=(6-w+7)%7;return w===0?n===0:(n===sat||n===sat+1)}
- if(range==="week")return n>=0&&n<7;if(range==="month")return n>=0&&n<31;return true}
-const fmtDay=d=>{const n=dayDiff(d);return n===0?"Tonight":n===1?"Tomorrow":d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})};
-function render(){
- let r=shows.filter(s=>s.pick).filter(inRange).filter(s=>!vsel.value||s.venue===vsel.value);
- r.sort(ssel.value==="price"?(a,b)=>(a.price??999)-(b.price??999):(a,b)=>a.dt-b.dt);
- if(!r.length){list.innerHTML=picks.length?'<div class="empty">No picks match these filters. Try another date range or venue.</div>':'<div class="empty">Our picks are coming soon. Check back shortly.</div>';return}
- const groups={};r.forEach(s=>{const k=s.dt.toDateString();(groups[k]=groups[k]||[]).push(s)});
- list.innerHTML=Object.values(groups).map(g=>`<div class="day"><h2>${fmtDay(g[0].dt)}</h2><i></i><span>${g.length} show${g.length>1?"s":""}</span></div><div class="grid">`+g.map(s=>`
- <article class="card"><div class="art" style="background:${s.img?`center/cover url('${s.img}')`:s.g}">${s.img?"":s.title}</div><div class="body">
- <div class="when">${s.dt.toLocaleDateString("en-US",{weekday:"long"})} &nbsp;•&nbsp; ${s.dt.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"})}</div>
- <h3>${s.title}</h3><div class="venue">${s.venue}</div>${s.note?`<div class="why">★ ${s.note}</div>`:""}
- <div class="foot"><span class="price">${s.price==null?"Price TBA":s.price===0?"Free":`From <b>$${s.price}</b>`}</span>
- <a class="btn" target="_blank" rel="sponsored noopener" href="${wrap(s.url||TICKET_URL)}">Get Tickets &rarr;</a></div></div></article>`).join("")+`</div>`).join("");
+function visible() {
+  const cutoff = Date.now() - 72e5, v = $("venue").value;
+  return shows.filter(s => s.pick && (!v || s.venue === v) && new Date(s.start) > cutoff);
 }
+function thumb(s) {
+  const t = document.createElement("div"); t.className = "thumb";
+  t.style.backgroundImage = s.img ? `url("${s.img}")` : "none";
+  if (!s.img) t.style.background = grad(s);
+  const sp = document.createElement("span"); sp.textContent = shortTime(s); t.append(sp); return t;
+}
+function render() {
+  const cal = $("cal"); cal.textContent = "";
+  $("mtitle").textContent = `${MONTHS[m]} ${y}`;
+  const list = visible();
+  const last = list.length ? list[list.length - 1].start : null;
+  const lastY = last ? +last.slice(0, 4) : thisY, lastM = last ? +last.slice(5, 7) - 1 : thisM;
+  $("prev").disabled = (y === thisY && m === thisM) || (y * 12 + m <= thisY * 12 + thisM);
+  $("next").disabled = y * 12 + m >= Math.max(lastY * 12 + lastM, thisY * 12 + thisM);
+  if (!picksLoaded) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Loading..."; cal.append(d); return; }
+  if (!picks.length) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Our picks are coming soon. Check back shortly."; cal.append(d); return; }
+  const byDay = {};
+  list.forEach(s => (byDay[s.start.slice(0, 10)] = byDay[s.start.slice(0, 10)] || []).push(s));
+  const wk = document.createElement("div"); wk.className = "wk";
+  ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"].forEach(n => { const d = document.createElement("div"); d.textContent = n; wk.append(d); });
+  const grid = document.createElement("div"); grid.className = "grid";
+  const first = new Date(y, m, 1).getDay(), days = new Date(y, m + 1, 0).getDate();
+  for (let i = 0; i < first; i++) { const b = document.createElement("div"); b.className = "day blank"; grid.append(b); }
+  for (let d = 1; d <= days; d++) {
+    const key = keyOf(y, m, d), items = byDay[key] || [];
+    const cell = document.createElement(items.length ? "button" : "div");
+    cell.className = "day" + (items.length ? " has" : "") + (y === thisY && m === thisM && d === now.getDate() ? " today" : "");
+    const num = document.createElement("span"); num.className = "num"; num.textContent = d; cell.append(num);
+    items.slice(0, 3).forEach(s => cell.append(thumb(s)));
+    if (items.length > 3) { const mo = document.createElement("div"); mo.className = "more"; mo.textContent = `+${items.length - 3} more`; cell.append(mo); }
+    if (items.length) {
+      const c = document.createElement("span"); c.className = "cnt"; c.textContent = items.length; cell.append(c);
+      cell.setAttribute("aria-label", `${MONTHS[m]} ${d}, ${items.length} show${items.length > 1 ? "s" : ""}`);
+      cell.onclick = () => openDay(key, items);
+    }
+    grid.append(cell);
+  }
+  cal.append(wk, grid);
+}
+let lastFocus = null;
+function openDay(key, items) {
+  lastFocus = document.activeElement;
+  const [yy, mm, dd] = key.split("-").map(Number);
+  $("dayt").textContent = new Date(yy, mm - 1, dd).toLocaleDateString("en-US", { weekday: "long", month: "long", day: "numeric" });
+  const box = $("dayl"); box.textContent = "";
+  items.forEach(s => {
+    const c = document.createElement("div"); c.className = "show";
+    if (s.img) { const im = document.createElement("img"); im.src = s.img; im.alt = s.title; im.loading = "lazy"; c.append(im); }
+    const b = document.createElement("div"); b.className = "b";
+    const w = document.createElement("div"); w.className = "when"; w.textContent = timeOf(s);
+    const h = document.createElement("h3"); h.textContent = s.title;
+    const v = document.createElement("div"); v.className = "venue"; v.textContent = s.venue;
+    b.append(w, h, v);
+    if (s.note) { const n = document.createElement("div"); n.className = "why"; n.textContent = "\u2605 " + s.note; b.append(n); }
+    const a = document.createElement("a"); a.className = "btn"; a.target = "_blank"; a.rel = "sponsored noopener";
+    a.href = wrap(s.url || TICKET_URL); a.textContent = "Get Tickets \u2192"; b.append(a);
+    c.append(b); box.append(c);
+  });
+  $("dayov").classList.add("on"); $("dayx").focus();
+}
+function closeDay() { $("dayov").classList.remove("on"); if (lastFocus) lastFocus.focus(); }
+$("dayx").onclick = closeDay;
+$("dayov").onclick = e => { if (e.target === $("dayov")) closeDay(); };
 
-// ===== CURATION: reads picks.txt =====
-let picks=[];
-function drawMode(){}
-function applyPicks(){
- shows.forEach(s=>{const t=s.title.toLowerCase();const p=picks.find(p=>t.includes(p.name));s.pick=!!p;s.note=p?p.note:""})}
-fetch("picks.txt",{cache:"no-store"}).then(r=>r.ok?r.text():"").then(txt=>{
- picks=txt.split("\n").map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map(l=>{const i=l.indexOf("|");return{name:(i<0?l:l.slice(0,i)).trim().toLowerCase(),note:i<0?"":l.slice(i+1).trim()}}).filter(p=>p.name);
- applyPicks();drawMode();render()}).catch(()=>{});
-drawPills();render();
-fetch("shows.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{
- if(!d.shows||!d.shows.length)return;
- shows=d.shows.map(x=>({dt:new Date(x.start),title:x.title,venue:x.venue,price:x.price,url:x.url,img:x.img,g:grads[x.venue.length%grads.length]})).filter(x=>x.dt>new Date(Date.now()-72e5));
- applyPicks();drawMode();const vs=[...new Set(shows.map(x=>x.venue))].sort();
- vsel.innerHTML='<option value="">All Venues</option>'+vs.map(v=>`<option>${v}</option>`).join("");
- const n=document.querySelector(".note");if(n)n.remove();render();
-}).catch(()=>{});
+$("prev").onclick = () => { m--; if (m < 0) { m = 11; y--; } render(); };
+$("next").onclick = () => { m++; if (m > 11) { m = 0; y++; } render(); };
+$("todayBtn").onclick = () => { y = thisY; m = thisM; render(); };
+$("venue").onchange = render;
 
-// ===== NEWSLETTER POPUP =====
-// Paste the sign-up form address from Mailchimp, Beehiiv, Kit, etc. Leave empty for a demo.
+// ----- picks + data -----
+function applyPicks() {
+  shows.forEach(s => { const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; });
+  const vs = [...new Set(shows.filter(s => s.pick).map(s => s.venue))].sort();
+  const cur = $("venue").value;
+  $("venue").innerHTML = '<option value="">All Venues</option>';
+  vs.forEach(v => { const o = document.createElement("option"); o.textContent = v; o.value = v; $("venue").append(o); });
+  $("venue").value = vs.includes(cur) ? cur : "";
+}
+Promise.all([
+  fetch("shows.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { shows: [] }).catch(() => ({ shows: [] })),
+  fetch("picks.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => "")
+]).then(([d, txt]) => {
+  shows = (d.shows || []).slice();
+  picks = txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).map(l => {
+    const i = l.indexOf("|"); return { name: (i < 0 ? l : l.slice(0, i)).trim().toLowerCase(), note: i < 0 ? "" : l.slice(i + 1).trim() };
+  }).filter(p => p.name);
+  applyPicks(); picksLoaded = true;
+  // jump to the first month that has a pick, if this month has none
+  const list = visible();
+  if (list.length && !list.some(s => +s.start.slice(0, 4) === thisY && +s.start.slice(5, 7) - 1 === thisM)) {
+    y = +list[0].start.slice(0, 4); m = +list[0].start.slice(5, 7) - 1;
+  }
+  render();
+});
+render();
+
+// ----- newsletter popup -----
+// Paste the sign-up form address from your newsletter service here. Leave empty for a demo.
 const NEWSLETTER_FORM_URL = "";
 const POPUP_DELAY_SECONDS = 8;
-const ov=document.getElementById("ov"),nf=document.getElementById("nf");
-let seen=false;try{seen=localStorage.getItem("nl_seen")==="1"}catch(e){}
-const closeP=()=>{ov.classList.remove("on");try{localStorage.setItem("nl_seen","1")}catch(e){}};
-if(!seen)setTimeout(()=>{ov.classList.add("on");document.getElementById("nemail").focus()},POPUP_DELAY_SECONDS*1000);
-document.getElementById("nx").onclick=document.getElementById("nl").onclick=closeP;
-ov.onclick=e=>{if(e.target===ov)closeP()};
-document.addEventListener("keydown",e=>{if(e.key==="Escape")closeP()});
-nf.onsubmit=e=>{
- if(NEWSLETTER_FORM_URL){nf.action=NEWSLETTER_FORM_URL;try{localStorage.setItem("nl_seen","1")}catch(x){}return}
- e.preventDefault();document.getElementById("nform").style.display="none";document.getElementById("nok").style.display="block";
- try{localStorage.setItem("nl_seen","1")}catch(x){}setTimeout(closeP,2200)};
+const nov = $("nov"), nf = $("nf");
+let seen = false; try { seen = localStorage.getItem("nl_seen") === "1"; } catch (e) {}
+const remember = () => { try { localStorage.setItem("nl_seen", "1"); } catch (e) {} };
+const closeN = () => { nov.classList.remove("on"); remember(); };
+if (!seen) setTimeout(() => { if (!$("dayov").classList.contains("on")) { nov.classList.add("on"); $("nemail").focus(); } }, POPUP_DELAY_SECONDS * 1000);
+$("nx").onclick = $("nl").onclick = closeN;
+nov.onclick = e => { if (e.target === nov) closeN(); };
+document.addEventListener("keydown", e => { if (e.key === "Escape") { if (nov.classList.contains("on")) closeN(); if ($("dayov").classList.contains("on")) closeDay(); } });
+nf.onsubmit = e => {
+  if (NEWSLETTER_FORM_URL) { nf.action = NEWSLETTER_FORM_URL; remember(); return; }
+  e.preventDefault(); $("nform").style.display = "none"; $("nok").style.display = "block"; remember(); setTimeout(closeN, 2200);
+};
 </script>
 </body>
 </html>
