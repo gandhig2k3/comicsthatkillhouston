@@ -6,10 +6,21 @@
 #  - Lines starting with # are ignored.
 #  - Spelling just needs to match part of the show title, capitals don't matter.
 #  - If this file has no names, the site shows "Our picks are coming soon."
-#
-# Examples (delete the # to turn one on):
-# Marlon Wayans | Best crowd work in the business
-# Pauly Shore
-# Josh Blue | Not to be missed live
+
+# OUR PICKS - edit this file to choose which comedians appear on the site.
+# One per line. Add | and a short note to show a 'why we like it' line.
+# Lines starting with # are ignored.
+
 Dave Chappelle
 Winston Hodges
+Seth Meyers: Live
+Daniel Sloss: BITTER  (Brand New Tour!)
+Alonzo Bodden
+Corey Holcomb
+Ron Taylor
+T. Murph
+DeRay Davis
+Usama Siddiquee
+ZOLTAN KASZAS: ROAD WARRIOR TOUR
+Brad Williams: The Big & Small Tour
+Ian Bagg
