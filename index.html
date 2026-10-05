@@ -31,23 +31,27 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 .wk div{text-align:center;color:var(--mute);font-size:13px;font-weight:600;padding:6px 0}
 .day{background:var(--card);border:1px solid var(--line);border-radius:10px;min-height:130px;padding:6px;text-align:left;font:inherit;color:inherit;display:flex;flex-direction:column;gap:5px;position:relative}
 .day.blank{background:transparent;border-color:transparent}
-.day.has{cursor:pointer}.day.has:hover{border-color:var(--red)}
 .num{font-size:13px;font-weight:600;color:var(--mute)}
 .day.today .num{background:var(--red);color:#fff;border-radius:999px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center}
 .thumb{height:76px;border-radius:6px;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;font-size:10px;font-weight:700;display:flex;align-items:flex-end}
 .thumb span{background:rgba(0,0,0,.65);padding:1px 6px;border-top-right-radius:6px}
-.more{font-size:12px;color:var(--red);font-weight:600}
+.more{font:600 12px Inter,sans-serif;color:var(--red);background:none;border:0;padding:4px 0;text-align:left;cursor:pointer;text-decoration:underline}
 .cnt{display:none;position:absolute;top:4px;right:4px;background:var(--red);color:#fff;font-size:11px;font-weight:700;border-radius:999px;min-width:20px;height:20px;align-items:center;justify-content:center;padding:0 5px}
 .empty{padding:50px 20px;text-align:center;color:var(--mute);font-size:17px}
 .ent{display:block}
+.entbtn{display:block;width:100%;text-align:left;background:none;border:0;padding:0;font:inherit;color:inherit;cursor:pointer}
+.entbtn:hover .nm{color:var(--red)}
+.mtb{margin-top:8px;border:1.5px solid var(--red);color:var(--red);background:none;border-radius:999px;font:600 12px Inter,sans-serif;padding:5px 12px;cursor:pointer}
+.mtb:hover{background:var(--red);color:#fff}
 .ent+.ent{margin-top:8px}
 .nm{font-size:12px;font-weight:700;line-height:1.25;margin-top:4px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .tm{font-size:12px;color:var(--red);font-weight:600;margin-top:2px}
 .mt{color:var(--mute);font-weight:500;text-decoration:underline}
 .vn{font-size:11px;color:var(--mute);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .agenda .dh{font-weight:700;margin:20px 0 8px;font-size:16px}
-.agenda .ag{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px;font:inherit;color:inherit;cursor:pointer}
-.agenda .ent{display:grid;grid-template-columns:96px 1fr;gap:2px 12px;align-items:center}
+.agenda .ag{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:10px;margin-bottom:8px}
+.agenda .entbtn{display:grid;grid-template-columns:96px 1fr;gap:2px 12px;align-items:center}
+.agenda .mtb{font-size:13px;padding:8px 16px;margin-top:10px}
 .agenda .thumb{grid-row:1/4;height:60px;width:96px}
 .agenda .nm{font-size:15px;margin-top:0}
 .agenda .tm,.agenda .vn{font-size:13px}
@@ -147,16 +151,18 @@ function render() {
   if (!picks.length) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Our picks are coming soon. Check back shortly."; cal.append(d); return; }
   const byDay = {};
   list.forEach(s => (byDay[s.start.slice(0, 10)] = byDay[s.start.slice(0, 10)] || []).push(s));
-  const groupBy = items => { const g = {}; items.forEach(s => { const k = s.title.toLowerCase(); (g[k] = g[k] || { title: s.title, venue: s.venue, img: s.img, s: s, times: [] }).times.push(shortTime(s)); }); return Object.values(g); };
-  const entry = g => {
+  const groupBy = items => { const g = {}; items.forEach(s => { const k = s.title.toLowerCase(); g[k] = g[k] || { title: s.title, venue: s.venue, img: s.img, s: s, times: [], items: [] }; g[k].times.push(shortTime(s)); g[k].items.push(s); }); return Object.values(g); };
+  const entry = (g, key) => {
     const e = document.createElement("div"); e.className = "ent";
+    const bt = document.createElement("button"); bt.className = "entbtn"; bt.setAttribute("aria-label", `${g.title}, ${g.times[0]}, ${g.venue}`);
     const th = document.createElement("div"); th.className = "thumb";
     if (g.img) th.style.backgroundImage = `url("${g.img}")`; else th.style.background = grad(g.s);
     const nm = document.createElement("div"); nm.className = "nm"; nm.textContent = g.title;
     const tm = document.createElement("div"); tm.className = "tm"; tm.textContent = g.times[0];
-    if (g.times.length > 1) { const mt = document.createElement("span"); mt.className = "mt"; mt.textContent = ` +${g.times.length - 1} more time${g.times.length > 2 ? "s" : ""}`; tm.append(mt); }
     const vn = document.createElement("div"); vn.className = "vn"; vn.textContent = g.venue;
-    e.append(th, nm, tm, vn); return e;
+    bt.append(th, nm, tm, vn); bt.onclick = () => openDay(key, g.items); e.append(bt);
+    if (g.times.length > 1) { const mb = document.createElement("button"); mb.className = "mtb"; mb.textContent = "More show times"; mb.onclick = () => openDay(key, g.items); e.append(mb); }
+    return e;
   };
   const daysIn = new Date(y, m + 1, 0).getDate();
   if (window.matchMedia("(max-width:700px)").matches) {
@@ -165,7 +171,7 @@ function render() {
       const key = keyOf(y, m, d), items = byDay[key]; if (!items) continue; any = true;
       const dh = document.createElement("div"); dh.className = "dh";
       dh.textContent = new Date(y, m, d).toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" }); ag.append(dh);
-      groupBy(items).forEach(g => { const bt = document.createElement("button"); bt.className = "ag"; bt.append(entry(g)); bt.onclick = () => openDay(key, items); ag.append(bt); });
+      groupBy(items).forEach(g => { const row = document.createElement("div"); row.className = "ag"; row.append(entry(g, key)); ag.append(row); });
     }
     if (!any) { const e = document.createElement("div"); e.className = "empty"; e.textContent = "No picks this month. Try the next month."; ag.append(e); }
     cal.append(ag); return;
@@ -177,16 +183,12 @@ function render() {
   for (let i = 0; i < first; i++) { const bl = document.createElement("div"); bl.className = "day blank"; grid.append(bl); }
   for (let d = 1; d <= daysIn; d++) {
     const key = keyOf(y, m, d), items = byDay[key] || [];
-    const cell = document.createElement(items.length ? "button" : "div");
+    const cell = document.createElement("div");
     cell.className = "day" + (items.length ? " has" : "") + (y === thisY && m === thisM && d === now.getDate() ? " today" : "");
     const num = document.createElement("span"); num.className = "num"; num.textContent = d; cell.append(num);
     const groups = groupBy(items);
-    groups.slice(0, 2).forEach(g => cell.append(entry(g)));
-    if (groups.length > 2) { const mo = document.createElement("div"); mo.className = "more"; mo.textContent = `+${groups.length - 2} more`; cell.append(mo); }
-    if (items.length) {
-      cell.setAttribute("aria-label", `${MONTHS[m]} ${d}, ${groups.length} comedian${groups.length > 1 ? "s" : ""}`);
-      cell.onclick = () => openDay(key, items);
-    }
+    groups.slice(0, 2).forEach(g => cell.append(entry(g, key)));
+    if (groups.length > 2) { const mo = document.createElement("button"); mo.className = "more"; mo.textContent = `+${groups.length - 2} more comedian${groups.length > 3 ? "s" : ""}`; mo.onclick = () => openDay(key, items); cell.append(mo); }
     grid.append(cell);
   }
   cal.append(wk, grid);
@@ -224,11 +226,14 @@ window.matchMedia("(max-width:700px)").addEventListener("change", render);
 
 // ----- picks + data -----
 function dedupe() {
-  const norm = x => x.toLowerCase().replace(/\W+/g, ""), tm = u => (u || "").includes("ticketmaster.com"), out = [];
+  const norm = x => x.toLowerCase().replace(/\W+/g, ""), out = [];
+  // lower number = better link. Real Ticketmaster pages first, then TicketWeb, then the venue's own page.
+  // Short ticketmaster.com/event/Z7r... cross-listings go last because some of them lead to "page not found".
+  const rank = u => { u = u || ""; if (u.includes("ticketmaster.com")) return /\/event\/3A/i.test(u) ? 0 : 3; if (u.includes("ticketweb.com")) return 1; return 2; };
   shows.forEach(s => {
     const n = norm(s.title);
     const i = out.findIndex(u => u.start === s.start && u.venue === s.venue && (norm(u.title).includes(n) || n.includes(norm(u.title))));
-    if (i < 0) out.push(s); else if (tm(s.url) && !tm(out[i].url)) out[i] = s;
+    if (i < 0) out.push(s); else if (rank(s.url) < rank(out[i].url)) out[i] = s;
   });
   shows = out;
 }

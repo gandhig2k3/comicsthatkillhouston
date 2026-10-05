@@ -61,9 +61,18 @@ while page < total_pages and page < 5:  # up to ~1000 events
     time.sleep(0.3)
 
 # Remove duplicates: same venue and start time, with matching or overlapping titles.
-# Prefer ticketmaster.com links.
+# Keep the most reliable link: real Ticketmaster pages first, then TicketWeb, then the venue's own page.
+# Short ticketmaster.com/event/Z7r... cross-listings go last because some lead to "page not found".
 def norm(t):
     return re.sub(r"\W+", "", t.lower())
+
+def rank(u):
+    u = u or ""
+    if "ticketmaster.com" in u:
+        return 0 if "/event/3A" in u else 3
+    if "ticketweb.com" in u:
+        return 1
+    return 2
 
 unique = []
 for sh in shows:
@@ -77,7 +86,7 @@ for sh in shows:
                 break
     if dup is None:
         unique.append(sh)
-    elif "ticketmaster.com" in (sh["url"] or "") and "ticketmaster.com" not in (dup["url"] or ""):
+    elif rank(sh["url"]) < rank(dup["url"]):
         unique[unique.index(dup)] = sh
 shows = unique
 
