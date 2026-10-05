@@ -49,6 +49,7 @@ select{border:1px solid var(--line);background:var(--card);color:var(--ink);padd
 .modal .btn{display:block;width:100%;border:0;cursor:pointer;font-family:inherit}
 .x{position:absolute;top:10px;right:14px;background:none;border:0;font-size:26px;color:var(--mute);cursor:pointer}
 .later{margin-top:12px;background:none;border:0;color:var(--mute);cursor:pointer;font:14px Inter,sans-serif;text-decoration:underline}
+.why{margin-top:10px;font-size:14px;color:var(--ink);background:var(--bg);border-left:3px solid var(--red);padding:8px 12px;border-radius:6px}
 .empty{padding:40px;text-align:center;color:var(--mute)}
 </style>
 </head>
@@ -98,7 +99,7 @@ const base = new Date(); base.setHours(0,0,0,0);
 let shows = seed.map(([d,h,m,t,v,p],i)=>{const dt=new Date(base);dt.setDate(dt.getDate()+d);dt.setHours(h,m);return{dt,title:t,venue:venues[v],price:p,g:grads[v]}});
 
 let range="all";
-const ranges=[["all","All Shows"],["today","Today"],["tomorrow","Tomorrow"],["weekend","This Weekend"],["week","This Week"],["month","This Month"]];
+const ranges=[["all","All Picks"],["today","Today"],["tomorrow","Tomorrow"],["weekend","This Weekend"],["week","This Week"],["month","This Month"]];
 const pills=document.getElementById("pills"),vsel=document.getElementById("venue"),ssel=document.getElementById("sort"),list=document.getElementById("list");
 vsel.innerHTML='<option value="">All Venues</option>'+venues.map(v=>`<option>${v}</option>`).join("");
 function drawPills(){pills.innerHTML=ranges.map(([k,l])=>`<button class="pill" aria-pressed="${k===range}" data-k="${k}">${l}</button>`).join("")}
@@ -111,22 +112,31 @@ function inRange(s){const n=dayDiff(s.dt),w=base.getDay();
  if(range==="week")return n>=0&&n<7;if(range==="month")return n>=0&&n<31;return true}
 const fmtDay=d=>{const n=dayDiff(d);return n===0?"Tonight":n===1?"Tomorrow":d.toLocaleDateString("en-US",{weekday:"long",month:"long",day:"numeric"})};
 function render(){
- let r=shows.filter(inRange).filter(s=>!vsel.value||s.venue===vsel.value);
+ let r=shows.filter(s=>s.pick).filter(inRange).filter(s=>!vsel.value||s.venue===vsel.value);
  r.sort(ssel.value==="price"?(a,b)=>(a.price??999)-(b.price??999):(a,b)=>a.dt-b.dt);
- if(!r.length){list.innerHTML='<div class="empty">No shows match these filters. Try another date range or venue.</div>';return}
+ if(!r.length){list.innerHTML=picks.length?'<div class="empty">No picks match these filters. Try another date range or venue.</div>':'<div class="empty">Our picks are coming soon. Check back shortly.</div>';return}
  const groups={};r.forEach(s=>{const k=s.dt.toDateString();(groups[k]=groups[k]||[]).push(s)});
  list.innerHTML=Object.values(groups).map(g=>`<div class="day"><h2>${fmtDay(g[0].dt)}</h2><i></i><span>${g.length} show${g.length>1?"s":""}</span></div><div class="grid">`+g.map(s=>`
  <article class="card"><div class="art" style="background:${s.img?`center/cover url('${s.img}')`:s.g}">${s.img?"":s.title}</div><div class="body">
  <div class="when">${s.dt.toLocaleDateString("en-US",{weekday:"long"})} &nbsp;•&nbsp; ${s.dt.toLocaleTimeString("en-US",{hour:"numeric",minute:"2-digit"})}</div>
- <h3>${s.title}</h3><div class="venue">${s.venue}</div>
+ <h3>${s.title}</h3><div class="venue">${s.venue}</div>${s.note?`<div class="why">★ ${s.note}</div>`:""}
  <div class="foot"><span class="price">${s.price==null?"Price TBA":s.price===0?"Free":`From <b>$${s.price}</b>`}</span>
  <a class="btn" target="_blank" rel="sponsored noopener" href="${wrap(s.url||TICKET_URL)}">Get Tickets &rarr;</a></div></div></article>`).join("")+`</div>`).join("");
 }
+
+// ===== CURATION: reads picks.txt =====
+let picks=[];
+function drawMode(){}
+function applyPicks(){
+ shows.forEach(s=>{const t=s.title.toLowerCase();const p=picks.find(p=>t.includes(p.name));s.pick=!!p;s.note=p?p.note:""})}
+fetch("picks.txt",{cache:"no-store"}).then(r=>r.ok?r.text():"").then(txt=>{
+ picks=txt.split("\n").map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map(l=>{const i=l.indexOf("|");return{name:(i<0?l:l.slice(0,i)).trim().toLowerCase(),note:i<0?"":l.slice(i+1).trim()}}).filter(p=>p.name);
+ applyPicks();drawMode();render()}).catch(()=>{});
 drawPills();render();
 fetch("shows.json",{cache:"no-store"}).then(r=>r.ok?r.json():Promise.reject()).then(d=>{
  if(!d.shows||!d.shows.length)return;
- shows=d.shows.map(x=>({dt:new Date(x.start),title:x.title,venue:x.venue,price:x.price,url:x.url,img:x.img,g:grads[x.venue.length%grads.length]}));
- const vs=[...new Set(shows.map(x=>x.venue))].sort();
+ shows=d.shows.map(x=>({dt:new Date(x.start),title:x.title,venue:x.venue,price:x.price,url:x.url,img:x.img,g:grads[x.venue.length%grads.length]})).filter(x=>x.dt>new Date(Date.now()-72e5));
+ applyPicks();drawMode();const vs=[...new Set(shows.map(x=>x.venue))].sort();
  vsel.innerHTML='<option value="">All Venues</option>'+vs.map(v=>`<option>${v}</option>`).join("");
  const n=document.querySelector(".note");if(n)n.remove();render();
 }).catch(()=>{});
