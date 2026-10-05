@@ -60,14 +60,26 @@ while page < total_pages and page < 5:  # up to ~1000 events
     page += 1
     time.sleep(0.3)
 
-# Remove duplicates (same show, same time, listed twice). Prefer ticketmaster.com links.
-unique = {}
+# Remove duplicates: same venue and start time, with matching or overlapping titles.
+# Prefer ticketmaster.com links.
+def norm(t):
+    return re.sub(r"\W+", "", t.lower())
+
+unique = []
 for sh in shows:
-    key = (re.sub(r"\W+", "", sh["title"].lower()), sh["start"])
-    old = unique.get(key)
-    if old is None or ("ticketmaster.com" in (sh["url"] or "") and "ticketmaster.com" not in (old["url"] or "")):
-        unique[key] = sh
-shows = list(unique.values())
+    n = norm(sh["title"])
+    dup = None
+    for u in unique:
+        if u["start"] == sh["start"] and u["venue"] == sh["venue"]:
+            un = norm(u["title"])
+            if n == un or n in un or un in n:
+                dup = u
+                break
+    if dup is None:
+        unique.append(sh)
+    elif "ticketmaster.com" in (sh["url"] or "") and "ticketmaster.com" not in (dup["url"] or ""):
+        unique[unique.index(dup)] = sh
+shows = unique
 
 shows.sort(key=lambda s: s["start"])
 with open("shows.json", "w") as f:

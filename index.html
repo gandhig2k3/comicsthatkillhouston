@@ -34,7 +34,7 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 .day.has{cursor:pointer}.day.has:hover{border-color:var(--red)}
 .num{font-size:13px;font-weight:600;color:var(--mute)}
 .day.today .num{background:var(--red);color:#fff;border-radius:999px;width:24px;height:24px;display:inline-flex;align-items:center;justify-content:center}
-.thumb{height:44px;border-radius:6px;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;font-size:10px;font-weight:700;display:flex;align-items:flex-end}
+.thumb{height:76px;border-radius:6px;background-size:cover;background-position:center;position:relative;overflow:hidden;color:#fff;font-size:10px;font-weight:700;display:flex;align-items:flex-end}
 .thumb span{background:rgba(0,0,0,.65);padding:1px 6px;border-top-right-radius:6px}
 .more{font-size:12px;color:var(--red);font-weight:600}
 .cnt{display:none;position:absolute;top:4px;right:4px;background:var(--red);color:#fff;font-size:11px;font-weight:700;border-radius:999px;min-width:20px;height:20px;align-items:center;justify-content:center;padding:0 5px}
@@ -223,6 +223,15 @@ $("venue").onchange = render;
 window.matchMedia("(max-width:700px)").addEventListener("change", render);
 
 // ----- picks + data -----
+function dedupe() {
+  const norm = x => x.toLowerCase().replace(/\W+/g, ""), tm = u => (u || "").includes("ticketmaster.com"), out = [];
+  shows.forEach(s => {
+    const n = norm(s.title);
+    const i = out.findIndex(u => u.start === s.start && u.venue === s.venue && (norm(u.title).includes(n) || n.includes(norm(u.title))));
+    if (i < 0) out.push(s); else if (tm(s.url) && !tm(out[i].url)) out[i] = s;
+  });
+  shows = out;
+}
 function applyPicks() {
   shows.forEach(s => { const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; });
   const vs = [...new Set(shows.filter(s => s.pick).map(s => s.venue))].sort();
@@ -235,7 +244,7 @@ Promise.all([
   fetch("shows.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { shows: [] }).catch(() => ({ shows: [] })),
   fetch("picks.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => "")
 ]).then(([d, txt]) => {
-  shows = (d.shows || []).slice();
+  shows = (d.shows || []).slice(); dedupe();
   picks = txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).map(l => {
     const i = l.indexOf("|"); return { name: (i < 0 ? l : l.slice(0, i)).trim().toLowerCase(), note: i < 0 ? "" : l.slice(i + 1).trim() };
   }).filter(p => p.name);
