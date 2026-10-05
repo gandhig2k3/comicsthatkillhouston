@@ -1,38 +1,6 @@
 {
- "updated": "2026-10-05T03:12:00Z",
+ "updated": "2026-10-05T22:52:53Z",
  "shows": [
-  {
-   "title": "Laughter Heals",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-04T15:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/laughter-heals-houston-texas-10-04-2026/event/3A006518B5E3AD93",
-   "img": "https://s1.ticketm.net/dam/e/920/49ea00aa-c537-47c1-8614-300178dbb920_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Comedy Allstars",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-04T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/comedy-allstars-houston-texas-10-04-2026/event/3A00653DCA32733B",
-   "img": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Damitas Histeria",
-   "venue": "Houston Improv",
-   "start": "2026-10-04T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/damitas-histeria-houston-improv-tickets/15030183?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Insecure: The 10th Anniversary Tour",
-   "venue": "Bayou Music Center",
-   "start": "2026-10-04T20:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/insecure-the-10th-anniversary-tour-houston-texas-10-04-2026/event/3A0064E8C492C620",
-   "img": "https://s1.ticketm.net/dam/a/6ad/cad3a61d-8d4d-47b1-998e-8ffc25b3f6ad_TABLET_LANDSCAPE_16_9.jpg"
-  },
   {
    "title": "Manuel \u00c1ngel Redondo (En Espa\u00f1ol)",
    "venue": "Punch Line Houston",
@@ -1936,6 +1904,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/ben-bankas-on-thin-ice-houston-improv-tickets/15013073?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "April Fools Comedy Show",
+   "venue": "Reliant Arena",
+   "start": "2027-04-03T20:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/april-fools-comedy-show-houston-texas-04-03-2027/event/3A00653EE0D48D87",
+   "img": "https://s1.ticketm.net/dam/e/76c/38095998-9268-4f22-9394-9c1e0fd3c76c_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Jeff Allen: My Second'final' Farewell Tour",

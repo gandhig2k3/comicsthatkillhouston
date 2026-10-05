@@ -2,10 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Laughter Heals
-Comedy Allstars
-Damitas Histeria
-Insecure: The 10th Anniversary Tour
 Manuel Ángel Redondo (En Español)
 Richie O’Farrill - En EspañOl
 Dark and Darker: A Dark Comedy Show
@@ -142,6 +138,7 @@ JOSH JOHNSON'S COMEDY BAND CAMP
 Ben Bankas: On Thin Ice
 
 # ----- April 2027 -----
+April Fools Comedy Show
 Jeff Allen: My Second'final' Farewell Tour
 Michael Kosta: Big Dad Energy
 Casey Rocket
