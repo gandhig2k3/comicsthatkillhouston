@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex">
+<title>Pick your comedians</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap">
+<style>
+:root{--bg:#f3f4f6;--card:#fff;--ink:#111827;--mute:#6b7280;--line:#e5e7eb;--red:#c8344f;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e1116;--card:#171b22;--ink:#f3f4f6;--mute:#9ca3af;--line:#2a303a}}
+:root[data-theme="dark"]{--bg:#0e1116;--card:#171b22;--ink:#f3f4f6;--mute:#9ca3af;--line:#2a303a}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;line-height:1.45}
+main{max-width:860px;margin:0 auto;padding:28px 18px 60px}
+h1{margin:0 0 6px;font-size:28px;letter-spacing:-.5px}
+.sub{color:var(--mute);margin:0 0 20px}
+.steps{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 18px;margin-bottom:20px;font-size:15px}
+.steps ol{margin:6px 0 0;padding-left:20px}
+.banner{background:#fff4d6;color:#5b4200;border-radius:10px;padding:10px 14px;margin-bottom:16px;font-size:14px}
+.tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
+input[type=search]{flex:1;min-width:220px;padding:12px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:16px Inter,sans-serif}
+label.chk{display:flex;gap:8px;align-items:center;color:var(--mute);font-size:14px}
+.row{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:8px}
+.row.on{border-color:var(--red)}
+.row input[type=checkbox]{width:22px;height:22px;margin-top:2px;accent-color:var(--red)}
+.t{font-weight:600}.m{color:var(--mute);font-size:13px}
+.note{grid-column:2;margin-top:6px;padding:9px 12px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font:14px Inter,sans-serif;width:100%}
+h2{margin:30px 0 8px;font-size:20px}
+textarea{width:100%;min-height:200px;padding:14px;border:1px solid var(--line);border-radius:12px;background:var(--card);color:var(--ink);font:14px ui-monospace,Menlo,monospace}
+.btn{background:var(--red);color:#fff;border:0;border-radius:999px;padding:12px 24px;font:600 15px Inter,sans-serif;cursor:pointer;margin-top:10px}
+.btn:focus-visible,input:focus-visible,textarea:focus-visible{outline:3px solid #2563eb;outline-offset:2px}
+.ok{color:#15803d;font-weight:600;margin-left:12px}
+.empty{color:var(--mute);padding:20px;text-align:center}
+</style>
+</head>
+<body>
+<main>
+<h1>Pick your comedians</h1>
+<p class="sub">Tick the acts you like. When you're done, copy the text at the bottom into your picks.txt file.</p>
+<div class="steps"><b>How to save your picks</b>
+<ol><li>Tick the acts you want (add a short note if you like).</li>
+<li>Press <b>Copy picks</b> at the bottom.</li>
+<li>On GitHub, open <b>picks.txt</b>, click the pencil, select everything, paste, and click <b>Commit changes</b>.</li></ol></div>
+<div id="banner"></div>
+<div class="tools"><input type="search" id="q" placeholder="Search acts or venues" aria-label="Search"><label class="chk"><input type="checkbox" id="sel"> Show only my picks</label><span class="m" id="count"></span></div>
+<div id="list"></div>
+<h2>Your picks.txt</h2>
+<textarea id="out" readonly aria-label="Text to paste into picks.txt"></textarea>
+<button class="btn" id="copy">Copy picks</button><span class="ok" id="ok"></span>
+</main>
+<script>
+const SAMPLE=[["Pauly Shore","Punch Line Houston","2026-10-23T19:00:00"],["Pauly Shore","Punch Line Houston","2026-10-24T19:00:00"],["Josh Blue","Punch Line Houston","2026-11-19T19:00:00"],["Marlon Wayans","Houston Improv","2026-10-16T19:30:00"],["Dave Chappelle","Toyota Center","2026-10-28T19:30:00"]].map(([title,venue,start])=>({title,venue,start}));
+const HEADER="# OUR PICKS - edit this file to choose which comedians appear on the site.\n# One per line. Add | and a short note to show a 'why we like it' line.\n# Lines starting with # are ignored.\n\n";
+let acts=[],picks=[];
+const $=id=>document.getElementById(id);
+const matches=(p,a)=>a.title.toLowerCase().includes(p.name.toLowerCase());
+const pickFor=a=>picks.find(p=>matches(p,a));
+
+function parsePicks(txt){
+  return txt.split("\n").map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map(l=>{
+    const i=l.indexOf("|");return{name:(i<0?l:l.slice(0,i)).trim(),note:i<0?"":l.slice(i+1).trim()}}).filter(p=>p.name);
+}
+function build(shows){
+  const now=Date.now()-72e5,map=new Map();
+  shows.filter(s=>new Date(s.start)>now).forEach(s=>{
+    const k=s.title.toLowerCase();let a=map.get(k);
+    if(!a){a={title:s.title,count:0,next:s.start,venues:new Set()};map.set(k,a)}
+    a.count++;a.venues.add(s.venue);if(s.start<a.next)a.next=s.start});
+  return [...map.values()].sort((x,y)=>x.next<y.next?-1:1);
+}
+function output(){
+  $("out").value=HEADER+picks.map(p=>p.note?`${p.name} | ${p.note}`:p.name).join("\n")+"\n";
+  $("count").textContent=picks.length+" picked";
+}
+function render(){
+  const q=$("q").value.trim().toLowerCase(),only=$("sel").checked,list=$("list");
+  list.textContent="";
+  const rows=acts.filter(a=>(!q||(a.title+" "+[...a.venues].join(" ")).toLowerCase().includes(q))&&(!only||pickFor(a)));
+  if(!rows.length){const d=document.createElement("div");d.className="empty";d.textContent="Nothing to show.";list.append(d);return}
+  rows.forEach(a=>{
+    const p=pickFor(a),row=document.createElement("div");row.className="row"+(p?" on":"");
+    const cb=document.createElement("input");cb.type="checkbox";cb.checked=!!p;cb.setAttribute("aria-label","Pick "+a.title);
+    cb.onchange=()=>{
+      if(cb.checked){if(!pickFor(a))picks.push({name:a.title,note:""})}
+      else picks=picks.filter(x=>!matches(x,a));
+      output();render()};
+    const box=document.createElement("div");
+    const t=document.createElement("div");t.className="t";t.textContent=a.title;
+    const m=document.createElement("div");m.className="m";
+    const d=new Date(a.next).toLocaleDateString("en-US",{month:"short",day:"numeric"});
+    m.textContent=[...a.venues].join(", ")+" \u00b7 next: "+d+" \u00b7 "+a.count+(a.count>1?" shows":" show");
+    box.append(t,m);row.append(cb,box);
+    if(p){const n=document.createElement("input");n.type="text";n.className="note";n.placeholder="Why we like them (optional)";n.value=p.note;
+      n.setAttribute("aria-label","Note for "+a.title);n.oninput=()=>{p.note=n.value.replace(/\n/g," ");output()};row.append(n)}
+    list.append(row)});
+}
+async function init(){
+  let shows=SAMPLE,real=false,txt="";
+  try{const r=await fetch("shows.json",{cache:"no-store"});if(r.ok){const d=await r.json();if(d.shows&&d.shows.length){shows=d.shows;real=true}}}catch(e){}
+  try{const r=await fetch("picks.txt",{cache:"no-store"});if(r.ok)txt=await r.text()}catch(e){}
+  if(!real){$("banner").innerHTML='<div class="banner">Showing sample acts. Once this page is on your live site, it will list the real Houston acts.</div>'}
+  acts=build(shows);picks=parsePicks(txt);output();render();
+}
+$("q").oninput=render;$("sel").onchange=render;
+$("copy").onclick=async()=>{
+  const ta=$("out");
+  try{await navigator.clipboard.writeText(ta.value)}catch(e){ta.select();document.execCommand("copy")}
+  $("ok").textContent="Copied!";setTimeout(()=>$("ok").textContent="",2000)};
+init();
+</script>
+</body>
+</html>
