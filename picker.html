@@ -51,7 +51,7 @@ textarea{width:100%;min-height:200px;padding:14px;border:1px solid var(--line);b
 </main>
 <script>
 const SAMPLE=[["Pauly Shore","Punch Line Houston","2026-10-23T19:00:00"],["Pauly Shore","Punch Line Houston","2026-10-24T19:00:00"],["Josh Blue","Punch Line Houston","2026-11-19T19:00:00"],["Marlon Wayans","Houston Improv","2026-10-16T19:30:00"],["Dave Chappelle","Toyota Center","2026-10-28T19:30:00"]].map(([title,venue,start])=>({title,venue,start}));
-const HEADER="# OUR PICKS - edit this file to choose which comedians appear on the site.\n# One per line. Add | and a short note to show a 'why we like it' line.\n# Lines starting with # are ignored.\n\n";
+const HEADER="# OUR PICKS - edit this file to choose which comedians appear on the site.\n# One per line. Add | and a short note to show a 'why we like it' line.\n# Optional third part: | a ticket page link, for one-event picks (keep it if you see it).\n# Lines starting with # are ignored.\n\n";
 let acts=[],picks=[];
 const $=id=>document.getElementById(id);
 const matches=(p,a)=>a.title.toLowerCase().includes(p.name.toLowerCase());
@@ -59,7 +59,7 @@ const pickFor=a=>picks.find(p=>matches(p,a));
 
 function parsePicks(txt){
   return txt.split("\n").map(l=>l.trim()).filter(l=>l&&!l.startsWith("#")).map(l=>{
-    const i=l.indexOf("|");return{name:(i<0?l:l.slice(0,i)).trim(),note:i<0?"":l.slice(i+1).trim()}}).filter(p=>p.name);
+    const q=l.split("|").map(x=>x.trim());return{name:q[0],note:q[1]||"",url:(q[2]||"").startsWith("https://")?q[2]:""}}).filter(p=>p.name);
 }
 function build(shows){
   const now=Date.now()-72e5,map=new Map();
@@ -70,7 +70,7 @@ function build(shows){
   return [...map.values()].sort((x,y)=>x.next<y.next?-1:1);
 }
 function output(){
-  $("out").value=HEADER+picks.map(p=>p.note?`${p.name} | ${p.note}`:p.name).join("\n")+"\n";
+  $("out").value=HEADER+picks.map(p=>p.url?`${p.name} | ${p.note} | ${p.url}`:p.note?`${p.name} | ${p.note}`:p.name).join("\n")+"\n";
   $("count").textContent=picks.length+" picked";
 }
 function render(){

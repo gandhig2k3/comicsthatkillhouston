@@ -5,5 +5,5 @@
 # Later, when Ticketmaster approves you, add a line like this (delete the # and use your own link):
 # ticketmaster.com | https://something.example/c/123456/789012/3456
 #
-# TEST LINE (AXS). The Dave Chappelle button goes to toyotacenter.com, which sells through AXS:
-# toyotacenter.com | https://axs-uk.sjv.io/c/7879732/1902464/22439
+# AXS (tested: deep links to axs.com pages work):
+axs.com | https://axs-uk.sjv.io/c/7879732/1902464/22439

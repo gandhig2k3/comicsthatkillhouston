@@ -224,7 +224,7 @@ function openDay(key, items) {
     b.append(w, h, v);
     if (s.note) { const n = document.createElement("div"); n.className = "why"; n.textContent = "\u2605 " + s.note; b.append(n); }
     const a = document.createElement("a"); a.className = "btn"; a.target = "_blank"; a.rel = "sponsored noopener";
-    const dest = s.url || TICKET_URL, link = wrap(dest);
+    const dest = s.link || s.url || TICKET_URL, link = wrap(dest);
     a.href = link; a.textContent = "Get Tickets \u2192"; b.append(a);
     if (link !== dest) { const af = document.createElement("span"); af.className = "aff"; af.textContent = "Affiliate link"; b.append(af); }
     c.append(b); box.append(c);
@@ -255,7 +255,7 @@ function dedupe() {
   shows = out;
 }
 function applyPicks() {
-  shows.forEach(s => { const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; });
+  shows.forEach(s => { const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; s.link = p && p.url ? p.url : ""; });
   const vs = [...new Set(shows.filter(s => s.pick).map(s => s.venue))].sort();
   const cur = $("venue").value;
   $("venue").innerHTML = '<option value="">All Venues</option>';
@@ -268,7 +268,7 @@ Promise.all([
 ]).then(([d, txt]) => {
   shows = (d.shows || []).slice(); dedupe();
   picks = txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).map(l => {
-    const i = l.indexOf("|"); return { name: (i < 0 ? l : l.slice(0, i)).trim().toLowerCase(), note: i < 0 ? "" : l.slice(i + 1).trim() };
+    const q = l.split("|").map(x => x.trim()); return { name: q[0].toLowerCase(), note: q[1] || "", url: (q[2] || "").startsWith("https://") ? q[2] : "" };
   }).filter(p => p.name);
   applyPicks(); picksLoaded = true;
   // jump to the first month that has a pick, if this month has none
