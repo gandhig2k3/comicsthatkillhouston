@@ -2,7 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Manuel Ángel Redondo (En Español)
 Richie O’Farrill - En EspañOl
 Dark and Darker: A Dark Comedy Show
 Holmes
@@ -116,10 +115,13 @@ Anthony Mrocka
 Brian Bates
 Erin Cholakian
 Janeane Garofalo
+Female Dads Tour
 Aaron Chen - Technology
 The Get Up & Hustle Tour
 ZOLTAN KASZAS: ROAD WARRIOR TOUR
 Harland Williams
+Emily Catalano
+Isiah Kelly
 
 # ----- February 2027 -----
 Ruby Setnik
@@ -146,6 +148,7 @@ Ashley Gavin
 
 # ----- May 2027 -----
 Peter Antoniou: Brain Teaser
+Matthew Broussard
 Jason Cheny
 Ian Bagg
 

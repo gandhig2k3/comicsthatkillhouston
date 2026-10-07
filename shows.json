@@ -1,14 +1,6 @@
 {
- "updated": "2026-10-07T02:09:17Z",
+ "updated": "2026-10-07T17:36:54Z",
  "shows": [
-  {
-   "title": "Manuel \u00c1ngel Redondo (En Espa\u00f1ol)",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-06T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/manuel-angel-redondo-en-espanol-houston-texas-10-06-2026/event/3A006518B84DB284",
-   "img": "https://s1.ticketm.net/dam/e/774/32399a10-04d6-4997-8445-cbef8e39c774_TABLET_LANDSCAPE_16_9.jpg"
-  },
   {
    "title": "Richie O\u2019Farrill - En Espa\u00f1Ol",
    "venue": "Houston Improv",
@@ -831,7 +823,7 @@
    "start": "2026-11-20T21:15:00",
    "price": null,
    "url": "https://www.ticketmaster.com/santi-espinosa-me-time-englishspanish-show-houston-texas-11-20-2026/event/3A0064FF3B48DC13",
-   "img": "https://s1.ticketm.net/dam/a/c02/46472016-9bb6-4eee-af3e-549764f97c02_TABLET_LANDSCAPE_16_9.jpg"
+   "img": "https://s1.ticketm.net/dam/a/29a/2114d648-9af8-47bf-85dd-44222504529a_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Phil Hanley",
@@ -1554,6 +1546,14 @@
    "img": "https://s1.ticketm.net/dam/a/788/2d7a4e0b-fad8-484e-a401-179db63b0788_1562571_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Female Dads Tour",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-15T21:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/female-dads-tour-houston-texas-01-15-2027/event/3A00654341951446",
+   "img": "https://s1.ticketm.net/dam/e/cbe/b7a07871-9777-41a9-9d40-1dfa87637cbe_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Aaron Chen - Technology",
    "venue": "House of Blues Houston",
    "start": "2027-01-16T19:00:00",
@@ -1656,6 +1656,38 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/zoltan-kaszas-road-warrior-tour-houston-improv-tickets/14308854?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Emily Catalano",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-29T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/emily-catalano-houston-texas-01-29-2027/event/3A0065433E72FC9E",
+   "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Emily Catalano",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-30T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/emily-catalano-houston-texas-01-30-2027/event/3A0065433E7AFCA7",
+   "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Emily Catalano",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-30T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/emily-catalano-houston-texas-01-30-2027/event/3A0065433E80FCB0",
+   "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Isiah Kelly",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-31T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/isiah-kelly-houston-texas-01-31-2027/event/3A0065433B68F91F",
+   "img": "https://s1.ticketm.net/dam/a/102/a4ce44aa-92fb-421e-8fec-ca9bf98ca102_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ruby Setnik",
@@ -2010,12 +2042,28 @@
    "img": "https://s1.ticketm.net/dam/a/bd5/adb29c86-51da-46b8-8f68-5cd7144a4bd5_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Matthew Broussard",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-07T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/matthew-broussard-houston-texas-05-07-2027/event/3A006543270FD162",
+   "img": "https://s1.ticketm.net/dam/a/531/9a55de5b-c067-42ef-abc9-94d4f38f9531_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Jason Cheny",
    "venue": "Houston Improv",
    "start": "2027-05-07T19:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/jason-cheny-houston-improv-tickets/14316354?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/597/a6675b28-8ab7-4b56-956e-e83dbfd4c597_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Matthew Broussard",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-07T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/matthew-broussard-houston-texas-05-07-2027/event/3A0065432713D16E",
+   "img": "https://s1.ticketm.net/dam/a/531/9a55de5b-c067-42ef-abc9-94d4f38f9531_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Jason Cheny",
@@ -2032,6 +2080,22 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/jason-cheny-houston-improv-tickets/14316364?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/597/a6675b28-8ab7-4b56-956e-e83dbfd4c597_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Matthew Broussard",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-08T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/matthew-broussard-houston-texas-05-08-2027/event/3A0065432720D1A7",
+   "img": "https://s1.ticketm.net/dam/a/531/9a55de5b-c067-42ef-abc9-94d4f38f9531_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Matthew Broussard",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-08T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/matthew-broussard-houston-texas-05-08-2027/event/3A0065432725D1C7",
+   "img": "https://s1.ticketm.net/dam/a/531/9a55de5b-c067-42ef-abc9-94d4f38f9531_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Jason Cheny",
