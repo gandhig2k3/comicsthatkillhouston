@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-09T11:43:02Z",
+ "updated": "2026-10-09T11:52:49Z",
  "shows": [
   {
    "title": "Chat Pile - Who Loves The Sun Tour 2026 - Early Show",
@@ -25,6 +25,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/sophie-hunter-tickets-1993626846565",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188565354%2F3558237521%2F1%2Foriginal.20260709-195505?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.478&fp-y=0.033&s=294bc6f1755e308dd30ddf898ee616c4",
+   "extra": true
+  },
+  {
+   "title": "Raanan Hershberg Live at The Houston Comedy Club",
+   "venue": "2010 Waugh Dr",
+   "start": "2026-10-09T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/raanan-hershberg-live-at-the-houston-comedy-club-tickets-1994098451147",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189131449%2F3006901406877%2F1%2Foriginal.20260718-173616?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=c14988b78fdfdb51192865e6abafc5d2",
    "extra": true
   },
   {
@@ -119,6 +128,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/dave-ross-tickets-2002395259123",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194473097%2F3558237521%2F1%2Foriginal.20260927-205746?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.964&fp-y=0.162&s=82cb5b8a110dc8709c1318747e89d3a8",
+   "extra": true
+  },
+  {
+   "title": "Raanan Hershberg Live at The Houston Comedy Club",
+   "venue": "2010 Waugh Dr",
+   "start": "2026-10-10T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/raanan-hershberg-live-at-the-houston-comedy-club-tickets-1994099799179",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1189131472%2F3006901406877%2F1%2Foriginal.20260718-173702?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=6c83a328edec1b0dab28a239b3e2d56d",
    "extra": true
   },
   {
