@@ -17,6 +17,7 @@ jobs:
       - run: python fetch_shows.py
         env:
           TICKETMASTER_API_KEY: ${{ secrets.TICKETMASTER_API_KEY }}
+          EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
       - name: Save changes
         run: |
           git config user.name "show-updater"
