@@ -1,0 +1,12 @@
+# EXTRA SHOWS - add shows that are not on Ticketmaster (Eventbrite, club websites, anything).
+# These always appear on the calendar. You do not need to add them to picks.txt.
+#
+# One show per line, parts separated by |
+#   date and time | comedian or show name | venue | ticket link | picture link (optional) | note (optional)
+#
+# Date and time look like:  2026-10-10 8:00pm   (or 24-hour: 2026-10-10 20:00)
+# The ticket link must start with https://
+# Leave the picture or note empty if you don't have one, but keep the | separators.
+#
+# Example (delete the # to turn it on, then replace with the real details):
+# 2026-10-10 8:00pm | Ranaan Hersberg | VENUE NAME | https://www.eventbrite.com/e/PASTE-THE-REAL-LINK | | Not to be missed

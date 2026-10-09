@@ -1,0 +1,8 @@
+# EVENTBRITE ORGANIZERS - the comedy rooms and promoters you want pulled in automatically.
+# One per line. Paste the organizer's Eventbrite page link, for example:
+#   https://www.eventbrite.com/o/some-comedy-room-12345678901
+# (the long number at the end is what matters). You can add a name after a | to remind yourself.
+# Everything from these organizers shows on your calendar twice a day, no picking needed.
+#
+# Example (delete the # and use a real link):
+# https://www.eventbrite.com/o/some-comedy-room-12345678901 | Some Comedy Room

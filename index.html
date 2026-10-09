@@ -79,6 +79,7 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 .nl .btn{display:block;width:100%;margin-top:0}
 .later{margin-top:12px;background:none;border:0;color:var(--mute);cursor:pointer;font:14px Inter,sans-serif;text-decoration:underline}
 </style>
+<script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7879732-b35f-405a-ace8-2e40744033b21.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');</script>
 </head>
 <body>
 <header><div class="logo">YOUR LOGO</div>
@@ -163,7 +164,7 @@ function render() {
   $("prev").disabled = (y === thisY && m === thisM) || (y * 12 + m <= thisY * 12 + thisM);
   $("next").disabled = y * 12 + m >= Math.max(lastY * 12 + lastM, thisY * 12 + thisM);
   if (!picksLoaded) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Loading..."; cal.append(d); return; }
-  if (!picks.length) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Our picks are coming soon. Check back shortly."; cal.append(d); return; }
+  if (!picks.length && !shows.some(s => s.extra)) { const d = document.createElement("div"); d.className = "empty"; d.textContent = "Our picks are coming soon. Check back shortly."; cal.append(d); return; }
   const byDay = {};
   list.forEach(s => (byDay[s.start.slice(0, 10)] = byDay[s.start.slice(0, 10)] || []).push(s));
   const groupBy = items => { const g = {}; items.forEach(s => { const k = s.title.toLowerCase(); g[k] = g[k] || { title: s.title, venue: s.venue, img: s.img, s: s, times: [], items: [] }; g[k].times.push(shortTime(s)); g[k].items.push(s); }); return Object.values(g); };
@@ -254,8 +255,22 @@ function dedupe() {
   });
   shows = out;
 }
+// ----- hand-added shows (extras.txt): Eventbrite, club websites, anything not on Ticketmaster -----
+function parseExtras(txt) {
+  const out = [];
+  txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).forEach(l => {
+    const q = l.split("|").map(x => x.trim());
+    const dm = (q[0] || "").match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)?$/i);
+    if (!dm || !q[1] || !(q[3] || "").startsWith("https://")) return;
+    let h = +dm[4]; const ap = (dm[6] || "").toLowerCase();
+    if (ap === "pm" && h < 12) h += 12; if (ap === "am" && h === 12) h = 0;
+    out.push({ title: q[1], venue: q[2] || "Houston", start: `${dm[1]}-${dm[2]}-${dm[3]}T${pad(h)}:${dm[5] || "00"}:00`,
+      url: q[3], img: (q[4] || "").startsWith("https://") ? q[4] : null, note: q[5] || "", extra: true, price: null });
+  });
+  return out;
+}
 function applyPicks() {
-  shows.forEach(s => { const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; s.link = p && p.url ? p.url : ""; });
+  shows.forEach(s => { if (s.extra) { s.pick = true; s.link = ""; return; } const t = s.title.toLowerCase(); const p = picks.find(p => t.includes(p.name)); s.pick = !!p; s.note = p ? p.note : ""; s.link = p && p.url ? p.url : ""; });
   const vs = [...new Set(shows.filter(s => s.pick).map(s => s.venue))].sort();
   const cur = $("venue").value;
   $("venue").innerHTML = '<option value="">All Venues</option>';
@@ -264,9 +279,11 @@ function applyPicks() {
 }
 Promise.all([
   fetch("shows.json", { cache: "no-store" }).then(r => r.ok ? r.json() : { shows: [] }).catch(() => ({ shows: [] })),
-  fetch("picks.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => "")
-]).then(([d, txt]) => {
+  fetch("picks.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => ""),
+  fetch("extras.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => "")
+]).then(([d, txt, extraTxt]) => {
   shows = (d.shows || []).slice(); dedupe();
+  shows = shows.concat(parseExtras(extraTxt));
   picks = txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).map(l => {
     const q = l.split("|").map(x => x.trim()); return { name: q[0].toLowerCase(), note: q[1] || "", url: (q[2] || "").startsWith("https://") ? q[2] : "" };
   }).filter(p => p.name);

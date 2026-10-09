@@ -60,6 +60,59 @@ while page < total_pages and page < 5:  # up to ~1000 events
     page += 1
     time.sleep(0.3)
 
+# ----- Eventbrite: pull upcoming shows from the organizers listed in organizers.txt -----
+# The token is read from the environment (GitHub secret EVENTBRITE_TOKEN). If it is missing,
+# or Eventbrite refuses a request, we print a note and carry on: Ticketmaster shows still update.
+EB_TOKEN = os.environ.get("EVENTBRITE_TOKEN")
+def eb_get(path, params=None):
+    q = ("?" + urllib.parse.urlencode(params)) if params else ""
+    req = urllib.request.Request("https://www.eventbriteapi.com/v3" + path + q,
+                                 headers={"Authorization": "Bearer " + EB_TOKEN})
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.load(r)
+
+if EB_TOKEN and os.path.exists("organizers.txt"):
+    for line in open("organizers.txt", encoding="utf-8"):
+        line = line.split("#")[0].strip()
+        m = re.search(r"(\d{6,})\s*$", line.split("|")[0].strip().rstrip("/"))
+        if not m:
+            continue
+        oid, added = m.group(1), 0
+        try:
+            cont = None
+            for _ in range(5):
+                params = {"status": "live", "order_by": "start_asc", "expand": "venue"}
+                if cont:
+                    params["continuation"] = cont
+                data = eb_get(f"/organizers/{oid}/events/", params)
+                for e in data.get("events", []):
+                    if e.get("online_event") or not e.get("url"):
+                        continue
+                    st = (e.get("start") or {}).get("local")
+                    if not st:
+                        continue
+                    v = e.get("venue") or {}
+                    logo = e.get("logo") or {}
+                    shows.append({
+                        "title": fix_text((e.get("name") or {}).get("text") or "Comedy show"),
+                        "venue": fix_text(v.get("name") or "Houston"),
+                        "start": st[:19],
+                        "price": None,
+                        "url": e["url"].split("?")[0],
+                        "img": logo.get("url"),
+                        "extra": True,  # organizers you list are trusted, so these show automatically
+                    })
+                    added += 1
+                pg = data.get("pagination", {})
+                cont = pg.get("continuation")
+                if not pg.get("has_more_items") or not cont:
+                    break
+            print(f"Eventbrite organizer {oid}: {added} shows")
+        except Exception as ex:
+            print(f"Eventbrite organizer {oid}: skipped ({ex})")
+elif not EB_TOKEN:
+    print("Eventbrite: no EVENTBRITE_TOKEN set, skipping")
+
 # Remove duplicates: same venue and start time, with matching or overlapping titles.
 # Keep the most reliable link: real Ticketmaster pages first, then TicketWeb, then the venue's own page.
 # Short ticketmaster.com/event/Z7r... cross-listings go last because some lead to "page not found".
