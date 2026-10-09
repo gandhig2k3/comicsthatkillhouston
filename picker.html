@@ -21,6 +21,7 @@ h1{margin:0 0 6px;font-size:28px;letter-spacing:-.5px}
 .tools{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin-bottom:14px}
 input[type=search]{flex:1;min-width:220px;padding:12px 16px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:16px Inter,sans-serif}
 label.chk{display:flex;gap:8px;align-items:center;color:var(--mute);font-size:14px}
+select{padding:10px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font:15px Inter,sans-serif;max-width:260px}
 .row{display:grid;grid-template-columns:auto 1fr;gap:4px 12px;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:12px 16px;margin-bottom:8px}
 .row.on{border-color:var(--red)}
 .row input[type=checkbox]{width:22px;height:22px;margin-top:2px;accent-color:var(--red)}
@@ -44,6 +45,8 @@ textarea{width:100%;min-height:200px;padding:14px;border:1px solid var(--line);b
 <li>On GitHub, open <b>picks.txt</b>, click the pencil, select everything, paste, and click <b>Commit changes</b>.</li></ol></div>
 <div id="banner"></div>
 <div class="tools"><input type="search" id="q" placeholder="Search acts or venues" aria-label="Search"><label class="chk"><input type="checkbox" id="sel"> Show only my picks</label><span class="m" id="count"></span></div>
+<div class="tools"><label class="chk">Sort by <select id="sort" aria-label="Sort by"><option value="date">Date (soonest first)</option><option value="az">Alphabetical (A to Z)</option><option value="venue">Venue (A to Z)</option></select></label>
+<label class="chk">Venue <select id="venue" aria-label="Filter by venue"><option value="">All venues</option></select></label></div>
 <div id="list"></div>
 <h2>Your picks.txt</h2>
 <textarea id="out" readonly aria-label="Text to paste into picks.txt"></textarea>
@@ -76,7 +79,12 @@ function output(){
 function render(){
   const q=$("q").value.trim().toLowerCase(),only=$("sel").checked,list=$("list");
   list.textContent="";
-  const rows=acts.filter(a=>(!q||(a.title+" "+[...a.venues].join(" ")).toLowerCase().includes(q))&&(!only||pickFor(a)));
+  const ven=$("venue").value,srt=$("sort").value;
+  const rows=acts.filter(a=>(!q||(a.title+" "+[...a.venues].join(" ")).toLowerCase().includes(q))&&(!only||pickFor(a))&&(!ven||a.venues.has(ven)));
+  const vname=a=>[...a.venues].sort()[0].toLowerCase();
+  if(srt==="az")rows.sort((x,y)=>x.title.localeCompare(y.title,undefined,{sensitivity:"base"}));
+  else if(srt==="venue")rows.sort((x,y)=>vname(x).localeCompare(vname(y))||(x.next<y.next?-1:1));
+  else rows.sort((x,y)=>x.next<y.next?-1:x.next>y.next?1:0);
   if(!rows.length){const d=document.createElement("div");d.className="empty";d.textContent="Nothing to show.";list.append(d);return}
   rows.forEach(a=>{
     const p=pickFor(a),row=document.createElement("div");row.className="row"+(p?" on":"");
@@ -100,9 +108,12 @@ async function init(){
   try{const r=await fetch("shows.json",{cache:"no-store"});if(r.ok){const d=await r.json();if(d.shows&&d.shows.length){shows=d.shows;real=true}}}catch(e){}
   try{const r=await fetch("picks.txt",{cache:"no-store"});if(r.ok)txt=await r.text()}catch(e){}
   if(!real){$("banner").innerHTML='<div class="banner">Showing sample acts. Once this page is on your live site, it will list the real Houston acts.</div>'}
-  acts=build(shows);picks=parsePicks(txt);output();render();
+  acts=build(shows);picks=parsePicks(txt);
+  const vs=[...new Set(acts.flatMap(a=>[...a.venues]))].sort((a,b)=>a.localeCompare(b));
+  vs.forEach(v=>{const o=document.createElement("option");o.value=v;o.textContent=v;$("venue").append(o)});
+  output();render();
 }
-$("q").oninput=render;$("sel").onchange=render;
+$("q").oninput=render;$("sel").onchange=render;$("sort").onchange=render;$("venue").onchange=render;
 $("copy").onclick=async()=>{
   const ta=$("out");
   try{await navigator.clipboard.writeText(ta.value)}catch(e){ta.select();document.execCommand("copy")}
