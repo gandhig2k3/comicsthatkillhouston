@@ -11,7 +11,7 @@
 :root[data-theme="dark"]{--bg:#0e1116;--card:#171b22;--ink:#f3f4f6;--mute:#9ca3af;--line:#2a303a}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif}
-header{background:var(--card);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
+header{background:var(--card);border-bottom:1px solid var(--line);padding:8px 24px;display:flex;align-items:center;gap:28px;flex-wrap:wrap}
 .logo{background:var(--navy);color:#fff;font-weight:800;padding:8px 14px;border-radius:4px;letter-spacing:.5px}
 nav{display:flex;gap:22px;flex-wrap:wrap;font-size:15px}
 nav a{color:inherit;text-decoration:none}
@@ -21,6 +21,8 @@ nav a{color:inherit;text-decoration:none}
 .ddm a{display:block;padding:8px 12px;border-radius:6px}.ddm a:hover{background:var(--bg)}nav>a:first-child{color:#2563eb}
 .hero{background:var(--card);text-align:center;padding:44px 20px 36px}
 .hero h1{font-size:clamp(26px,4.4vw,48px);margin:0 0 14px;font-weight:800;letter-spacing:-1px;background:linear-gradient(90deg,#e0407a,#8b4fd8);-webkit-background-clip:text;background-clip:text;color:transparent}
+.brand{display:block;line-height:0;background:#fff;border-radius:10px;padding:4px 8px}.brand img{height:110px;width:auto;display:block}
+@media (max-width:700px){.brand img{height:68px}}
 .social{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:20px}.social a{display:inline-flex;align-items:center;gap:8px;padding:10px 18px;border:1px solid var(--line);border-radius:999px;color:var(--ink);text-decoration:none;font-weight:600;font-size:15px}.social a:hover{border-color:var(--red,#c8344f);color:#c8344f}.social a:focus-visible{outline:3px solid #2563eb;outline-offset:2px}
 .herologo{display:block;margin:0 auto 18px;height:auto;width:min(300px,70vw);background:#fff;border-radius:18px;padding:14px 18px}
 .hero p{margin:0 auto;max-width:760px;color:var(--mute);font-size:18px;line-height:1.5}
@@ -89,8 +91,9 @@ button:focus-visible,select:focus-visible,a:focus-visible,input:focus-visible{ou
 </head>
 <body>
 <header>
+<a class="brand" href="./" aria-label="Comics That Kill home"><img src="logo.png" alt="Comics That Kill" width="94" height="110"></a>
 <nav><a href="#">Home</a><a href="#">Shows</a><a href="#">Blog</a><details class="dd"><summary>Services</summary><div class="ddm"><a href="https://tally.so/r/KYBKKz" target="_blank" rel="noopener">Submissions</a></div></details><a href="#">Contact</a></nav></header>
-<section class="hero"><img class="herologo" src="logo.png" alt="Comics That Kill" width="585" height="687"><h1 id="headline"></h1><p id="subtext"></p>
+<section class="hero"><h1 id="headline"></h1><p id="subtext"></p>
 <div class="social"><a href="https://www.instagram.com/comicsthatkill/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg><span>Instagram</span></a><a href="https://www.youtube.com/@comicsthatkill" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true"><path d="M21.6 7.2a2.5 2.5 0 0 0-1.8-1.8C18.2 5 12 5 12 5s-6.2 0-7.8.4A2.5 2.5 0 0 0 2.4 7.2C2 8.8 2 12 2 12s0 3.2.4 4.8a2.5 2.5 0 0 0 1.8 1.8C5.8 19 12 19 12 19s6.2 0 7.8-.4a2.5 2.5 0 0 0 1.8-1.8c.4-1.6.4-4.8.4-4.8s0-3.2-.4-4.8zM10 15V9l5.2 3z"/></svg><span>YouTube</span></a><a href="https://www.facebook.com/comicsthatkill/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true"><path d="M13.5 22v-8.2h2.8l.5-3.3h-3.3V8.4c0-.9.4-1.7 1.8-1.7h1.6V3.8S15.6 3.5 14.3 3.5c-2.7 0-4.4 1.6-4.4 4.6v2.4H7v3.3h2.9V22z"/></svg><span>Facebook</span></a></div></section>
 <main>
 <div class="bar">
