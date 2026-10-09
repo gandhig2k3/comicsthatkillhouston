@@ -1,14 +1,6 @@
 # OUR PICKS - edit this file to choose which comedians appear on the site.
-#
-# How it works:
-#  - One comedian (or show name) per line.
-#  - Optional: add a | and a short note about why you like them. It appears on the card.
-#  - Lines starting with # are ignored.
-#  - Spelling just needs to match part of the show title, capitals don't matter.
-#  - If this file has no names, the site shows "Our picks are coming soon."
-
-# OUR PICKS - edit this file to choose which comedians appear on the site.
 # One per line. Add | and a short note to show a 'why we like it' line.
+# Optional third part: | a ticket page link, for one-event picks (keep it if you see it).
 # Lines starting with # are ignored.
 
 Dave Chappelle
@@ -25,3 +17,15 @@ ZOLTAN KASZAS: ROAD WARRIOR TOUR
 Brad Williams: The Big & Small Tour
 Ian Bagg
 Steven Hofstetter
+Funjelah Live Podcast Taping w/ Anjelah Johnson-Reyes & Special Guest
+Steve Byrne
+Bruce Bruce
+ISMO: Live!
+Steve Hofstetter
+Harland Williams
+Vir Das: I say we RUN!
+Joe List (Comedy Central, Last Comic Standing, Netflix) - THU. 8PM SHOW
+Joe List (Comedy Central, Last Comic Standing, Netflix) - FRI. 8PM SHOW
+Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 7PM SHOW
+Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 9PM SHOW
+Michael Kosta: Big Dad Energy
