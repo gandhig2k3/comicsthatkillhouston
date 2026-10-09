@@ -282,7 +282,7 @@ Promise.all([
   fetch("picks.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => ""),
   fetch("extras.txt", { cache: "no-store" }).then(r => r.ok ? r.text() : "").catch(() => "")
 ]).then(([d, txt, extraTxt]) => {
-  shows = (d.shows || []).slice(); dedupe();
+  shows = (d.shows || []).slice(); shows.forEach(s => { delete s.extra; }); dedupe();
   shows = shows.concat(parseExtras(extraTxt));
   picks = txt.split("\n").map(l => l.trim()).filter(l => l && !l.startsWith("#")).map(l => {
     const q = l.split("|").map(x => x.trim()); return { name: q[0].toLowerCase(), note: q[1] || "", url: (q[2] || "").startsWith("https://") ? q[2] : "" };
