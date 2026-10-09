@@ -2,7 +2,10 @@
 # One per line. Paste the organizer's Eventbrite page link, for example:
 #   https://www.eventbrite.com/o/some-comedy-room-12345678901
 # (the long number at the end is what matters). You can add a name after a | to remind yourself.
-# Everything from these organizers shows on your calendar twice a day, no picking needed.
+# Their shows are added to your list of acts to choose from (comedians.txt and the picker).
+# A show only appears on your calendar after you pick it in picks.txt, like any other show.
 #
 # Example (delete the # and use a real link):
 # https://www.eventbrite.com/o/some-comedy-room-12345678901 | Some Comedy Room
+
+https://www.eventbrite.com/o/20138725138 | The Secret Group
