@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-10T16:02:49Z",
+ "updated": "2026-10-11T01:36:21Z",
  "shows": [
   {
    "title": "The Secret Group 10 Year Anniversary Party!",
@@ -42,6 +42,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/dave-ross-tickets-2002395259123",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194473097%2F3558237521%2F1%2Foriginal.20260927-205746?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.964&fp-y=0.162&s=82cb5b8a110dc8709c1318747e89d3a8",
+   "extra": true
+  },
+  {
+   "title": "UNO THE ACTIVIST",
+   "venue": "The Secret Group",
+   "start": "2026-10-10T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/uno-the-activist-tickets-2003247659676",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195527921%2F3558237521%2F1%2Foriginal.20261010-223225?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7b6f99105ad2d4db65a8b4258888b29c",
    "extra": true
   },
   {
