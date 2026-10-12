@@ -1,66 +1,6 @@
 {
- "updated": "2026-10-12T02:08:43Z",
+ "updated": "2026-10-12T20:03:57Z",
  "shows": [
-  {
-   "title": "Jokes Over Brunch",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-11T14:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/jokes-over-brunch-houston-texas-10-11-2026/event/3A006528AD598BDD",
-   "img": "https://s1.ticketm.net/dam/a/b11/a0e7b7bf-0c09-49c4-af86-5f47895b9b11_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Andy Huggins & Friends",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-11T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/andy-huggins-friends-houston-texas-10-11-2026/event/3A006518BB8BB6EC",
-   "img": "https://s1.ticketm.net/dam/a/584/a473ec18-fdb7-41e2-8f5c-137684fa3584_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Last Laugh with James Vogt & Trip Truman",
-   "venue": "The Secret Group",
-   "start": "2026-10-11T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-last-laugh-with-james-vogt-trip-truman-tickets-2002394974271",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191459227%2F3558237521%2F1%2Foriginal.20260819-201134?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.042&s=6e681acd6ad5ee32665e569caa2a2b50",
-   "extra": true
-  },
-  {
-   "title": "Ben Jackson: Brilliant Ignorance",
-   "venue": "Houston Improv",
-   "start": "2026-10-11T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/ben-jackson-brilliant-ignorance-houston-improv-tickets/14352224?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The (secret) Secret Show",
-   "venue": "The Secret Group",
-   "start": "2026-10-11T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-secret-secret-show-tickets-2002394960229",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182517711%2F3558237521%2F1%2Foriginal.20260419-192309?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496&fp-y=0.084&s=38875a457b3e05d59039994d2036bf25",
-   "extra": true
-  },
-  {
-   "title": "OUR MIC IS YOUR MIC: EMO KARAOKE",
-   "venue": "The Secret Group",
-   "start": "2026-10-11T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/our-mic-is-your-mic-emo-karaoke-tickets-2002394977280",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185159669%2F3558237521%2F1%2Foriginal.20260521-185756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.18&fp-y=0.371&s=0a79681b1aa31004793d61c345514448",
-   "extra": true
-  },
-  {
-   "title": "COMEDY DOJO: Sunday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-11T23:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/comedy-dojo-sunday-open-mic-comedy-tickets-2002394987310",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1115718973%2F3558237521%2F1%2Foriginal.20250905-193245?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00494449513382&fp-y=0.000114052620379&s=0f529a013e78c8698eaa252e8a8b4795",
-   "extra": true
-  },
   {
    "title": "MONDAY NIGHT COMEDY!",
    "venue": "The Secret Group",
@@ -3135,6 +3075,22 @@
    "img": "https://s1.ticketm.net/dam/a/a1f/6aec4b02-7063-4485-bcc9-242f0eef6a1f_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Ben Palmer",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-12T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/ben-palmer-houston-texas-03-12-2027/event/3A00654B49D95930",
+   "img": "https://s1.ticketm.net/dam/a/e21/b3062972-f063-433d-b65f-ad8dd9a9ae21_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Ben Palmer",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-12T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/ben-palmer-houston-texas-03-12-2027/event/3A00654B49DD5933",
+   "img": "https://s1.ticketm.net/dam/a/e21/b3062972-f063-433d-b65f-ad8dd9a9ae21_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
    "venue": "713 Music Hall",
    "start": "2027-03-13T17:00:00",
@@ -3143,12 +3099,28 @@
    "img": "https://s1.ticketm.net/dam/a/a1f/6aec4b02-7063-4485-bcc9-242f0eef6a1f_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Ben Palmer",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-13T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/ben-palmer-houston-texas-03-13-2027/event/3A00654B49E85948",
+   "img": "https://s1.ticketm.net/dam/a/e21/b3062972-f063-433d-b65f-ad8dd9a9ae21_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
    "venue": "713 Music Hall",
    "start": "2027-03-13T20:30:00",
    "price": null,
    "url": "https://www.ticketmaster.com/josh-johnsons-comedy-band-camp-houston-texas-03-13-2027/event/3A00652B2F20869F",
    "img": "https://s1.ticketm.net/dam/a/a1f/6aec4b02-7063-4485-bcc9-242f0eef6a1f_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Ben Palmer",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-13T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/ben-palmer-houston-texas-03-13-2027/event/3A00654B49EC595A",
+   "img": "https://s1.ticketm.net/dam/a/e21/b3062972-f063-433d-b65f-ad8dd9a9ae21_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ben Bankas: On Thin Ice",
