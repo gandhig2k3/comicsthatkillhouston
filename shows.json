@@ -1,33 +1,6 @@
 {
- "updated": "2026-10-13T03:23:28Z",
+ "updated": "2026-10-13T17:52:45Z",
  "shows": [
-  {
-   "title": "MONDAY NIGHT COMEDY!",
-   "venue": "The Secret Group",
-   "start": "2026-10-12T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/monday-night-comedy-tickets-2002394995334",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1084977123%2F3558237521%2F1%2Foriginal.20250730-234417?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=78dcb3dc8d37991932ef9b60f388ad4e",
-   "extra": true
-  },
-  {
-   "title": "The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones",
-   "venue": "The Secret Group",
-   "start": "2026-10-12T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-passing-lane-with-andrew-youngblood-will-loden-blake-jones-tickets-2002394998343",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175278655%2F3558237521%2F1%2Foriginal.20260119-212007?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.72&s=023d5bb3c7d562512814fde470c962ca",
-   "extra": true
-  },
-  {
-   "title": "NIGHT COURT: Monday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-12T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/night-court-monday-open-mic-comedy-tickets-2002395001352",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176335183%2F3558237521%2F1%2Foriginal.20260131-175517?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=1b25cb5025ea96f52a36bfb08f6a3ba4",
-   "extra": true
-  },
   {
    "title": "Weatherday",
    "venue": "The Secret Group",
@@ -2845,6 +2818,30 @@
    "img": "https://s1.ticketm.net/dam/a/102/a4ce44aa-92fb-421e-8fec-ca9bf98ca102_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Jimmy O Yang Has No Friends Tour",
+   "venue": "Hobby Center",
+   "start": "2027-01-31T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/jimmy-o-yang-has-no-friends-houston-texas-01-31-2027/event/3A006541CF396130",
+   "img": "https://s1.ticketm.net/dam/a/575/bbbed286-d115-472a-8b5f-57305de23575_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Modi: The Outstanding Tour",
+   "venue": "Houston Improv",
+   "start": "2027-02-03T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/modi-the-outstanding-tour-houston-improv-tickets/14295794?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/fab/dfa64a61-686b-43d0-85f6-4679765c7fab_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Nurse Georgie Carroll",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-03T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/nurse-georgie-carroll-houston-texas-02-03-2027/event/3A00654B432C522C",
+   "img": "https://s1.ticketm.net/dam/a/e31/366b36d7-2ecf-41b7-9aa9-0fe475253e31_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Ruby Setnik",
    "venue": "Punch Line Houston",
    "start": "2027-02-05T19:00:00",
@@ -3153,6 +3150,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/ben-bankas-on-thin-ice-houston-improv-tickets/15013063?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Giggly Squad: The Gehls Gehl Tour",
+   "venue": "Hobby Center",
+   "start": "2027-03-26T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/giggly-squad-the-gehls-gehl-tour-houston-texas-03-26-2027/event/3A006547A7BECA3D",
+   "img": "https://s1.ticketm.net/dam/a/44d/39734d5a-9a35-4b6c-b492-0026e295044d_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ben Bankas: On Thin Ice",

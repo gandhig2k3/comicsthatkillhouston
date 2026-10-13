@@ -2,9 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-MONDAY NIGHT COMEDY!
-The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
-NIGHT COURT: Monday Open Mic Comedy
 Weatherday
 FOR THE CULTURE: A Tuesday Comedy Show for The Culture
 C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
@@ -39,6 +36,9 @@ The (secret) Secret Show
 OUR MIC IS YOUR MIC: EMO KARAOKE
 COMEDY DOJO: Sunday Open Mic Comedy
 Sarper Güven
+MONDAY NIGHT COMEDY!
+The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
+NIGHT COURT: Monday Open Mic Comedy
 FOOS GONE WILD: The FOOS GONE WILD Tour 2026
 Standoperos: La TóMbola
 Joanne McNally: Pinotphile
@@ -164,8 +164,11 @@ ZOLTAN KASZAS: ROAD WARRIOR TOUR
 Harland Williams
 Emily Catalano
 Isiah Kelly
+Jimmy O Yang Has No Friends Tour
 
 # ----- February 2027 -----
+Modi: The Outstanding Tour
+Nurse Georgie Carroll
 Ruby Setnik
 never easy: I Still Care 2027 American Tour
 Madds Buckley
@@ -187,6 +190,7 @@ Damon Darling
 JOSH JOHNSON'S COMEDY BAND CAMP
 Ben Palmer
 Ben Bankas: On Thin Ice
+Giggly Squad: The Gehls Gehl Tour
 
 # ----- April 2027 -----
 April Fools Comedy Show
