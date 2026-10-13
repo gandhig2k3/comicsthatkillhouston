@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-12T20:03:57Z",
+ "updated": "2026-10-13T03:23:28Z",
  "shows": [
   {
    "title": "MONDAY NIGHT COMEDY!",
@@ -2033,12 +2033,28 @@
    "extra": true
   },
   {
+   "title": "Ali Siddiq Presents: the Jive Turkeys",
+   "venue": "Houston Improv",
+   "start": "2026-11-25T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/ali-siddiq-presents-the-jive-houston-improv-tickets/14376654?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/8b9/0a83a81b-0da6-4434-9b7d-4e59027c58b9_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Lotto Marie & Friends",
    "venue": "Punch Line Houston",
    "start": "2026-11-25T19:30:00",
    "price": null,
    "url": "https://www.ticketmaster.com/lotto-marie-friends-houston-texas-11-25-2026/event/3A00653CB225BA41",
    "img": "https://s1.ticketm.net/dam/a/17e/96f709dc-16d2-4942-b1fa-bf263613317e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Ali Siddiq Presents: the Jive Turkeys",
+   "venue": "Houston Improv",
+   "start": "2026-11-25T21:45:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/ali-siddiq-presents-the-jive-houston-improv-tickets/14376664?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/8b9/0a83a81b-0da6-4434-9b7d-4e59027c58b9_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ron Taylor",
