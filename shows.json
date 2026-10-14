@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-13T17:52:45Z",
+ "updated": "2026-10-14T01:40:24Z",
  "shows": [
   {
    "title": "Weatherday",
@@ -2305,6 +2305,14 @@
    "extra": true
   },
   {
+   "title": "Comedy Allstars",
+   "venue": "Punch Line Houston",
+   "start": "2026-12-11T21:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/comedy-allstars-houston-texas-12-11-2026/event/3A00654D16588B99",
+   "img": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Filthy Pop-Up Show",
    "venue": "Punch Line Houston",
    "start": "2026-12-11T21:30:00",
@@ -2818,7 +2826,7 @@
    "img": "https://s1.ticketm.net/dam/a/102/a4ce44aa-92fb-421e-8fec-ca9bf98ca102_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
-   "title": "Jimmy O Yang Has No Friends Tour",
+   "title": "Jimmy O. Yang Has No Friends Tour",
    "venue": "Hobby Center",
    "start": "2027-01-31T19:30:00",
    "price": null,
@@ -2831,7 +2839,7 @@
    "start": "2027-02-03T19:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/modi-the-outstanding-tour-houston-improv-tickets/14295794?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/a/fab/dfa64a61-686b-43d0-85f6-4679765c7fab_TABLET_LANDSCAPE_16_9.jpg"
+   "img": "https://s1.ticketm.net/dam/a/af6/2053bbac-4b16-4361-a239-625edb046af6_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Nurse Georgie Carroll",
