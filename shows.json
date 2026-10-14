@@ -1,42 +1,6 @@
 {
- "updated": "2026-10-14T01:40:24Z",
+ "updated": "2026-10-14T15:38:44Z",
  "shows": [
-  {
-   "title": "Weatherday",
-   "venue": "The Secret Group",
-   "start": "2026-10-13T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/weatherday-tickets-2001670795232",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193876016%2F3558237521%2F1%2Foriginal.20260918-221400?crop=focalpoint&fit=crop&h=142&w=313&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.471&fp-y=0.735&s=d00843cda4e4da7b752f64c67fa7459f",
-   "extra": true
-  },
-  {
-   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
-   "venue": "The Secret Group",
-   "start": "2026-10-13T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2002395009376",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
-   "extra": true
-  },
-  {
-   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-10-13T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2002395953199",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194473824%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=543fb4b39e8bc68d8005a6ab769e3046",
-   "extra": true
-  },
-  {
-   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-13T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2002395957211",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194473830%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=48885d2c2770a31b169691c44082713b",
-   "extra": true
-  },
   {
    "title": "Houston Af",
    "venue": "Houston Improv",
@@ -2401,6 +2365,14 @@
    "img": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Comedy Allstars",
+   "venue": "Punch Line Houston",
+   "start": "2026-12-18T21:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/comedy-allstars-houston-texas-12-18-2026/event/3A00654B3E7E4DF8",
+   "img": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "DeRay Davis",
    "venue": "Houston Improv",
    "start": "2026-12-18T21:45:00",
@@ -2786,11 +2758,35 @@
    "img": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Sammy Obeid",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-24T16:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/sammy-obeid-houston-texas-01-24-2027/event/3A00654B40B64FF3",
+   "img": "https://s1.ticketm.net/dam/a/c77/9f7654fe-87fb-4226-89c8-2dadcc3d9c77_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "ZOLTAN KASZAS: ROAD WARRIOR TOUR",
    "venue": "Houston Improv",
    "start": "2027-01-24T18:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/zoltan-kaszas-road-warrior-tour-houston-improv-tickets/14308854?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sammy Obeid",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-24T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/sammy-obeid-houston-texas-01-24-2027/event/3A00654B40AC4FE5",
+   "img": "https://s1.ticketm.net/dam/a/c77/9f7654fe-87fb-4226-89c8-2dadcc3d9c77_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Salty Mom Comedy Tour",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-27T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/salty-mom-comedy-tour-houston-texas-01-27-2027/event/3A00654B41E6511C",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
@@ -3398,6 +3394,38 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/ian-bagg-houston-improv-tickets/14324104?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/554/749b612f-0474-4ca7-89dc-0ec429c3d554_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Deric Cahill",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-21T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-21-2027/event/3A00654B4CF55C47",
+   "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Deric Cahill",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-21T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-21-2027/event/3A00654B4CF95C57",
+   "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Deric Cahill",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-22T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-22-2027/event/3A00654B4D055C80",
+   "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Deric Cahill",
+   "venue": "Punch Line Houston",
+   "start": "2027-05-22T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-22-2027/event/3A00654B4D095C8A",
+   "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Nimesh Patel",

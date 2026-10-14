@@ -2,10 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Weatherday
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Houston Af
 Desi Comedy Fest - Texas Edition
 Kinky Wednesdays
@@ -40,6 +36,9 @@ MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
 NIGHT COURT: Monday Open Mic Comedy
 FOOS GONE WILD: The FOOS GONE WILD Tour 2026
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Standoperos: La TóMbola
 Joanne McNally: Pinotphile
 Eva Evans
@@ -163,6 +162,8 @@ Yurie Collins
 The Get Up & Hustle Tour
 ZOLTAN KASZAS: ROAD WARRIOR TOUR
 Harland Williams
+Sammy Obeid
+Salty Mom Comedy Tour
 Emily Catalano
 Isiah Kelly
 Jimmy O. Yang Has No Friends Tour
@@ -206,6 +207,7 @@ Peter Antoniou: Brain Teaser
 Matthew Broussard
 Jason Cheny
 Ian Bagg
+Deric Cahill
 
 # ----- June 2027 -----
 Nimesh Patel
