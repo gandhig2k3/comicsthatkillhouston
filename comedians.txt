@@ -2,16 +2,9 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Marlon Wayans
 Chaunte Wayans
-The Best of the Secret Group Comedy Showcase 7pm
-Sick Day Magazine Presents: VAMPIRES VS WEREWOLVES NIGHT!
-The Best of the Secret Group Comedy Showcase 9pm
-DIAL UP: 90s & Y2K Dance Party!
-TK Kirkland
-The Best of the Secret Group RATED R Comedy Showcase 11pm
-SPEEDBALL: Saturday Open Mic Comedy
 The Last Laugh with James Vogt & Trip Truman
+Marlon Wayans
 The (secret) Secret Show
 OUR MIC IS YOUR MIC: EMO KARAOKE
 COMEDY DOJO: Sunday Open Mic Comedy
@@ -43,6 +36,8 @@ Seth Meyers: Live
 Like Roses
 KirbLaGoop & WiFiGawd
 CHARLIE BERENS THE LOST AND FOUND TOUR
+DIAL UP: 90s & Y2K Dance Party!
+SPEEDBALL: Saturday Open Mic Comedy
 Yohay Sponder: Genesis
 Sorry Ghost
 Abby Govindan
@@ -56,7 +51,10 @@ Giulio Gallarotti: Live In Houston
 D'Lai
 The Best of TSG Headliner Series - Netra Netra Netra
 Steve Byrne
+The Best of the Secret Group Comedy Showcase 7pm
 Ha Ha Halloween Showcase
+The Best of the Secret Group Comedy Showcase 9pm
+The Best of the Secret Group RATED R Comedy Showcase 11pm
 
 # ----- November 2026 -----
 Pandji
