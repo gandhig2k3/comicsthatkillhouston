@@ -1,58 +1,6 @@
 {
- "updated": "2026-10-19T00:53:38Z",
+ "updated": "2026-10-19T17:16:48Z",
  "shows": [
-  {
-   "title": "Chaunte Wayans",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-18T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/chaunte-wayans-houston-texas-10-18-2026/event/3A00651FCBB92897",
-   "img": "https://s1.ticketm.net/dam/a/811/01c641b8-c700-40e6-8b6f-a994aa7a2811_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Last Laugh with James Vogt & Trip Truman",
-   "venue": "The Secret Group",
-   "start": "2026-10-18T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-last-laugh-with-james-vogt-trip-truman-tickets-2002396011373",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191459227%2F3558237521%2F1%2Foriginal.20260819-201134?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.042&s=6e681acd6ad5ee32665e569caa2a2b50",
-   "extra": true
-  },
-  {
-   "title": "Marlon Wayans",
-   "venue": "Houston Improv",
-   "start": "2026-10-18T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/marlon-wayans-houston-improv-tickets/14949953?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/a/649/fc0c18a2-de9c-4378-9212-c7fa46e7e649_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The (secret) Secret Show",
-   "venue": "The Secret Group",
-   "start": "2026-10-18T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-secret-secret-show-tickets-2002396042466",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182517711%2F3558237521%2F1%2Foriginal.20260419-192309?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496&fp-y=0.084&s=38875a457b3e05d59039994d2036bf25",
-   "extra": true
-  },
-  {
-   "title": "OUR MIC IS YOUR MIC: EMO KARAOKE",
-   "venue": "The Secret Group",
-   "start": "2026-10-18T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/our-mic-is-your-mic-emo-karaoke-tickets-2002396095625",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185159669%2F3558237521%2F1%2Foriginal.20260521-185756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.18&fp-y=0.371&s=0a79681b1aa31004793d61c345514448",
-   "extra": true
-  },
-  {
-   "title": "COMEDY DOJO: Sunday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-18T23:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/comedy-dojo-sunday-open-mic-comedy-tickets-2002396097631",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1115718973%2F3558237521%2F1%2Foriginal.20250905-193245?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00494449513382&fp-y=0.000114052620379&s=0f529a013e78c8698eaa252e8a8b4795",
-   "extra": true
-  },
   {
    "title": "Sarper G\u00fcven",
    "venue": "Punch Line Houston",
@@ -1912,12 +1860,12 @@
    "img": "https://s1.ticketm.net/dam/a/e19/4ff116ef-1748-417c-85ec-e9559ebc1e19_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
-   "title": "The GenX Comedy Takeover Tour",
+   "title": "GenX Takeover Comedy Tour",
    "venue": "House of Blues Houston",
    "start": "2026-11-22T20:00:00",
    "price": null,
-   "url": "https://www.ticketmaster.com/the-genx-comedy-takeover-tour-houston-texas-11-22-2026/event/3A006487110AD10F",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+   "url": "https://www.ticketmaster.com/genx-takeover-comedy-tour-houston-texas-11-22-2026/event/3A006487110AD10F",
+   "img": "https://s1.ticketm.net/dam/a/549/2ad9d929-1561-4315-ab85-25c4691c5549_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Leanna Firestone",
@@ -2001,6 +1949,15 @@
    "img": "https://s1.ticketm.net/dam/a/2a8/a0820ae5-7051-4f46-99d4-8cdc1a85e2a8_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "The Suffers with special guest Hasaan Olu",
+   "venue": "The Secret Group - Showroom Concert",
+   "start": "2026-11-28T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-suffers-with-special-guest-hasaan-olu-tickets-2003537155566",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195988635%2F3558237521%2F1%2Foriginal.20261017-030016?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=bf27622b4d1144376b12bee5b207782c",
+   "extra": true
+  },
+  {
    "title": "Ron Taylor",
    "venue": "Punch Line Houston",
    "start": "2026-11-28T21:15:00",
@@ -2039,6 +1996,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/michael-blackson-houston-improv-tickets/14950053?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/2d8/9d31340e-beb9-4944-b62f-707ff186d2d8_765891_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Kanes and Komedy",
+   "venue": "Houston Improv",
+   "start": "2026-12-01T20:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/kanes-and-komedy-houston-improv-tickets/14391324?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Boyacoman",
@@ -2765,6 +2730,14 @@
    "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Anthony Jeselnik: Wrath of Man",
+   "venue": "Bayou Music Center",
+   "start": "2027-01-30T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/anthony-jeselnik-wrath-of-man-houston-texas-01-30-2027/event/3A00654D02911ED0",
+   "img": "https://s1.ticketm.net/dam/a/70c/b1cd8654-1d03-464a-9d82-eec4adf7270c_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Emily Catalano",
    "venue": "Punch Line Houston",
    "start": "2027-01-30T21:15:00",
@@ -3393,6 +3366,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/nimesh-patel-houston-improv-tickets/14335254?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Paul Smith: HAPPY",
+   "venue": "Punch Line Houston",
+   "start": "2027-10-04T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/paul-smith-happy-houston-texas-10-04-2027/event/3A00654CBA13A9C8",
+   "img": "https://s1.ticketm.net/dam/a/c33/a418a3ec-9722-43d2-b4f1-df451fc1bc33_TABLET_LANDSCAPE_16_9.jpg"
   }
  ]
 }

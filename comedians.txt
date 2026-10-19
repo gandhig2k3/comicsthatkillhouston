@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Chaunte Wayans
-The Last Laugh with James Vogt & Trip Truman
-Marlon Wayans
-The (secret) Secret Show
-OUR MIC IS YOUR MIC: EMO KARAOKE
-COMEDY DOJO: Sunday Open Mic Comedy
 Sarper Güven
 MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
@@ -39,7 +33,11 @@ CHARLIE BERENS THE LOST AND FOUND TOUR
 DIAL UP: 90s & Y2K Dance Party!
 SPEEDBALL: Saturday Open Mic Comedy
 Yohay Sponder: Genesis
+The Last Laugh with James Vogt & Trip Truman
 Sorry Ghost
+The (secret) Secret Show
+OUR MIC IS YOUR MIC: EMO KARAOKE
+COMEDY DOJO: Sunday Open Mic Comedy
 Abby Govindan
 Daniel Sloss: BITTER  (Brand New Tour!)
 Dovi Neuburger
@@ -100,14 +98,16 @@ Brett Goldstein: Sex, Death & Small Talk
 Stoned vs Drunk vs Sober
 Cactus Tate
 Whose Live Anyway?
-The GenX Comedy Takeover Tour
+GenX Takeover Comedy Tour
 Leanna Firestone
 Ali Siddiq Presents: the Jive Turkeys
 Lotto Marie & Friends
 Ron Taylor
 Michael Blackson
+The Suffers with special guest Hasaan Olu
 
 # ----- December 2026 -----
+Kanes and Komedy
 Boyacoman
 Keropi Sánchez: Remastered (En Español)
 Dale Elliott Jr.
@@ -157,6 +157,7 @@ Harland Williams
 Sammy Obeid
 Salty Mom Comedy Tour
 Emily Catalano
+Anthony Jeselnik: Wrath of Man
 Isiah Kelly
 Jimmy O. Yang Has No Friends Tour
 
@@ -203,3 +204,6 @@ Deric Cahill
 
 # ----- June 2027 -----
 Nimesh Patel
+
+# ----- October 2027 -----
+Paul Smith: HAPPY
