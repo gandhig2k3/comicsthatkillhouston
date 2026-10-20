@@ -2,11 +2,8 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Sarper Güven
-MONDAY NIGHT COMEDY!
-The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
-NIGHT COURT: Monday Open Mic Comedy
 FOOS GONE WILD: The FOOS GONE WILD Tour 2026
+Sarper Güven
 FOR THE CULTURE: A Tuesday Comedy Show for The Culture
 C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
 PASS THE MIC: Tuesday Open Mic Comedy
@@ -39,6 +36,9 @@ The (secret) Secret Show
 OUR MIC IS YOUR MIC: EMO KARAOKE
 COMEDY DOJO: Sunday Open Mic Comedy
 Abby Govindan
+MONDAY NIGHT COMEDY!
+The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
+NIGHT COURT: Monday Open Mic Comedy
 Daniel Sloss: BITTER  (Brand New Tour!)
 Dovi Neuburger
 Group Therapy: Session 2
@@ -183,6 +183,7 @@ Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 9PM SHOW
 Will Burkart
 Margaret Cho
 Damon Darling
+Eric Andre: Subtle
 JOSH JOHNSON'S COMEDY BAND CAMP
 Ben Palmer
 Ben Bankas: On Thin Ice

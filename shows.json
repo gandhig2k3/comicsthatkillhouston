@@ -1,41 +1,6 @@
 {
- "updated": "2026-10-20T01:37:33Z",
+ "updated": "2026-10-20T15:30:10Z",
  "shows": [
-  {
-   "title": "Sarper G\u00fcven",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-19T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/sarper-guven-houston-texas-10-19-2026/event/3A006531CFF93698",
-   "img": "https://s1.ticketm.net/dam/a/ed9/fb31b4e7-480d-445a-989f-ea2980289ed9_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "MONDAY NIGHT COMEDY!",
-   "venue": "The Secret Group",
-   "start": "2026-10-19T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/monday-night-comedy-tickets-2002396128724",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1084977123%2F3558237521%2F1%2Foriginal.20250730-234417?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=78dcb3dc8d37991932ef9b60f388ad4e",
-   "extra": true
-  },
-  {
-   "title": "The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones",
-   "venue": "The Secret Group",
-   "start": "2026-10-19T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-passing-lane-with-andrew-youngblood-will-loden-blake-jones-tickets-2002396130730",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175278655%2F3558237521%2F1%2Foriginal.20260119-212007?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.72&s=023d5bb3c7d562512814fde470c962ca",
-   "extra": true
-  },
-  {
-   "title": "NIGHT COURT: Monday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-19T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/night-court-monday-open-mic-comedy-tickets-2002396131733",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176335183%2F3558237521%2F1%2Foriginal.20260131-175517?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=1b25cb5025ea96f52a36bfb08f6a3ba4",
-   "extra": true
-  },
   {
    "title": "FOOS GONE WILD: The FOOS GONE WILD Tour 2026",
    "venue": "House of Blues Houston",
@@ -3022,6 +2987,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/damon-darling-houston-improv-tickets/14339954?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Eric Andre: Subtle",
+   "venue": "Bayou Music Center",
+   "start": "2027-03-11T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/eric-andre-subtle-houston-texas-03-11-2027/event/3A00654DFD23EAD6",
+   "img": "https://s1.ticketm.net/dam/a/ffa/a276360f-8da4-4a28-9259-ca85de485ffa_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
