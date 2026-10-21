@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-20T15:30:10Z",
+ "updated": "2026-10-21T01:22:15Z",
  "shows": [
   {
    "title": "FOOS GONE WILD: The FOOS GONE WILD Tour 2026",
@@ -2101,6 +2101,15 @@
    "img": "https://s1.ticketm.net/dam/a/565/5eb4dc18-f424-44b1-9f03-8bdc560f5565_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "A Skylit Drive",
+   "venue": "The Secret Group",
+   "start": "2026-12-06T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/a-skylit-drive-tickets-2003687743980",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196236354%2F3558237521%2F1%2Foriginal.20261020-231400?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.491&fp-y=0.213&s=acbb98dc7f1e0ffa816803f8ddfbd443",
+   "extra": true
+  },
+  {
    "title": "Bruce Bruce",
    "venue": "Houston Improv",
    "start": "2026-12-06T19:30:00",
@@ -2994,7 +3003,7 @@
    "start": "2027-03-11T19:00:00",
    "price": null,
    "url": "https://www.ticketmaster.com/eric-andre-subtle-houston-texas-03-11-2027/event/3A00654DFD23EAD6",
-   "img": "https://s1.ticketm.net/dam/a/ffa/a276360f-8da4-4a28-9259-ca85de485ffa_TABLET_LANDSCAPE_16_9.jpg"
+   "img": "https://s1.ticketm.net/dam/a/220/c71cc7a8-1cc2-43f5-8f31-3e8496eba220_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "JOSH JOHNSON'S COMEDY BAND CAMP",
