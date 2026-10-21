@@ -2,11 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-FOOS GONE WILD: The FOOS GONE WILD Tour 2026
-Sarper Güven
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Standoperos: La TóMbola
 Joanne McNally: Pinotphile
 $2 BILL Two Dollar Comedy Show every Wednesday!
@@ -42,6 +37,9 @@ NIGHT COURT: Monday Open Mic Comedy
 Daniel Sloss: BITTER  (Brand New Tour!)
 Dovi Neuburger
 Group Therapy: Session 2
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Dave Chappelle Karmageddon
 Marito Lopez
 Kinky Wednesdays
@@ -134,16 +132,19 @@ Grief Sucks: A One Man Show By KevOnStage
 DeRay Davis
 Gabby Bryan
 DENNY LOVE: SHOW LOVE TOUR
+The Medium Spicy Show
 LeMaire Lee
 Usama Siddiquee
 Michelle Collins
 Tre Tutson & Friends
 ISMO: Live!
 Steve Hofstetter
+Andy Huggins
 
 # ----- January 2027 -----
 Tony Roberts
 Brooks Wheelan
+Joselito DaPuppet
 Chris D'Elia
 Don McMillan 2.0: Now Powered By Ai
 Anthony Mrocka
@@ -154,6 +155,7 @@ Female Dads Tour
 Aaron Chen - Technology
 Yurie Collins
 The Get Up & Hustle Tour
+Jamie Wolf
 ZOLTAN KASZAS: ROAD WARRIOR TOUR
 Harland Williams
 Sammy Obeid
@@ -171,6 +173,8 @@ never easy: I Still Care 2027 American Tour
 Madds Buckley
 Maddy Smith Presents: Bad Genes Tour
 Kristin Key
+Pat McGann
+Chris Porter
 Marcus D. Wiley
 Brad Williams: The Big & Small Tour
 Iliza Shlesinger: Free Nights & Weekends
