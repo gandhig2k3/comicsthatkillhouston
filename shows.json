@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-22T15:45:12Z",
+ "updated": "2026-10-23T01:18:22Z",
  "shows": [
   {
    "title": "Eva Evans",
@@ -163,6 +163,15 @@
    "price": null,
    "url": "https://www.ticketmaster.com/pauly-shore-houston-texas-10-24-2026/event/3A0064D43A29F0F6",
    "img": "https://s1.ticketm.net/dam/a/457/694b5962-fb12-449a-96ba-e0e6162e0457_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "The Best of the Secret Group RATED R Comedy Showcase 11pm",
+   "venue": "The Secret Group",
+   "start": "2026-10-24T23:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-rated-r-comedy-showcase-11pm-tickets-2003799964635",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196411197%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=73a61c0a8b28f913fb5da4478024bc3c",
+   "extra": true
   },
   {
    "title": "SPEEDBALL: Saturday Open Mic Comedy",
@@ -890,14 +899,6 @@
    "url": "https://www.eventbrite.com/e/speedball-saturday-open-mic-comedy-tickets-2002396678368",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1065628803%2F3558237521%2F1%2Foriginal.20250703-001512?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=5e-05&fp-y=5e-05&s=9af924437ae752a6d1171b824250859d",
    "extra": true
-  },
-  {
-   "title": "David Koechner",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-08T16:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/david-koechner-houston-texas-11-08-2026/event/3A0064EDA4066D70",
-   "img": "https://s1.ticketm.net/dam/a/8df/9d160212-5230-4272-9339-151d817658df_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "David Koechner",
