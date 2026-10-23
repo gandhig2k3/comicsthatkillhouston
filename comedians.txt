@@ -2,11 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Eva Evans
-Josh Gondelman
-The Best of TSG Headliner Series - Ben Daniel
-Karaoke every THURSDAY!
-BACK OF THE BUS: Thursday Open Mic Comedy
 Pauly Shore
 Cortisa Star - For All The Dolls Tour
 The Best of the Secret Group Comedy Showcase 8pm
@@ -45,6 +40,8 @@ WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Giulio Gallarotti: Live In Houston
 D'Lai
 The Best of TSG Headliner Series - Netra Netra Netra
+Karaoke every THURSDAY!
+BACK OF THE BUS: Thursday Open Mic Comedy
 Steve Byrne
 The Best of the Secret Group Comedy Showcase 7pm
 Ha Ha Halloween Showcase
