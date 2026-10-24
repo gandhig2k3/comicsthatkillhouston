@@ -1,67 +1,6 @@
 {
- "updated": "2026-10-24T01:24:02Z",
+ "updated": "2026-10-24T14:11:18Z",
  "shows": [
-  {
-   "title": "Pauly Shore",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-23T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/pauly-shore-houston-texas-10-23-2026/event/3A0064D43A10F097",
-   "img": "https://s1.ticketm.net/dam/a/457/694b5962-fb12-449a-96ba-e0e6162e0457_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Cortisa Star - For All The Dolls Tour",
-   "venue": "The Secret Group",
-   "start": "2026-10-23T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/cortisa-star-for-all-the-dolls-tour-tickets-1999222901516",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192236176%2F3558237521%2F1%2Foriginal.20260830-203506?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.46&fp-y=0.06&s=409ec43b9665fba56290238779791805",
-   "extra": true
-  },
-  {
-   "title": "The Best of the Secret Group Comedy Showcase 8pm",
-   "venue": "The Secret Group",
-   "start": "2026-10-23T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-8pm-tickets-2002396395522",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194475151%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=78dda47daee5b384a8670d6bc2b48c48",
-   "extra": true
-  },
-  {
-   "title": "NOTHING MATTERS Emo | Indie | Punk Dance Party",
-   "venue": "The Secret Group",
-   "start": "2026-10-23T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/nothing-matters-emo-indie-punk-dance-party-tickets-2002396237048",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F929405653%2F2186820483043%2F1%2Foriginal.20250107-103040?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7dfcaef91c6c31a2f6a7f5f45e1905cf",
-   "extra": true
-  },
-  {
-   "title": "Pauly Shore",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-23T21:15:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/pauly-shore-houston-texas-10-23-2026/event/3A0064D43A18F0A9",
-   "img": "https://s1.ticketm.net/dam/a/457/694b5962-fb12-449a-96ba-e0e6162e0457_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Best of the Secret Group Comedy Showcase 10pm",
-   "venue": "The Secret Group",
-   "start": "2026-10-23T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-10pm-tickets-2002396240057",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194474816%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=c6998b695c42421af127f080f1e06def",
-   "extra": true
-  },
-  {
-   "title": "The Late Night Dirty Show: X Rated Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-23T23:59:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-late-night-dirty-show-x-rated-comedy-tickets-2002396241060",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F923781843%2F2186820483043%2F1%2Foriginal.20241227-161803?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0871212121212&fp-y=0.526119402985&s=66f1d3c85d23998ec8f05413d2356532",
-   "extra": true
-  },
   {
    "title": "Seth Meyers: Live",
    "venue": "Bayou Music Center",
