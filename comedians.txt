@@ -2,14 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Seth Meyers: Live
-Pauly Shore
-Like Roses
-KirbLaGoop & WiFiGawd
-CHARLIE BERENS THE LOST AND FOUND TOUR
-DIAL UP: 90s & Y2K Dance Party!
-The Best of the Secret Group RATED R Comedy Showcase 11pm
-SPEEDBALL: Saturday Open Mic Comedy
 Yohay Sponder: Genesis
 The Last Laugh with James Vogt & Trip Truman
 Sorry Ghost
@@ -45,6 +37,9 @@ The Late Night Dirty Show: X Rated Comedy
 The Best of the Secret Group Comedy Showcase 7pm
 Ha Ha Halloween Showcase
 The Best of the Secret Group Comedy Showcase 9pm
+DIAL UP: 90s & Y2K Dance Party!
+The Best of the Secret Group RATED R Comedy Showcase 11pm
+SPEEDBALL: Saturday Open Mic Comedy
 
 # ----- November 2026 -----
 Pandji
