@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Yohay Sponder: Genesis
-The Last Laugh with James Vogt & Trip Truman
-Sorry Ghost
-The (secret) Secret Show
-OUR MIC IS YOUR MIC: EMO KARAOKE
-COMEDY DOJO: Sunday Open Mic Comedy
 Abby Govindan
 MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
@@ -43,6 +37,10 @@ SPEEDBALL: Saturday Open Mic Comedy
 
 # ----- November 2026 -----
 Pandji
+The Last Laugh with James Vogt & Trip Truman
+The (secret) Secret Show
+OUR MIC IS YOUR MIC: EMO KARAOKE
+COMEDY DOJO: Sunday Open Mic Comedy
 Oct (On Company Time)
 Wax
 Alonzo Bodden
@@ -162,6 +160,7 @@ Ruby Setnik
 never easy: I Still Care 2027 American Tour
 Madds Buckley
 Maddy Smith Presents: Bad Genes Tour
+Brincos Dieras
 Kristin Key
 Pat McGann
 Chris Porter
