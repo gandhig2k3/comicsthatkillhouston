@@ -2,10 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Abby Govindan
-MONDAY NIGHT COMEDY!
-The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
-NIGHT COURT: Monday Open Mic Comedy
 Daniel Sloss: BITTER  (Brand New Tour!)
 Dovi Neuburger
 Group Therapy: Session 2
@@ -41,6 +37,9 @@ The Last Laugh with James Vogt & Trip Truman
 The (secret) Secret Show
 OUR MIC IS YOUR MIC: EMO KARAOKE
 COMEDY DOJO: Sunday Open Mic Comedy
+MONDAY NIGHT COMEDY!
+The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
+NIGHT COURT: Monday Open Mic Comedy
 Oct (On Company Time)
 Wax
 Alonzo Bodden
@@ -165,6 +164,7 @@ Kristin Key
 Pat McGann
 Chris Porter
 Marcus D. Wiley
+David Cross - Fake Joy
 Brad Williams: The Big & Small Tour
 Iliza Shlesinger: Free Nights & Weekends
 Vir Das: I say we RUN!

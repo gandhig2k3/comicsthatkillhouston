@@ -1,42 +1,6 @@
 {
- "updated": "2026-10-27T01:51:22Z",
+ "updated": "2026-10-27T16:07:51Z",
  "shows": [
-  {
-   "title": "Abby Govindan",
-   "venue": "The Secret Group",
-   "start": "2026-10-26T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/abby-govindan-tickets-1996727920962",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1088890053%2F3558237521%2F1%2Foriginal.20250805-184307?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.479166666667&fp-y=0.267507002801&s=58cd21c273510a3093ab58e08006bf21",
-   "extra": true
-  },
-  {
-   "title": "MONDAY NIGHT COMEDY!",
-   "venue": "The Secret Group",
-   "start": "2026-10-26T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/monday-night-comedy-tickets-2002396285192",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1084977123%2F3558237521%2F1%2Foriginal.20250730-234417?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=78dcb3dc8d37991932ef9b60f388ad4e",
-   "extra": true
-  },
-  {
-   "title": "The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones",
-   "venue": "The Secret Group",
-   "start": "2026-10-26T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-passing-lane-with-andrew-youngblood-will-loden-blake-jones-tickets-2002396331330",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175278655%2F3558237521%2F1%2Foriginal.20260119-212007?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.72&s=023d5bb3c7d562512814fde470c962ca",
-   "extra": true
-  },
-  {
-   "title": "NIGHT COURT: Monday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-26T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/night-court-monday-open-mic-comedy-tickets-2002396385492",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176335183%2F3558237521%2F1%2Foriginal.20260131-175517?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=1b25cb5025ea96f52a36bfb08f6a3ba4",
-   "extra": true
-  },
   {
    "title": "Daniel Sloss: BITTER  (Brand New Tour!)",
    "venue": "Bayou Music Center",
@@ -2817,6 +2781,14 @@
    "price": null,
    "url": "https://www.ticketmaster.com/chris-porter-houston-texas-02-12-2027/event/3A0065525136B270",
    "img": "https://s1.ticketm.net/dam/a/9f4/b94c81b4-351b-42f8-8944-53e4507b59f4_1426411_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "David Cross - Fake Joy",
+   "venue": "White Oak Music Hall - Downstairs",
+   "start": "2027-02-12T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/david-cross-fake-joy-houston-texas-02-12-2027/event/3A00655ADE132526",
+   "img": "https://s1.ticketm.net/dam/a/5ae/2418e6e7-712b-4099-906c-8f527e8c65ae_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Brad Williams: The Big & Small Tour",
