@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Daniel Sloss: BITTER  (Brand New Tour!)
-Dovi Neuburger
-Group Therapy: Session 2
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Dave Chappelle Karmageddon
 Marito Lopez
 Kinky Wednesdays
@@ -40,6 +34,9 @@ COMEDY DOJO: Sunday Open Mic Comedy
 MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
 NIGHT COURT: Monday Open Mic Comedy
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Oct (On Company Time)
 Wax
 Alonzo Bodden
@@ -67,6 +64,7 @@ Davide De Pierro
 Distant: Into Despair US Tour
 Halocene
 Heroes Off Duty
+Comedy Allstars
 Josh Blue
 Phil Hanley
 The Best of TSG Headliner Series - Steve Cantwell
@@ -93,7 +91,6 @@ Kanes and Komedy
 Boyacoman
 Keropi Sánchez: Remastered (En Español)
 Dale Elliott Jr.
-Elizabeth Brunot
 The Best of TSG Headliner Series - Raambo2funny
 Michael Yo
 Bruce Bruce
@@ -108,7 +105,6 @@ Nasser Al-Rayess
 Keith Alberstadt
 Chris Redd
 Teenage Bottle Rocket
-Comedy Allstars
 Filthy Pop-Up Show
 T. Murph
 Chloe Radcliffe
@@ -132,12 +128,14 @@ Joselito DaPuppet
 Chris D'Elia
 Don McMillan 2.0: Now Powered By Ai
 Anthony Mrocka
+Will Loden & Friends
 Brian Bates
 Erin Cholakian
 Janeane Garofalo
 Female Dads Tour
 Aaron Chen - Technology
 Yurie Collins
+Los Tíos Comedy Tour headlined by Flo Hernandez
 The Get Up & Hustle Tour
 Jamie Wolf
 ZOLTAN KASZAS: ROAD WARRIOR TOUR
@@ -187,6 +185,7 @@ Jeff Allen: My Second'final' Farewell Tour
 Shapel Lacey
 Michael Kosta: Big Dad Energy
 Casey Rocket
+Elizabeth Brunot
 Ashley Gavin
 
 # ----- May 2027 -----

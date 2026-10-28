@@ -1,57 +1,6 @@
 {
- "updated": "2026-10-28T02:03:22Z",
+ "updated": "2026-10-28T16:55:04Z",
  "shows": [
-  {
-   "title": "Daniel Sloss: BITTER  (Brand New Tour!)",
-   "venue": "Bayou Music Center",
-   "start": "2026-10-27T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/daniel-sloss-bitter-brand-new-tour-houston-texas-10-27-2026/event/3A00644497F17AB4",
-   "img": "https://s1.ticketm.net/dam/a/cfa/e476394e-b2ce-4a11-8230-879e15686cfa_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Dovi Neuburger",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-27T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/dovi-neuburger-houston-texas-10-27-2026/event/3A0064ED9F81667F",
-   "img": "https://s1.ticketm.net/dam/a/d22/47417614-2ccb-471a-ad17-02a270a79d22_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Group Therapy: Session 2",
-   "venue": "Houston Improv",
-   "start": "2026-10-27T20:00:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/group-therapy-session-2-houston-improv-tickets/15032193?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
-   "venue": "The Secret Group",
-   "start": "2026-10-27T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2002396390507",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
-   "extra": true
-  },
-  {
-   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-10-27T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2002396447678",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194475271%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c77735084dcb2af73545711a8ac42f4b",
-   "extra": true
-  },
-  {
-   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-27T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2002396502843",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194475386%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=5e4c6ce60a20616a30b8f802fb1d2744",
-   "extra": true
-  },
   {
    "title": "Dave Chappelle Karmageddon",
    "venue": "Toyota Center",
@@ -1167,6 +1116,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Comedy Allstars",
+   "venue": "Punch Line Houston",
+   "start": "2026-11-18T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/comedy-allstars-houston-texas-11-18-2026/event/3A00655AA3668230",
+   "img": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "$2 BILL Two Dollar Comedy Show every Wednesday!",
    "venue": "The Secret Group",
    "start": "2026-11-18T20:00:00",
@@ -1840,14 +1797,6 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
-   "title": "Elizabeth Brunot",
-   "venue": "Punch Line Houston",
-   "start": "2026-12-03T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/elizabeth-brunot-houston-texas-12-03-2026/event/3A00652EB0D9AB84",
-   "img": "https://s1.ticketm.net/dam/a/015/175803bf-dcd6-4da9-b9eb-dc65bd661015_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
    "title": "The Best of TSG Headliner Series - Raambo2funny",
    "venue": "The Secret Group",
    "start": "2026-12-03T20:00:00",
@@ -2397,6 +2346,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Will Loden & Friends",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-13T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/will-loden-friends-houston-texas-01-13-2027/event/3A00655A9C8F7454",
+   "img": "https://s1.ticketm.net/dam/a/1af/85237ebf-97cf-464b-89c9-0d02b2c001af_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Brian Bates",
    "venue": "Houston Improv",
    "start": "2027-01-14T19:30:00",
@@ -2459,6 +2416,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/yurie-collins-houston-improv-tickets/14372684?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Los T\u00edos Comedy Tour headlined by Flo Hernandez",
+   "venue": "Punch Line Houston",
+   "start": "2027-01-20T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/los-tios-comedy-tour-headlined-by-houston-texas-01-20-2027/event/3A00655A9DE17777",
+   "img": "https://s1.ticketm.net/dam/a/3b3/e88c06d4-816c-45b4-aeae-e7b72931a3b3_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "The Get Up & Hustle Tour",
@@ -3113,6 +3078,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/casey-rocket-houston-improv-tickets/14331514?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Elizabeth Brunot",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-18T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/elizabeth-brunot-houston-texas-04-18-2027/event/3A00652EB0D9AB84",
+   "img": "https://s1.ticketm.net/dam/a/015/175803bf-dcd6-4da9-b9eb-dc65bd661015_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ashley Gavin",
