@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T16:55:04Z",
+ "updated": "2026-10-29T02:12:01Z",
  "shows": [
   {
    "title": "Dave Chappelle Karmageddon",
@@ -1014,7 +1014,7 @@
    "venue": "Houston Improv",
    "start": "2026-11-15T21:45:00",
    "price": null,
-   "url": "https://www.ticketweb.com/event/corey-holcomb-houston-improv-tickets/14847583?REFERRAL_ID=tmfeed",
+   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFba",
    "img": "https://s1.ticketm.net/dam/a/168/ad8a409d-f583-4333-896e-c605ce02c168_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
@@ -1797,6 +1797,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Comedy Allstars",
+   "venue": "Punch Line Houston",
+   "start": "2026-12-03T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/comedy-allstars-houston-texas-12-03-2026/event/3A00655CACCF8D39",
+   "img": "https://s1.ticketm.net/dam/a/204/1cf0a6ef-fc13-449d-a78a-210f4ddbd204_1486961_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "The Best of TSG Headliner Series - Raambo2funny",
    "venue": "The Secret Group",
    "start": "2026-12-03T20:00:00",
@@ -2330,11 +2338,11 @@
    "img": "https://s1.ticketm.net/dam/a/4ec/f4c30093-f419-47e7-8a43-74290435d4ec_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
-   "title": "Don McMillan 2.0: Now Powered By Ai",
+   "title": "Don McMillan: the Venn Master",
    "venue": "Houston Improv",
    "start": "2027-01-12T19:30:00",
    "price": null,
-   "url": "https://www.ticketweb.com/event/don-mcmillan-20-now-powered-houston-improv-tickets/14846803?REFERRAL_ID=tmfeed",
+   "url": "https://www.ticketweb.com/event/don-mcmillan-the-venn-master-houston-improv-tickets/14846803?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
