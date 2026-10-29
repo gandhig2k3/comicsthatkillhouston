@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- October 2026 -----
-Dave Chappelle Karmageddon
-Marito Lopez
-Kinky Wednesdays
-$2 BILL Two Dollar Comedy Show every Wednesday!
-Master Debaters
-WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Giulio Gallarotti: Live In Houston
 D'Lai
 The Best of TSG Headliner Series - Netra Netra Netra
@@ -37,6 +31,9 @@ NIGHT COURT: Monday Open Mic Comedy
 FOR THE CULTURE: A Tuesday Comedy Show for The Culture
 C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
 PASS THE MIC: Tuesday Open Mic Comedy
+$2 BILL Two Dollar Comedy Show every Wednesday!
+Master Debaters
+WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Oct (On Company Time)
 Wax
 Alonzo Bodden
@@ -185,6 +182,7 @@ Jeff Allen: My Second'final' Farewell Tour
 Shapel Lacey
 Michael Kosta: Big Dad Energy
 Casey Rocket
+The Teacher's Lounge
 Elizabeth Brunot
 Ashley Gavin
 

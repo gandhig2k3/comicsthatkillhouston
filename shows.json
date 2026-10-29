@@ -1,58 +1,6 @@
 {
- "updated": "2026-10-29T02:12:01Z",
+ "updated": "2026-10-29T17:13:04Z",
  "shows": [
-  {
-   "title": "Dave Chappelle Karmageddon",
-   "venue": "Toyota Center",
-   "start": "2026-10-28T19:30:00",
-   "price": null,
-   "url": "https://www.toyotacenter.com/events/detail/dave-chappelle-2026",
-   "img": "https://s1.ticketm.net/dam/a/e69/931eff58-62a7-4240-adb3-cf67a084ee69_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Marito Lopez",
-   "venue": "Punch Line Houston",
-   "start": "2026-10-28T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/marito-lopez-houston-texas-10-28-2026/event/3A0064E6ADBF7463",
-   "img": "https://s1.ticketm.net/dam/a/fef/845bcb26-dc72-46ef-952e-98acdb418fef_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Kinky Wednesdays",
-   "venue": "The Secret Group",
-   "start": "2026-10-28T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-1999296198750",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
-   "extra": true
-  },
-  {
-   "title": "$2 BILL Two Dollar Comedy Show every Wednesday!",
-   "venue": "The Secret Group",
-   "start": "2026-10-28T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/2-bill-two-dollar-comedy-show-every-wednesday-tickets-2002396510867",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192637134%2F3558237521%2F1%2Foriginal.20260903-234123?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.113&fp-y=0.474&s=8fcbe277bae4eb9f7c7bd8d6e2555488",
-   "extra": true
-  },
-  {
-   "title": "Master Debaters",
-   "venue": "The Secret Group",
-   "start": "2026-10-28T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/master-debaters-tickets-2002396451690",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186105427%2F3558237521%2F1%2Foriginal.20260603-215732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.459&fp-y=0.062&s=407a0319bd1ae4b2bdaf6f5ca6173ebd",
-   "extra": true
-  },
-  {
-   "title": "WITCHY WEDNESDAYS: Wednesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-10-28T23:59:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/witchy-wednesdays-wednesday-open-mic-comedy-tickets-2002396515882",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1116853183%2F3558237521%2F1%2Foriginal.20250907-205756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494449513382&fp-y=0.0152963126216&s=433d5d01aafb873c52d5f84bdb2bf590",
-   "extra": true
-  },
   {
    "title": "Giulio Gallarotti: Live In Houston",
    "venue": "Houston Improv",
@@ -3085,6 +3033,14 @@
    "start": "2027-04-17T21:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/casey-rocket-houston-improv-tickets/14331514?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "The Teacher's Lounge",
+   "venue": "Houston Improv",
+   "start": "2027-04-18T14:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/the-teachers-lounge-houston-improv-tickets/14408874?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
