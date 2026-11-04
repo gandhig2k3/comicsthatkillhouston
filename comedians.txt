@@ -2,9 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 $2 BILL Two Dollar Comedy Show every Wednesday!
 Master Debaters
 WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
@@ -28,6 +25,7 @@ The Best of the Secret Group Comedy Showcase 9pm
 The Best of the Secret Group RATED R Comedy Showcase 11pm
 SPEEDBALL: Saturday Open Mic Comedy
 David Koechner
+Comedy Allstars
 The Last Laugh with James Vogt & Trip Truman
 Adrian Uribe: 50 y Pico Tour
 The (secret) Secret Show
@@ -38,6 +36,9 @@ MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
 NIGHT COURT: Monday Open Mic Comedy
 Post Animal: Maybe You Have To Tour
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Kev Adams
 Bad Parenting Comedy Tour
 Ellen Skrmetti
@@ -53,7 +54,6 @@ Davide De Pierro
 Distant: Into Despair US Tour
 Halocene
 Heroes Off Duty
-Comedy Allstars
 Josh Blue
 Phil Hanley
 The Best of TSG Headliner Series - Steve Cantwell
@@ -104,6 +104,7 @@ DENNY LOVE: SHOW LOVE TOUR
 The Medium Spicy Show
 LeMaire Lee
 Usama Siddiquee
+Ha Ha Holiday Allstars
 Michelle Collins
 Tre Tutson & Friends
 ISMO: Live!
@@ -175,6 +176,7 @@ April Fools Comedy Show
 Jeff Allen: My Second'final' Farewell Tour
 Shapel Lacey
 Michael Kosta: Big Dad Energy
+Kunal Kamra (Language: Hindi)
 Casey Rocket
 The Teacher's Lounge
 Elizabeth Brunot
