@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T18:20:49Z",
+ "updated": "2026-11-05T03:16:24Z",
  "shows": [
   {
    "title": "$2 BILL Two Dollar Comedy Show every Wednesday!",
@@ -816,6 +816,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/2-bill-two-dollar-comedy-show-every-wednesday-tickets-2003573094059",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192637134%2F3558237521%2F1%2Foriginal.20260903-234123?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.113&fp-y=0.474&s=8fcbe277bae4eb9f7c7bd8d6e2555488",
+   "extra": true
+  },
+  {
+   "title": "Kareem \"Plug\" Chapman",
+   "venue": "The Secret Group",
+   "start": "2026-11-18T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/kareem-plug-chapman-tickets-2004393093700",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197295001%2F3558237521%2F1%2Foriginal.20261104-205646?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=b7975b2269b4da1a22be3cec488b7c53",
    "extra": true
   },
   {
