@@ -2,9 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-$2 BILL Two Dollar Comedy Show every Wednesday!
-Master Debaters
-WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Oct (On Company Time)
 Wax
 Alonzo Bodden
@@ -41,6 +38,9 @@ C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
 PASS THE MIC: Tuesday Open Mic Comedy
 Kev Adams
 Bad Parenting Comedy Tour
+$2 BILL Two Dollar Comedy Show every Wednesday!
+Master Debaters
+WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Ellen Skrmetti
 Clint Coley
 Chrissy Chlapecka
