@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T18:24:22Z",
+ "updated": "2026-11-06T03:15:56Z",
  "shows": [
   {
    "title": "Oct (On Company Time)",
@@ -755,15 +755,6 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2003573072996",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196049512%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=0569f4d10128bbb4fd600511f7df2a18",
-   "extra": true
-  },
-  {
-   "title": "Halocene",
-   "venue": "The Secret Group",
-   "start": "2026-11-18T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/halocene-tickets-1999224501301",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192238626%2F3558237521%2F1%2Foriginal.20260830-212846?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.48&fp-y=0.033&s=9b14db0522d5f4bfeee888af3b1cc06b",
    "extra": true
   },
   {
@@ -2374,6 +2365,15 @@
    "img": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Cliff Cash - FRI. 8PM SHOW",
+   "venue": "The Secret Group",
+   "start": "2027-01-22T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/cliff-cash-fri-8pm-show-tickets-2004449676942",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197382480%2F3558237521%2F1%2Foriginal.20261105-212331?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=e6e3025b33174adab2b481a2c8435dd6",
+   "extra": true
+  },
+  {
    "title": "Harland Williams",
    "venue": "Punch Line Houston",
    "start": "2027-01-22T21:15:00",
@@ -2404,6 +2404,15 @@
    "price": null,
    "url": "https://www.ticketmaster.com/harland-williams-houston-texas-01-23-2027/event/3A00653CB171B7EC",
    "img": "https://s1.ticketm.net/dam/a/520/b928a572-dbf2-43f3-b1a0-b73330456520_1020271_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Cliff Cash - SAT. 7PM SHOW",
+   "venue": "The Secret Group",
+   "start": "2027-01-23T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/cliff-cash-sat-7pm-show-tickets-2004449680954",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197382480%2F3558237521%2F1%2Foriginal.20261105-212331?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=e6e3025b33174adab2b481a2c8435dd6",
+   "extra": true
   },
   {
    "title": "ZOLTAN KASZAS: ROAD WARRIOR TOUR",
