@@ -1,58 +1,6 @@
 {
- "updated": "2026-11-06T03:15:56Z",
+ "updated": "2026-11-06T17:45:34Z",
  "shows": [
-  {
-   "title": "Oct (On Company Time)",
-   "venue": "White Oak Music Hall - Upstairs",
-   "start": "2026-11-05T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/oct-on-company-time-houston-texas-11-05-2026/event/3A00648FAD319154",
-   "img": "https://s1.ticketm.net/dam/a/621/a9f98ca6-c0d7-4b5f-9cd7-80491d143621_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Wax",
-   "venue": "The Secret Group",
-   "start": "2026-11-05T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/wax-tickets-1993626974949",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1188565056%2F3558237521%2F1%2Foriginal.20260709-195129?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.48&fp-y=0.089&s=737a638503c7bfd9ee757630fd4eed2e",
-   "extra": true
-  },
-  {
-   "title": "Alonzo Bodden",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-05T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/alonzo-bodden-houston-texas-11-05-2026/event/3A0064EDA2476A9E",
-   "img": "https://s1.ticketm.net/dam/a/ad7/5d9195ef-4e6d-4757-bb42-48500f56dad7_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Best of TSG Headliner Series - Danny Guerrero",
-   "venue": "The Secret Group",
-   "start": "2026-11-05T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-best-of-tsg-headliner-series-danny-guerrero-tickets-2002926126963",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176743871%2F3558237521%2F1%2Foriginal.20260205-024409?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=2c4bf2a47a0ea1986ca14a261ac7a02d",
-   "extra": true
-  },
-  {
-   "title": "Karaoke every THURSDAY!",
-   "venue": "The Secret Group",
-   "start": "2026-11-05T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/karaoke-every-thursday-tickets-2002396700434",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F668595149%2F284483032458%2F1%2Foriginal.20240105-215425?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=3c2826ab32f7a8b047026736982e11bc",
-   "extra": true
-  },
-  {
-   "title": "BACK OF THE BUS: Thursday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-05T21:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/back-of-the-bus-thursday-open-mic-comedy-tickets-2002397207952",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1194477150%2F65406453537%2F1%2Foriginal.20210519-142609?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=a535730585fa955e821d8ecd8b04f516",
-   "extra": true
-  },
   {
    "title": "Alonzo Bodden",
    "venue": "Punch Line Houston",
