@@ -2,14 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-David Koechner
-Comedy Allstars
-The Last Laugh with James Vogt & Trip Truman
-Desi Banks
-Adrian Uribe: 50 y Pico Tour
-The (secret) Secret Show
-OUR MIC IS YOUR MIC: EMO KARAOKE
-COMEDY DOJO: Sunday Open Mic Comedy
 Comeback Kid
 MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
@@ -43,9 +35,14 @@ The Best of the Secret Group RATED R Comedy Showcase 11pm
 SPEEDBALL: Saturday Open Mic Comedy
 Watch What Crappens: In The Mix Tour
 Keith Pedro: Job Your Love Tour
+The Last Laugh with James Vogt & Trip Truman
 Davide De Pierro
+The (secret) Secret Show
+OUR MIC IS YOUR MIC: EMO KARAOKE
+COMEDY DOJO: Sunday Open Mic Comedy
 Distant: Into Despair US Tour
 Heroes Off Duty
+Comedy Allstars
 Kareem "Plug" Chapman
 Josh Blue
 Phil Hanley
@@ -183,6 +180,7 @@ Matthew Broussard
 Jason Cheny
 Ian Bagg
 Deric Cahill
+Carrot Top LIVE
 
 # ----- June 2027 -----
 Nimesh Patel
