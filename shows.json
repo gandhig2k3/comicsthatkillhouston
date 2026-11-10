@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T21:13:20Z",
+ "updated": "2026-11-10T04:30:16Z",
  "shows": [
   {
    "title": "Comeback Kid",
@@ -175,6 +175,15 @@
    "price": null,
    "url": "https://www.ticketmaster.com/christopher-titus-doomed-to-repeat-houston-texas-11-13-2026/event/3A0064E6AD6473C5",
    "img": "https://s1.ticketm.net/dam/a/c08/441cbaa3-6959-425b-ad68-f249f10d9c08_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "AJJ",
+   "venue": "The Secret Group",
+   "start": "2026-11-13T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/ajj-tickets-2004618413638",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197636055%2F3558237521%2F1%2Foriginal.20261109-223645?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1512%2C1080&s=fc99b79d601e085836f73d3fa1235aae",
+   "extra": true
   },
   {
    "title": "Corey Holcomb",
@@ -1317,6 +1326,15 @@
    "price": null,
    "url": "https://www.ticketmaster.com/michael-yo-houston-texas-12-04-2026/event/3A00650AB86894DD",
    "img": "https://s1.ticketm.net/dam/a/730/0089dec7-eae1-4324-81bf-9f50edde7730_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "93FEETOFSMOKE x Fats'e",
+   "venue": "The Secret Group",
+   "start": "2026-12-04T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/93feetofsmoke-x-fatse-tickets-2004618414641",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197635996%2F3558237521%2F1%2Foriginal.20261109-223558?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1080%2C1080&s=083ec4a0c34a61cb78a71942ba3acafd",
+   "extra": true
   },
   {
    "title": "Bruce Bruce",
