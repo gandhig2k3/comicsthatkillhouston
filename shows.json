@@ -1,42 +1,6 @@
 {
- "updated": "2026-11-11T02:34:32Z",
+ "updated": "2026-11-11T18:14:36Z",
  "shows": [
-  {
-   "title": "Post Animal: Maybe You Have To Tour",
-   "venue": "The Secret Group",
-   "start": "2026-11-10T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/post-animal-maybe-you-have-to-tour-tickets-1999224299698",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192238219%2F3558237521%2F1%2Foriginal.20260830-211828?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.503&fp-y=0.299&s=384f0ed3e18651789663bde207b2db6e",
-   "extra": true
-  },
-  {
-   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
-   "venue": "The Secret Group",
-   "start": "2026-11-10T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2002925279428",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
-   "extra": true
-  },
-  {
-   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-11-10T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2002925285446",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195043242%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=2639459ae70947c840cda9df26f743ba",
-   "extra": true
-  },
-  {
-   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-10T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2002925294473",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195043264%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=e12d8c7c31d0bd4a0e094a853d16c392",
-   "extra": true
-  },
   {
    "title": "Kev Adams",
    "venue": "Houston Improv",
@@ -249,6 +213,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-7pm-tickets-2002925472004",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195043645%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=854abaf924c8b9b3419f695ecd54f51d",
+   "extra": true
+  },
+  {
+   "title": "B6",
+   "venue": "The Secret Group",
+   "start": "2026-11-14T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/b6-tickets-2004718627380",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1197776267%2F3558237521%2F1%2Foriginal.20261111-161658?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C1880%2C940&s=5810352302d3d8ba9d7569ff8b4bd6ad",
    "extra": true
   },
   {
@@ -2570,6 +2543,14 @@
    "img": "https://s1.ticketm.net/dam/a/092/713c1ed6-7c08-486a-9e12-8ccdc3165092_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Dale Jones",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-07T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/dale-jones-houston-texas-02-07-2027/event/3A006569BDFE9567",
+   "img": "https://s1.ticketm.net/dam/a/86b/cd4bcf11-b18c-4b3d-8ed2-991a6d5fb86b_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Pat McGann",
    "venue": "Punch Line Houston",
    "start": "2027-02-10T19:30:00",
@@ -2710,6 +2691,38 @@
    "extra": true
   },
   {
+   "title": "Denny Love",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-26T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-26-2027/event/3A00656AC7AC55DA",
+   "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Denny Love",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-26T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-26-2027/event/3A00656AC7B055E8",
+   "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Denny Love",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-27T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-27-2027/event/3A00656AC7BE5619",
+   "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Denny Love",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-27T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-27-2027/event/3A00656AC7C3562C",
+   "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Will Burkart",
    "venue": "Houston Improv",
    "start": "2027-03-04T19:30:00",
@@ -2756,6 +2769,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/margaret-cho-houston-improv-tickets/14331244?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/881/853bc405-3922-4368-bed0-127532b30881_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Stephan Dyer (En Espa\u00f1ol)",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-07T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/stephan-dyer-en-espanol-houston-texas-03-07-2027/event/3A006569C2EE9D82",
+   "img": "https://s1.ticketm.net/dam/a/398/d5909984-497f-4e4e-8df8-c082d4713398_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Margaret Cho",

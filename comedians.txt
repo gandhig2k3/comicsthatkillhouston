@@ -2,10 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Post Animal: Maybe You Have To Tour
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Kev Adams
 Bad Parenting Comedy Tour
 $2 BILL Two Dollar Comedy Show every Wednesday!
@@ -27,6 +23,7 @@ The Best of the Secret Group Comedy Showcase 10pm
 The Late Night Dirty Show: X Rated Comedy
 Leanne Morgan
 The Best of the Secret Group Comedy Showcase 7pm
+B6
 DIAL UP: 90s & Y2K Dance Party!
 The Best of the Secret Group Comedy Showcase 9pm
 The Best of the Secret Group RATED R Comedy Showcase 11pm
@@ -42,6 +39,9 @@ MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
 NIGHT COURT: Monday Open Mic Comedy
 Distant: Into Despair US Tour
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Heroes Off Duty
 Comedy Allstars
 Kareem "Plug" Chapman
@@ -142,6 +142,7 @@ Madds Buckley
 Maddy Smith Presents: Bad Genes Tour
 Brincos Dieras
 Kristin Key
+Dale Jones
 Pat McGann
 Chris Porter
 Marcus D. Wiley
@@ -153,10 +154,12 @@ Joe List (Comedy Central, Last Comic Standing, Netflix) - THU. 8PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - FRI. 8PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 7PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 9PM SHOW
+Denny Love
 
 # ----- March 2027 -----
 Will Burkart
 Margaret Cho
+Stephan Dyer (En Español)
 Damon Darling
 Eric Andre: Subtle
 JOSH JOHNSON'S COMEDY BAND CAMP
