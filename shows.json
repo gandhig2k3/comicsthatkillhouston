@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T18:23:15Z",
+ "updated": "2026-11-11T02:34:32Z",
  "shows": [
   {
    "title": "Post Animal: Maybe You Have To Tour",
@@ -60,6 +60,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/2-bill-two-dollar-comedy-show-every-wednesday-tickets-2002925305506",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192637134%2F3558237521%2F1%2Foriginal.20260903-234123?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.113&fp-y=0.474&s=8fcbe277bae4eb9f7c7bd8d6e2555488",
+   "extra": true
+  },
+  {
+   "title": "Kinky Wednesdays",
+   "venue": "The Secret Group",
+   "start": "2026-11-11T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-2004689485215",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
    "extra": true
   },
   {
@@ -878,6 +887,15 @@
    "extra": true
   },
   {
+   "title": "Kinky Wednesdays",
+   "venue": "The Secret Group",
+   "start": "2026-11-25T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-2004689494242",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
+   "extra": true
+  },
+  {
    "title": "Ali Siddiq Presents: the Jive Turkeys",
    "venue": "Houston Improv",
    "start": "2026-11-25T21:45:00",
@@ -1603,6 +1621,15 @@
    "extra": true
   },
   {
+   "title": "Kinky Wednesdays",
+   "venue": "The Secret Group",
+   "start": "2026-12-09T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-2004689502266",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
+   "extra": true
+  },
+  {
    "title": "Master Debaters",
    "venue": "The Secret Group",
    "start": "2026-12-09T22:00:00",
@@ -1795,7 +1822,7 @@
   {
    "title": "T. Murph",
    "venue": "Houston Improv",
-   "start": "2026-12-13T19:30:00",
+   "start": "2026-12-13T20:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/t-murph-houston-improv-tickets/14910383?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
@@ -1927,6 +1954,15 @@
    "price": null,
    "url": "https://www.ticketmaster.com/lemaire-lee-houston-texas-12-23-2026/event/3A00651FC275FA9F",
    "img": "https://s1.ticketm.net/dam/a/f2f/44e51e76-cdfc-43d2-a33d-18f648b58f2f_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Kinky Wednesdays",
+   "venue": "The Secret Group",
+   "start": "2026-12-23T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-2004689504272",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
+   "extra": true
   },
   {
    "title": "Usama Siddiquee",
@@ -3098,12 +3134,36 @@
    "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Sommore The Chandelier Experience\u201d",
+   "venue": "Houston Improv",
+   "start": "2027-05-21T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/sommore-the-chandelier-experience-houston-improv-tickets/14438064?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/222/fb91c43c-97c0-4ed6-99b8-9e9493a2b222_1299251_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Deric Cahill",
    "venue": "Punch Line Houston",
    "start": "2027-05-21T21:15:00",
    "price": null,
    "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-21-2027/event/3A00654B4CF95C57",
    "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sommore The Chandelier Experience\u201d",
+   "venue": "Houston Improv",
+   "start": "2027-05-21T21:45:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/sommore-the-chandelier-experience-houston-improv-tickets/14438074?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/222/fb91c43c-97c0-4ed6-99b8-9e9493a2b222_1299251_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sommore The Chandelier Experience\u201d",
+   "venue": "Houston Improv",
+   "start": "2027-05-22T19:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/sommore-the-chandelier-experience-houston-improv-tickets/14438084?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/222/fb91c43c-97c0-4ed6-99b8-9e9493a2b222_1299251_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Carrot Top LIVE",
@@ -3128,6 +3188,22 @@
    "price": null,
    "url": "https://www.ticketmaster.com/deric-cahill-houston-texas-05-22-2027/event/3A00654B4D095C8A",
    "img": "https://s1.ticketm.net/dam/a/506/fecd1258-01a6-4d5f-8e90-b6f6f4144506_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sommore The Chandelier Experience\u201d",
+   "venue": "Houston Improv",
+   "start": "2027-05-22T21:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/sommore-the-chandelier-experience-houston-improv-tickets/14438094?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/222/fb91c43c-97c0-4ed6-99b8-9e9493a2b222_1299251_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sommore The Chandelier Experience\u201d",
+   "venue": "Houston Improv",
+   "start": "2027-05-23T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/sommore-the-chandelier-experience-houston-improv-tickets/14438104?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/222/fb91c43c-97c0-4ed6-99b8-9e9493a2b222_1299251_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Nimesh Patel",
