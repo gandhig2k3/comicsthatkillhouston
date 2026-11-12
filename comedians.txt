@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Kev Adams
-Bad Parenting Comedy Tour
-$2 BILL Two Dollar Comedy Show every Wednesday!
-Kinky Wednesdays
-Master Debaters
-WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Ellen Skrmetti
 Clint Coley
 Chrissy Chlapecka
@@ -44,7 +38,10 @@ C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
 PASS THE MIC: Tuesday Open Mic Comedy
 Heroes Off Duty
 Comedy Allstars
+$2 BILL Two Dollar Comedy Show every Wednesday!
 Kareem "Plug" Chapman
+Master Debaters
+WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Josh Blue
 Phil Hanley
 The Best of TSG Headliner Series - Steve Cantwell
@@ -82,6 +79,7 @@ A Skylit Drive
 Jokes & Justice
 Ola Dada
 Liz Faublas-Wallace
+Kinky Wednesdays
 Nasser Al-Rayess
 Keith Alberstadt
 Chris Redd
@@ -142,7 +140,6 @@ Madds Buckley
 Maddy Smith Presents: Bad Genes Tour
 Brincos Dieras
 Kristin Key
-Dale Jones
 Pat McGann
 Chris Porter
 Marcus D. Wiley

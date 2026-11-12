@@ -1,58 +1,6 @@
 {
- "updated": "2026-11-12T03:39:02Z",
+ "updated": "2026-11-12T18:39:41Z",
  "shows": [
-  {
-   "title": "Kev Adams",
-   "venue": "Houston Improv",
-   "start": "2026-11-11T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/kev-adams-houston-improv-tickets/14277964?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Bad Parenting Comedy Tour",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-11T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/bad-parenting-comedy-tour-houston-texas-11-11-2026/event/3A0065369AADCCB3",
-   "img": "https://s1.ticketm.net/dam/e/b86/3d62a214-9e00-49c0-8b4d-5ffbf2496b86_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "$2 BILL Two Dollar Comedy Show every Wednesday!",
-   "venue": "The Secret Group",
-   "start": "2026-11-11T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/2-bill-two-dollar-comedy-show-every-wednesday-tickets-2002925305506",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192637134%2F3558237521%2F1%2Foriginal.20260903-234123?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.113&fp-y=0.474&s=8fcbe277bae4eb9f7c7bd8d6e2555488",
-   "extra": true
-  },
-  {
-   "title": "Kinky Wednesdays",
-   "venue": "The Secret Group",
-   "start": "2026-11-11T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/kinky-wednesdays-tickets-2004689485215",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1193704512%2F3558237521%2F1%2Foriginal.20260916-231130?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.482&fp-y=0.038&s=6d2eab31826a0486825bb475a5052ace",
-   "extra": true
-  },
-  {
-   "title": "Master Debaters",
-   "venue": "The Secret Group",
-   "start": "2026-11-11T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/master-debaters-tickets-2002925324563",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186105427%2F3558237521%2F1%2Foriginal.20260603-215732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.459&fp-y=0.062&s=407a0319bd1ae4b2bdaf6f5ca6173ebd",
-   "extra": true
-  },
-  {
-   "title": "WITCHY WEDNESDAYS: Wednesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-11T23:59:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/witchy-wednesdays-wednesday-open-mic-comedy-tickets-2002925423860",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1116853183%2F3558237521%2F1%2Foriginal.20250907-205756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494449513382&fp-y=0.0152963126216&s=433d5d01aafb873c52d5f84bdb2bf590",
-   "extra": true
-  },
   {
    "title": "Ellen Skrmetti",
    "venue": "Houston Improv",
@@ -2532,14 +2480,6 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/kristin-key-houston-improv-tickets/15033493?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/092/713c1ed6-7c08-486a-9e12-8ccdc3165092_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Dale Jones",
-   "venue": "Punch Line Houston",
-   "start": "2027-02-07T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/dale-jones-houston-texas-02-07-2027/event/3A006569BDFE9567",
-   "img": "https://s1.ticketm.net/dam/a/86b/cd4bcf11-b18c-4b3d-8ed2-991a6d5fb86b_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Pat McGann",
