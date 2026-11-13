@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Ellen Skrmetti
-Clint Coley
-Chrissy Chlapecka
-The Best of TSG Headliner Series - Tess Vergult
-Karaoke every THURSDAY!
-BACK OF THE BUS: Thursday Open Mic Comedy
 Christopher Titus: Doomed To Repeat
 AJJ
 Corey Holcomb
@@ -45,6 +39,8 @@ WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Josh Blue
 Phil Hanley
 The Best of TSG Headliner Series - Steve Cantwell
+Karaoke every THURSDAY!
+BACK OF THE BUS: Thursday Open Mic Comedy
 CHRIS FLEMING LIVE
 Santi Espinosa - ME Time (English/Spanish Show)
 Nick Cannon Presents: Wild 'N Out Live - The Next Generation
@@ -151,6 +147,7 @@ Joe List (Comedy Central, Last Comic Standing, Netflix) - THU. 8PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - FRI. 8PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 7PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 9PM SHOW
+John Achkar
 Denny Love
 
 # ----- March 2027 -----

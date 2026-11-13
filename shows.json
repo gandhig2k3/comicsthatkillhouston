@@ -1,58 +1,6 @@
 {
- "updated": "2026-11-13T03:13:47Z",
+ "updated": "2026-11-13T18:18:41Z",
  "shows": [
-  {
-   "title": "Ellen Skrmetti",
-   "venue": "Houston Improv",
-   "start": "2026-11-12T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/ellen-skrmetti-houston-improv-tickets/15024353?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Clint Coley",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-12T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/clint-coley-houston-texas-11-12-2026/event/3A0064F335EF12DC",
-   "img": "https://s1.ticketm.net/dam/a/84d/6f42b922-5aa3-4667-bee0-ae827060884d_1659781_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Chrissy Chlapecka",
-   "venue": "The Secret Group",
-   "start": "2026-11-12T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/chrissy-chlapecka-tickets-1999224556466",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192238708%2F3558237521%2F1%2Foriginal.20260830-213118?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.501&fp-y=0.046&s=d74a0d1eb196f55d48039eecc0307080",
-   "extra": true
-  },
-  {
-   "title": "The Best of TSG Headliner Series - Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-11-12T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-best-of-tsg-headliner-series-tess-vergult-tickets-2002926131978",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176743871%2F3558237521%2F1%2Foriginal.20260205-024409?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=2c4bf2a47a0ea1986ca14a261ac7a02d",
-   "extra": true
-  },
-  {
-   "title": "Karaoke every THURSDAY!",
-   "venue": "The Secret Group",
-   "start": "2026-11-12T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/karaoke-every-thursday-tickets-2002925450941",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F668595149%2F284483032458%2F1%2Foriginal.20240105-215425?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=3c2826ab32f7a8b047026736982e11bc",
-   "extra": true
-  },
-  {
-   "title": "BACK OF THE BUS: Thursday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-12T21:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/back-of-the-bus-thursday-open-mic-comedy-tickets-2002925455956",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1195043601%2F65406453537%2F1%2Foriginal.20210519-142609?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=c9b941a13b7e964f2e981e7d8177bf92",
-   "extra": true
-  },
   {
    "title": "Christopher Titus: Doomed To Repeat",
    "venue": "Punch Line Houston",
@@ -2620,6 +2568,14 @@
    "url": "https://www.eventbrite.com/e/joe-list-comedy-central-last-comic-standing-netflix-sat-9pm-show-tickets-1989618874613",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F842908899%2F68532713233%2F1%2Foriginal.20240905-194312?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.67803030303&fp-y=0.366171003717&s=e38b745cf4109d1c4c9e1f745f2faba6",
    "extra": true
+  },
+  {
+   "title": "John Achkar",
+   "venue": "Houston Improv",
+   "start": "2027-02-21T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/john-achkar-houston-improv-tickets/14302574?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Denny Love",
