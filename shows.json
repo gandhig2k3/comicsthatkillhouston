@@ -1,82 +1,6 @@
 {
- "updated": "2026-11-16T02:36:10Z",
+ "updated": "2026-11-16T20:45:01Z",
  "shows": [
-  {
-   "title": "Watch What Crappens: In The Mix Tour",
-   "venue": "House of Blues Houston",
-   "start": "2026-11-15T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/watch-what-crappens-in-the-mix-houston-texas-11-15-2026/event/3A006524D89C2CB0",
-   "img": "https://s1.ticketm.net/dam/a/1a2/a898401a-c235-4c2d-8f32-a25d73d371a2_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Keith Pedro: Job Your Love Tour",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-15T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/keith-pedro-job-your-love-tour-houston-texas-11-15-2026/event/3A00650AB9A4971E",
-   "img": "https://s1.ticketm.net/dam/a/826/063ae51c-88bb-4023-b529-8028419f8826_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Last Laugh with James Vogt & Trip Truman",
-   "venue": "The Secret Group",
-   "start": "2026-11-15T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-last-laugh-with-james-vogt-trip-truman-tickets-2003571984741",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191459227%2F3558237521%2F1%2Foriginal.20260819-201134?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.042&s=6e681acd6ad5ee32665e569caa2a2b50",
-   "extra": true
-  },
-  {
-   "title": "Corey Holcomb",
-   "venue": "Houston Improv",
-   "start": "2026-11-15T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/corey-holcomb-houston-improv-tickets/14847563?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/a/168/ad8a409d-f583-4333-896e-c605ce02c168_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Davide De Pierro",
-   "venue": "Zilkha Hall at the Hobby Center",
-   "start": "2026-11-15T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/davide-de-pierro-houston-texas-11-15-2026/event/3A00647FB83EDF3A",
-   "img": "https://s1.ticketm.net/dam/a/119/6be0af86-1e4c-42a4-8273-a17aea993119_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The (secret) Secret Show",
-   "venue": "The Secret Group",
-   "start": "2026-11-15T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-secret-secret-show-tickets-2003572042915",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182517711%2F3558237521%2F1%2Foriginal.20260419-192309?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496&fp-y=0.084&s=38875a457b3e05d59039994d2036bf25",
-   "extra": true
-  },
-  {
-   "title": "Corey Holcomb",
-   "venue": "Houston Improv",
-   "start": "2026-11-15T21:45:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1A7xFba",
-   "img": "https://s1.ticketm.net/dam/a/168/ad8a409d-f583-4333-896e-c605ce02c168_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "OUR MIC IS YOUR MIC: EMO KARAOKE",
-   "venue": "The Secret Group",
-   "start": "2026-11-15T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/our-mic-is-your-mic-emo-karaoke-tickets-2003572068993",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185159669%2F3558237521%2F1%2Foriginal.20260521-185756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.18&fp-y=0.371&s=0a79681b1aa31004793d61c345514448",
-   "extra": true
-  },
-  {
-   "title": "COMEDY DOJO: Sunday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-15T23:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/comedy-dojo-sunday-open-mic-comedy-tickets-2003572128170",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1115718973%2F3558237521%2F1%2Foriginal.20250905-193245?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00494449513382&fp-y=0.000114052620379&s=0f529a013e78c8698eaa252e8a8b4795",
-   "extra": true
-  },
   {
    "title": "MONDAY NIGHT COMEDY!",
    "venue": "The Secret Group",
@@ -1509,6 +1433,15 @@
    "img": "https://s1.ticketm.net/dam/a/694/2b909bdc-f113-4ea4-b2c9-7ea10d4e1694_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "The Last Laugh with James Vogt & Trip Truman",
+   "venue": "The Secret Group",
+   "start": "2026-12-13T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-last-laugh-with-james-vogt-trip-truman-tickets-2004877522640",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1191459227%2F3558237521%2F1%2Foriginal.20260819-201134?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.492&fp-y=0.042&s=6e681acd6ad5ee32665e569caa2a2b50",
+   "extra": true
+  },
+  {
    "title": "T. Murph",
    "venue": "Houston Improv",
    "start": "2026-12-13T20:30:00",
@@ -1517,12 +1450,120 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "The (secret) Secret Show",
+   "venue": "The Secret Group",
+   "start": "2026-12-13T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-secret-secret-show-tickets-2004877526652",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1182517711%2F3558237521%2F1%2Foriginal.20260419-192309?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.496&fp-y=0.084&s=38875a457b3e05d59039994d2036bf25",
+   "extra": true
+  },
+  {
+   "title": "OUR MIC IS YOUR MIC: EMO KARAOKE",
+   "venue": "The Secret Group",
+   "start": "2026-12-13T22:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/our-mic-is-your-mic-emo-karaoke-tickets-2004877542700",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1185159669%2F3558237521%2F1%2Foriginal.20260521-185756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.18&fp-y=0.371&s=0a79681b1aa31004793d61c345514448",
+   "extra": true
+  },
+  {
+   "title": "COMEDY DOJO: Sunday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-13T23:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/comedy-dojo-sunday-open-mic-comedy-tickets-2004877547715",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1115718973%2F3558237521%2F1%2Foriginal.20250905-193245?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.00494449513382&fp-y=0.000114052620379&s=0f529a013e78c8698eaa252e8a8b4795",
+   "extra": true
+  },
+  {
+   "title": "MONDAY NIGHT COMEDY!",
+   "venue": "The Secret Group",
+   "start": "2026-12-14T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/monday-night-comedy-tickets-2004877554736",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1084977123%2F3558237521%2F1%2Foriginal.20250730-234417?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.005&fp-y=0.005&s=78dcb3dc8d37991932ef9b60f388ad4e",
+   "extra": true
+  },
+  {
+   "title": "The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones",
+   "venue": "The Secret Group",
+   "start": "2026-12-14T22:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-passing-lane-with-andrew-youngblood-will-loden-blake-jones-tickets-2004877571787",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1175278655%2F3558237521%2F1%2Foriginal.20260119-212007?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.498&fp-y=0.72&s=023d5bb3c7d562512814fde470c962ca",
+   "extra": true
+  },
+  {
+   "title": "NIGHT COURT: Monday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-14T23:30:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/night-court-monday-open-mic-comedy-tickets-2004877763360",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176335183%2F3558237521%2F1%2Foriginal.20260131-175517?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=1b25cb5025ea96f52a36bfb08f6a3ba4",
+   "extra": true
+  },
+  {
+   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
+   "venue": "The Secret Group",
+   "start": "2026-12-15T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2004877824543",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
+   "extra": true
+  },
+  {
+   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
+   "venue": "The Secret Group",
+   "start": "2026-12-15T22:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2004877833570",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052151%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=c97b83c92c142fd745860720d71a7697",
+   "extra": true
+  },
+  {
+   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-15T23:30:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2004877838585",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052183%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=2084a2afbcf0e6c379270851a63aa836",
+   "extra": true
+  },
+  {
    "title": "Chloe Radcliffe",
    "venue": "Punch Line Houston",
    "start": "2026-12-16T19:30:00",
    "price": null,
    "url": "https://www.ticketmaster.com/chloe-radcliffe-houston-texas-12-16-2026/event/3A0065369C3DD8EB",
    "img": "https://s1.ticketm.net/dam/a/bd6/7b2d83dc-9e22-4262-b8f7-a27eec2fbbd6_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "$2 BILL Two Dollar Comedy Show every Wednesday!",
+   "venue": "The Secret Group",
+   "start": "2026-12-16T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/2-bill-two-dollar-comedy-show-every-wednesday-tickets-2004877850621",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192637134%2F3558237521%2F1%2Foriginal.20260903-234123?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.113&fp-y=0.474&s=8fcbe277bae4eb9f7c7bd8d6e2555488",
+   "extra": true
+  },
+  {
+   "title": "Master Debaters",
+   "venue": "The Secret Group",
+   "start": "2026-12-16T22:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/master-debaters-tickets-2004877858645",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186105427%2F3558237521%2F1%2Foriginal.20260603-215732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.459&fp-y=0.062&s=407a0319bd1ae4b2bdaf6f5ca6173ebd",
+   "extra": true
+  },
+  {
+   "title": "WITCHY WEDNESDAYS: Wednesday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-16T23:59:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/witchy-wednesdays-wednesday-open-mic-comedy-tickets-2004877860651",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1116853183%2F3558237521%2F1%2Foriginal.20250907-205756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494449513382&fp-y=0.0152963126216&s=433d5d01aafb873c52d5f84bdb2bf590",
+   "extra": true
   },
   {
    "title": "Grief Sucks: A One Man Show By KevOnStage",
@@ -1549,6 +1590,24 @@
    "img": "https://s1.ticketm.net/dam/a/291/73be4736-73ad-4dd9-ab3f-c9f2c803e291_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Karaoke every THURSDAY!",
+   "venue": "The Secret Group",
+   "start": "2026-12-17T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/karaoke-every-thursday-tickets-2004877867672",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F668595149%2F284483032458%2F1%2Foriginal.20240105-215425?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=3c2826ab32f7a8b047026736982e11bc",
+   "extra": true
+  },
+  {
+   "title": "BACK OF THE BUS: Thursday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-17T21:30:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/back-of-the-bus-thursday-open-mic-comedy-tickets-2004878373184",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052298%2F65406453537%2F1%2Foriginal.20210519-142609?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=87a22e79d46499c7737c9541385568be",
+   "extra": true
+  },
+  {
    "title": "Gabby Bryan",
    "venue": "Punch Line Houston",
    "start": "2026-12-18T19:00:00",
@@ -1565,6 +1624,24 @@
    "img": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "The Best of the Secret Group Comedy Showcase 8pm",
+   "venue": "The Secret Group",
+   "start": "2026-12-18T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-8pm-tickets-2004878377196",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052327%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=73fab0c82f70507d093ec34fed277cf6",
+   "extra": true
+  },
+  {
+   "title": "NOTHING MATTERS Emo | Indie | Punk Dance Party",
+   "venue": "The Secret Group",
+   "start": "2026-12-18T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/nothing-matters-emo-indie-punk-dance-party-tickets-2004878395250",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F929405653%2F2186820483043%2F1%2Foriginal.20250107-103040?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=7dfcaef91c6c31a2f6a7f5f45e1905cf",
+   "extra": true
+  },
+  {
    "title": "Comedy Allstars",
    "venue": "Punch Line Houston",
    "start": "2026-12-18T21:30:00",
@@ -1579,6 +1656,24 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/deray-davis-houston-improv-tickets/14950183?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "The Best of the Secret Group Comedy Showcase 10pm",
+   "venue": "The Secret Group",
+   "start": "2026-12-18T22:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-10pm-tickets-2004878460445",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052387%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=e036ff16f77f1ba727478124d59dd1d9",
+   "extra": true
+  },
+  {
+   "title": "The Late Night Dirty Show: X Rated Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-18T23:59:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-late-night-dirty-show-x-rated-comedy-tickets-2004878465460",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F923781843%2F2186820483043%2F1%2Foriginal.20241227-161803?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.0871212121212&fp-y=0.526119402985&s=66f1d3c85d23998ec8f05413d2356532",
+   "extra": true
   },
   {
    "title": "DeRay Davis",
@@ -1605,6 +1700,33 @@
    "img": "https://s1.ticketm.net/dam/a/291/73be4736-73ad-4dd9-ab3f-c9f2c803e291_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "The Best of the Secret Group Comedy Showcase 7pm",
+   "venue": "The Secret Group",
+   "start": "2026-12-19T19:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-7pm-tickets-2004878662048",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052459%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=2f3b895ecc50efec7cef077c8b7feb6e",
+   "extra": true
+  },
+  {
+   "title": "DIAL UP: 90s & Y2K Dance Party!",
+   "venue": "The Secret Group",
+   "start": "2026-12-19T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/dial-up-90s-y2k-dance-party-tickets-2004878670072",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1098931313%2F3558237521%2F1%2Foriginal.20250818-210226?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=2aad4c109243c790d4592b1b2b555642",
+   "extra": true
+  },
+  {
+   "title": "The Best of the Secret Group Comedy Showcase 9pm",
+   "venue": "The Secret Group",
+   "start": "2026-12-19T21:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-comedy-showcase-9pm-tickets-2004878675087",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052546%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=2b98f3f440863ffce1f00bea9ab2f6e3",
+   "extra": true
+  },
+  {
    "title": "Gabby Bryan",
    "venue": "Punch Line Houston",
    "start": "2026-12-19T21:15:00",
@@ -1619,6 +1741,24 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/deray-davis-houston-improv-tickets/14950193?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/332/b7e2b245-267c-402a-a78f-c50f46a63332_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "The Best of the Secret Group RATED R Comedy Showcase 11pm",
+   "venue": "The Secret Group",
+   "start": "2026-12-19T23:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/the-best-of-the-secret-group-rated-r-comedy-showcase-11pm-tickets-2004878680102",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198052569%2F284483032458%2F1%2Foriginal.20230724-165709?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=95be31019ef24aa0dfcc4f07d7856d27",
+   "extra": true
+  },
+  {
+   "title": "SPEEDBALL: Saturday Open Mic Comedy",
+   "venue": "The Secret Group",
+   "start": "2026-12-19T23:59:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/speedball-saturday-open-mic-comedy-tickets-2004878687123",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1065628803%2F3558237521%2F1%2Foriginal.20250703-001512?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=5e-05&fp-y=5e-05&s=9af924437ae752a6d1171b824250859d",
+   "extra": true
   },
   {
    "title": "DeRay Davis",
@@ -2097,12 +2237,44 @@
    "img": "https://s1.ticketm.net/dam/e/498/32ecf986-0665-46ca-963f-34c0f8c9c498_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-28T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14299964?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Emily Catalano",
    "venue": "Punch Line Houston",
    "start": "2027-01-29T19:00:00",
    "price": null,
    "url": "https://www.ticketmaster.com/emily-catalano-houston-texas-01-29-2027/event/3A0065433E72FC9E",
    "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-29T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14300014?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-29T21:45:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14299974?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-30T19:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14300004?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Emily Catalano",
@@ -2129,12 +2301,28 @@
    "img": "https://s1.ticketm.net/dam/a/4bf/47ce3eb0-d387-4396-96f9-77eb5ec014bf_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-30T21:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14299984?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Isiah Kelly",
    "venue": "Punch Line Houston",
    "start": "2027-01-31T19:00:00",
    "price": null,
    "url": "https://www.ticketmaster.com/isiah-kelly-houston-texas-01-31-2027/event/3A0065433B68F91F",
    "img": "https://s1.ticketm.net/dam/a/102/a4ce44aa-92fb-421e-8fec-ca9bf98ca102_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Carlos Mencia",
+   "venue": "Houston Improv",
+   "start": "2027-01-31T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/carlos-mencia-houston-improv-tickets/14299994?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/71e/ae08fa89-c239-4b74-bb4d-4de73688871e_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Jimmy O. Yang Has No Friends Tour",
@@ -2167,6 +2355,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/des-bishop-grey-area-tour-houston-improv-tickets/14395794?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/274/ed7dc9a2-818a-47c2-bba4-24a3ca094274_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Reality Gays LIVE! w/ Mattie and Poodle!",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-04T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/reality-gays-live-w-mattie-and-houston-texas-02-04-2027/event/3A006569BD359492",
+   "img": "https://s1.ticketm.net/dam/a/dde/ddb65e84-e8ac-4aa2-9923-702b2ea3cdde_1577531_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ruby Setnik",
@@ -2399,11 +2595,11 @@
    "extra": true
   },
   {
-   "title": "John Achkar",
+   "title": "John Achkar New Show Feena Nehke?",
    "venue": "Houston Improv",
    "start": "2027-02-21T19:30:00",
    "price": null,
-   "url": "https://www.ticketweb.com/event/john-achkar-houston-improv-tickets/14302574?REFERRAL_ID=tmfeed",
+   "url": "https://www.ticketweb.com/event/john-achkar-new-show-feena-houston-improv-tickets/14302574?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
@@ -2437,6 +2633,14 @@
    "price": null,
    "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-27-2027/event/3A00656AC7C3562C",
    "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Eagle Witt",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-03T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/eagle-witt-houston-texas-03-03-2027/event/3A00656AC88458C6",
+   "img": "https://s1.ticketm.net/dam/a/86e/0663ce25-5787-4dc0-813b-b1e31445086e_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Will Burkart",
