@@ -1,42 +1,6 @@
 {
- "updated": "2026-11-18T04:03:25Z",
+ "updated": "2026-11-18T19:12:04Z",
  "shows": [
-  {
-   "title": "Distant: Into Despair US Tour",
-   "venue": "The Secret Group",
-   "start": "2026-11-17T19:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/distant-into-despair-us-tour-tickets-1999224452154",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1192238402%2F3558237521%2F1%2Foriginal.20260830-212252?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.511&fp-y=0.035&s=8308f34307710b4b04ace4f89246c284",
-   "extra": true
-  },
-  {
-   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
-   "venue": "The Secret Group",
-   "start": "2026-11-17T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2003572296674",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
-   "extra": true
-  },
-  {
-   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-11-17T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2003573046918",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196049380%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=a615f6218621ff41f7f305d7dd601f43",
-   "extra": true
-  },
-  {
-   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-17T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2003573072996",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196049512%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=0569f4d10128bbb4fd600511f7df2a18",
-   "extra": true
-  },
   {
    "title": "Heroes Off Duty",
    "venue": "Houston Improv",
@@ -2428,6 +2392,14 @@
    "img": "https://s1.ticketm.net/dam/a/092/713c1ed6-7c08-486a-9e12-8ccdc3165092_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Malik Elassal",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-07T18:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/malik-elassal-houston-texas-02-07-2027/event/3A00656E0DD4EE83",
+   "img": "https://s1.ticketm.net/dam/a/ccf/b8d3d6e1-722c-4fb4-ab6d-d474b3080ccf_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Pat McGann",
    "venue": "Punch Line Houston",
    "start": "2027-02-10T19:30:00",
@@ -2608,6 +2580,14 @@
    "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Kerwin Claiborne",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-28T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/kerwin-claiborne-houston-texas-02-28-2027/event/3A00656E119BFD3B",
+   "img": "https://s1.ticketm.net/dam/a/a1c/4d2bf71c-5d8f-4499-b40b-dc4ef55b8a1c_1837431_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Eagle Witt",
    "venue": "Punch Line Houston",
    "start": "2027-03-03T19:30:00",
@@ -2622,6 +2602,14 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/will-burkart-houston-improv-tickets/14342954?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/d8c/dce0b94c-719e-4edc-a958-d7edabd5ed8c_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Tatiana Frank",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-04T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/tatiana-frank-houston-texas-03-04-2027/event/3A006569C04C98DA",
+   "img": "https://s1.ticketm.net/dam/a/711/e6a1c754-bbfb-47e3-8b38-baaa2565e711_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Will Burkart",
@@ -2688,6 +2676,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Sam Orson",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-10T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/sam-orson-houston-texas-03-10-2027/event/3A00656F17C04337",
+   "img": "https://s1.ticketm.net/dam/a/068/16baecce-7222-4512-8b79-1b10b52ad068_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Eric Andre: Subtle",
    "venue": "Bayou Music Center",
    "start": "2027-03-11T20:00:00",
@@ -2750,6 +2746,46 @@
    "price": null,
    "url": "https://www.ticketmaster.com/ben-palmer-houston-texas-03-13-2027/event/3A00654B49EC595A",
    "img": "https://s1.ticketm.net/dam/a/e21/b3062972-f063-433d-b65f-ad8dd9a9ae21_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Sean Reilly & Friends",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-14T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/sean-reilly-friends-houston-texas-03-14-2027/event/3A00656F18BC4521",
+   "img": "https://s1.ticketm.net/dam/a/afb/bcfda8d7-bf0a-45c1-84cb-034dc7ab3afb_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Danny Jolles",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-18T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/danny-jolles-houston-texas-03-18-2027/event/3A00656F1C464AED",
+   "img": "https://s1.ticketm.net/dam/a/b47/98dd3d1c-b25c-4813-b654-bb89fae3bb47_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Danny Jolles",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-19T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/danny-jolles-houston-texas-03-19-2027/event/3A00656F1C4F4AF8",
+   "img": "https://s1.ticketm.net/dam/a/b47/98dd3d1c-b25c-4813-b654-bb89fae3bb47_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Danny Jolles",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-20T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/danny-jolles-houston-texas-03-20-2027/event/3A00656F1C574B07",
+   "img": "https://s1.ticketm.net/dam/a/b47/98dd3d1c-b25c-4813-b654-bb89fae3bb47_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Danny Jolles",
+   "venue": "Punch Line Houston",
+   "start": "2027-03-20T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/danny-jolles-houston-texas-03-20-2027/event/3A00656F1C5D4B11",
+   "img": "https://s1.ticketm.net/dam/a/b47/98dd3d1c-b25c-4813-b654-bb89fae3bb47_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ben Bankas: On Thin Ice",
@@ -2824,6 +2860,14 @@
    "img": "https://s1.ticketm.net/dam/a/38a/6414edf4-8d57-494e-be01-89f17518238a_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Dan Carney",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-04T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/dan-carney-houston-texas-04-04-2027/event/3A00656F1D884C96",
+   "img": "https://s1.ticketm.net/dam/a/a6b/7dac3db8-72e1-42ef-925f-93085a6a1a6b_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Shapel Lacey",
    "venue": "Houston Improv",
    "start": "2027-04-08T19:30:00",
@@ -2848,12 +2892,28 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Jiaoying Summers",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-16T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/jiaoying-summers-houston-texas-04-16-2027/event/3A00656F225151A9",
+   "img": "https://s1.ticketm.net/dam/a/79b/90cf58ba-8ad5-4548-acb8-a5e3a40dd79b_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Casey Rocket",
    "venue": "Houston Improv",
    "start": "2027-04-16T19:30:00",
    "price": null,
    "url": "https://www.ticketweb.com/event/casey-rocket-houston-improv-tickets/14331504?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Jiaoying Summers",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-16T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/jiaoying-summers-houston-texas-04-16-2027/event/3A00656F225651AB",
+   "img": "https://s1.ticketm.net/dam/a/79b/90cf58ba-8ad5-4548-acb8-a5e3a40dd79b_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Casey Rocket",
@@ -2870,6 +2930,22 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/casey-rocket-houston-improv-tickets/14331534?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Jiaoying Summers",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-17T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/jiaoying-summers-houston-texas-04-17-2027/event/3A00656F226351BC",
+   "img": "https://s1.ticketm.net/dam/a/79b/90cf58ba-8ad5-4548-acb8-a5e3a40dd79b_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Jiaoying Summers",
+   "venue": "Punch Line Houston",
+   "start": "2027-04-17T21:15:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/jiaoying-summers-houston-texas-04-17-2027/event/3A00656F226851BE",
+   "img": "https://s1.ticketm.net/dam/a/79b/90cf58ba-8ad5-4548-acb8-a5e3a40dd79b_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Casey Rocket",

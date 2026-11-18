@@ -2,10 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Distant: Into Despair US Tour
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Heroes Off Duty
 Comedy Allstars
 $2 BILL Two Dollar Comedy Show every Wednesday!
@@ -44,6 +40,9 @@ COMEDY DOJO: Sunday Open Mic Comedy
 MONDAY NIGHT COMEDY!
 The Passing Lane with Andrew Youngblood, Will Loden & Blake Jones
 NIGHT COURT: Monday Open Mic Comedy
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Leanna Firestone
 Ali Siddiq Presents: the Jive Turkeys
 Lotto Marie & Friends
@@ -130,6 +129,7 @@ Madds Buckley
 Maddy Smith Presents: Bad Genes Tour
 Brincos Dieras
 Kristin Key
+Malik Elassal
 Pat McGann
 Chris Porter
 Marcus D. Wiley
@@ -143,16 +143,21 @@ Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 7PM SHOW
 Joe List (Comedy Central, Last Comic Standing, Netflix) - SAT. 9PM SHOW
 John Achkar New Show: Feena Nehke? (In Arabic)
 Denny Love
+Kerwin Claiborne
 
 # ----- March 2027 -----
 Eagle Witt
 Will Burkart
+Tatiana Frank
 Margaret Cho
 Stephan Dyer (En Español)
 Damon Darling
+Sam Orson
 Eric Andre: Subtle
 JOSH JOHNSON'S COMEDY BAND CAMP
 Ben Palmer
+Sean Reilly & Friends
+Danny Jolles
 Ben Bankas: On Thin Ice
 Giggly Squad: The Gehls Gehl Tour
 
@@ -160,9 +165,11 @@ Giggly Squad: The Gehls Gehl Tour
 Luke Kidgell - Live In The USA
 April Fools Comedy Show
 Jeff Allen: My Second'final' Farewell Tour
+Dan Carney
 Shapel Lacey
 Michael Kosta: Big Dad Energy
 Kunal Kamra (Language: Hindi)
+Jiaoying Summers
 Casey Rocket
 The Teacher's Lounge
 Elizabeth Brunot
