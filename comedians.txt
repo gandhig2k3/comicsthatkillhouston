@@ -2,12 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Heroes Off Duty
-Comedy Allstars
-$2 BILL Two Dollar Comedy Show every Wednesday!
-Kareem "Plug" Chapman
-Master Debaters
-WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Josh Blue
 Phil Hanley
 The Best of TSG Headliner Series - Steve Cantwell
@@ -46,6 +40,9 @@ PASS THE MIC: Tuesday Open Mic Comedy
 Leanna Firestone
 Ali Siddiq Presents: the Jive Turkeys
 Lotto Marie & Friends
+$2 BILL Two Dollar Comedy Show every Wednesday!
+Master Debaters
+WITCHY WEDNESDAYS: Wednesday Open Mic Comedy
 Ron Taylor
 Michael Blackson
 The Suffers with special guest Hasaan Olu
@@ -55,6 +52,7 @@ Kanes and Komedy
 Boyacoman (En EspañOl)
 Keropi Sánchez: Remastered (En Español)
 Dale Elliott Jr.
+Comedy Allstars
 The Best of TSG Headliner Series - Raambo2funny
 Michael Yo
 93FEETOFSMOKE x Fats'e
