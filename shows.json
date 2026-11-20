@@ -1,49 +1,6 @@
 {
- "updated": "2026-11-20T03:53:21Z",
+ "updated": "2026-11-20T18:55:53Z",
  "shows": [
-  {
-   "title": "Josh Blue",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-19T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/josh-blue-houston-texas-11-19-2026/event/3A0064F908E72B37",
-   "img": "https://s1.ticketm.net/dam/a/1a5/1bb49469-9a04-4981-ab58-98c759b8e1a5_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Phil Hanley",
-   "venue": "Houston Improv",
-   "start": "2026-11-19T19:30:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/phil-hanley-houston-improv-tickets/14124864?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "The Best of TSG Headliner Series - Steve Cantwell",
-   "venue": "The Secret Group",
-   "start": "2026-11-19T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/the-best-of-tsg-headliner-series-steve-cantwell-tickets-2002926141005",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1176743871%2F3558237521%2F1%2Foriginal.20260205-024409?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=2c4bf2a47a0ea1986ca14a261ac7a02d",
-   "extra": true
-  },
-  {
-   "title": "Karaoke every THURSDAY!",
-   "venue": "The Secret Group",
-   "start": "2026-11-19T21:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/karaoke-every-thursday-tickets-2003573298671",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F668595149%2F284483032458%2F1%2Foriginal.20240105-215425?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&s=3c2826ab32f7a8b047026736982e11bc",
-   "extra": true
-  },
-  {
-   "title": "BACK OF THE BUS: Thursday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-19T21:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/back-of-the-bus-thursday-open-mic-comedy-tickets-2003573317728",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196049904%2F65406453537%2F1%2Foriginal.20210519-142609?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C3000%2C1500&s=cfae42d66e6ad9948871aa7a36341c6a",
-   "extra": true
-  },
   {
    "title": "Josh Blue",
    "venue": "Punch Line Houston",
@@ -2496,6 +2453,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Andi Marie Tillman is Somethin' Else",
+   "venue": "Punch Line Houston",
+   "start": "2027-02-24T19:30:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/andi-marie-tillman-is-somethin-else-houston-texas-02-24-2027/event/3A00656E1042F8B6",
+   "img": "https://s1.ticketm.net/dam/a/b02/976d3378-2fa9-4173-9abf-68ac05f30b02_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Denny Love",
    "venue": "Punch Line Houston",
    "start": "2027-02-26T19:00:00",
@@ -2526,6 +2491,14 @@
    "price": null,
    "url": "https://www.ticketmaster.com/denny-love-houston-texas-02-27-2027/event/3A00656AC7C3562C",
    "img": "https://s1.ticketm.net/dam/a/f92/e1c2e781-7d2e-4630-ab16-df685704af92_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Clownvis Presley",
+   "venue": "White Oak Music Hall - Upstairs",
+   "start": "2027-02-28T19:00:00",
+   "price": null,
+   "url": "https://www.ticketmaster.com/clownvis-presley-houston-texas-02-28-2027/event/3A006570F361A8CF",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Kerwin Claiborne",
