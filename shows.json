@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T19:16:48Z",
+ "updated": "2026-11-20T03:53:21Z",
  "shows": [
   {
    "title": "Josh Blue",
@@ -714,7 +714,7 @@
    "extra": true
   },
   {
-   "title": "Boyacoman (En Espa\u00f1Ol)",
+   "title": "Boyacoman (En Espa\u00a2\u00b1Ol)",
    "venue": "Houston Improv",
    "start": "2026-12-02T19:30:00",
    "price": null,
@@ -2918,6 +2918,46 @@
    "price": null,
    "url": "https://www.ticketmaster.com/elizabeth-brunot-houston-texas-04-18-2027/event/3A00652EB0D9AB84",
    "img": "https://s1.ticketm.net/dam/a/015/175803bf-dcd6-4da9-b9eb-dc65bd661015_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Chris Distefano",
+   "venue": "Houston Improv",
+   "start": "2027-04-22T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/chris-distefano-houston-improv-tickets/15060543?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/be8/e5189d29-b6d4-4703-a7df-f9bbb25e7be8_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Chris Distefano",
+   "venue": "Houston Improv",
+   "start": "2027-04-23T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/chris-distefano-houston-improv-tickets/15060563?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/be8/e5189d29-b6d4-4703-a7df-f9bbb25e7be8_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Chris Distefano",
+   "venue": "Houston Improv",
+   "start": "2027-04-23T21:45:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/chris-distefano-houston-improv-tickets/15060583?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/be8/e5189d29-b6d4-4703-a7df-f9bbb25e7be8_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Chris Distefano",
+   "venue": "Houston Improv",
+   "start": "2027-04-24T19:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/chris-distefano-houston-improv-tickets/15060553?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/be8/e5189d29-b6d4-4703-a7df-f9bbb25e7be8_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Chris Distefano",
+   "venue": "Houston Improv",
+   "start": "2027-04-24T21:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/chris-distefano-houston-improv-tickets/15060573?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/be8/e5189d29-b6d4-4703-a7df-f9bbb25e7be8_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Ashley Gavin",
