@@ -2,15 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-Josh Blue
-Phil Hanley
-Nick Cannon Presents: Wild 'N Out Live - The Next Generation
-The Best of the Secret Group Comedy Showcase 7pm
-CHELSEA HANDLER: THE HIGH AND MIGHTY TOUR
-DIAL UP: 90s & Y2K Dance Party!
-The Best of the Secret Group Comedy Showcase 9pm
-The Best of the Secret Group RATED R Comedy Showcase 11pm
-SPEEDBALL: Saturday Open Mic Comedy
 Brett Goldstein: Sex, Death & Small Talk
 Stoned vs Drunk vs Sober
 The Last Laugh with James Vogt & Trip Truman
@@ -41,7 +32,12 @@ The Best of the Secret Group Comedy Showcase 8pm
 NOTHING MATTERS Emo | Indie | Punk Dance Party
 The Best of the Secret Group Comedy Showcase 10pm
 The Late Night Dirty Show: X Rated Comedy
+The Best of the Secret Group Comedy Showcase 7pm
 The Suffers with special guest Hasaan Olu
+DIAL UP: 90s & Y2K Dance Party!
+The Best of the Secret Group Comedy Showcase 9pm
+The Best of the Secret Group RATED R Comedy Showcase 11pm
+SPEEDBALL: Saturday Open Mic Comedy
 
 # ----- December 2026 -----
 Kanes and Komedy
