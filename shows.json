@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-21T17:50:35Z",
+ "updated": "2026-11-22T02:51:41Z",
  "shows": [
   {
    "title": "Josh Blue",
@@ -26,14 +26,6 @@
    "img": "https://s1.ticketm.net/dam/a/d03/0e910820-a598-4fdb-9f4d-ec70f74fdd03_1580131_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
-   "title": "DON LEMON AND DL HUGHLEY: DL + DL 'ANYTHING GOES'",
-   "venue": "Cullen Performance Hall",
-   "start": "2026-11-21T19:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvZ4A",
-   "img": "https://s1.ticketm.net/dam/a/4af/a7091ede-2fb7-4276-a6fc-5d1f208d74af_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
    "title": "The Best of the Secret Group Comedy Showcase 7pm",
    "venue": "The Secret Group",
    "start": "2026-11-21T19:00:00",
@@ -49,14 +41,6 @@
    "price": null,
    "url": "https://www.ticketmaster.com/chelsea-handler-the-high-and-mighty-houston-texas-11-21-2026/event/3A006473ABD4BB3E",
    "img": "https://s1.ticketm.net/dam/a/e90/38e0c356-6bcb-4cd2-ab5d-97809a77ce90_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Nick Cannon Presents: MTV Wild 'N Out Live",
-   "venue": "Toyota Center",
-   "start": "2026-11-21T20:00:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/event/Z7r9jZ1AAvV16",
-   "img": "https://s1.ticketm.net/dam/a/d03/0e910820-a598-4fdb-9f4d-ec70f74fdd03_1580131_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Josh Blue",
@@ -298,6 +282,15 @@
    "price": null,
    "url": "https://www.eventbrite.com/e/witchy-wednesdays-wednesday-open-mic-comedy-tickets-2003923530223",
    "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1116853183%2F3558237521%2F1%2Foriginal.20250907-205756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494449513382&fp-y=0.0152963126216&s=433d5d01aafb873c52d5f84bdb2bf590",
+   "extra": true
+  },
+  {
+   "title": "Thanksgiving Show at The Secret Group",
+   "venue": "The Secret Group",
+   "start": "2026-11-26T20:00:00",
+   "price": null,
+   "url": "https://www.eventbrite.com/e/thanksgiving-show-at-the-secret-group-tickets-2005211883723",
+   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1198465462%2F3558237521%2F1%2Foriginal.20261121-235515?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=e28da3e11c06ca50a8cf7ce6ff449f50",
    "extra": true
   },
   {
