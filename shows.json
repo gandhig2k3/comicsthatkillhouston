@@ -1,33 +1,6 @@
 {
- "updated": "2026-11-25T05:15:43Z",
+ "updated": "2026-11-25T20:19:05Z",
  "shows": [
-  {
-   "title": "FOR THE CULTURE: A Tuesday Comedy Show for The Culture",
-   "venue": "The Secret Group",
-   "start": "2026-11-24T20:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/for-the-culture-a-tuesday-comedy-show-for-the-culture-tickets-2003922967540",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1171686511%2F3558237521%2F1%2Foriginal.20251124-232548?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.5&fp-y=0.5&s=5ae98563d39c45c2bfa7b295f0858f44",
-   "extra": true
-  },
-  {
-   "title": "C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult",
-   "venue": "The Secret Group",
-   "start": "2026-11-24T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/c-u-next-tuesday-weekly-comedy-hosted-by-corlis-delauren-and-tess-vergult-tickets-2003923039756",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196605254%2F68532713233%2F1%2Foriginal.20240802-211725?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C2160%2C1080&s=9a9cd93412e78f2151aca9bf6eb8b565",
-   "extra": true
-  },
-  {
-   "title": "PASS THE MIC: Tuesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-24T23:30:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/pass-the-mic-tuesday-open-mic-comedy-tickets-2003923167137",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1196605399%2F68532713233%2F1%2Foriginal.20240806-170802?h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&rect=0%2C0%2C816%2C408&s=b75b9f3235552e799cdc366bf2d3c3d0",
-   "extra": true
-  },
   {
    "title": "Ali Siddiq Presents: the Jive Turkeys",
    "venue": "Houston Improv",
@@ -2750,6 +2723,14 @@
    "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
+   "title": "Alyce Chan",
+   "venue": "Houston Improv",
+   "start": "2027-03-31T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/alyce-chan-houston-improv-tickets/15072613?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/c/50a/fa9caa1f-73a1-411e-b507-ec56fa59650a_106061_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
    "title": "Luke Kidgell - Live In The USA",
    "venue": "Punch Line Houston",
    "start": "2027-04-01T19:30:00",
@@ -3188,6 +3169,54 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/jessica-kirson-houston-improv-tickets/14392204?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/61e/6a3c4cc4-f3e5-4106-bf6a-8a7833cd061e_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-09-30T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072533?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-10-01T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072573?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-10-01T21:45:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072563?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-10-02T19:00:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072583?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-10-02T21:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072543?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
+  },
+  {
+   "title": "Craig Robinson",
+   "venue": "Houston Improv",
+   "start": "2027-10-03T19:30:00",
+   "price": null,
+   "url": "https://www.ticketweb.com/event/craig-robinson-houston-improv-tickets/15072553?REFERRAL_ID=tmfeed",
+   "img": "https://s1.ticketm.net/dam/a/e8a/eff47471-b583-4f2e-95a5-c047530bee8a_TABLET_LANDSCAPE_16_9.jpg"
   },
   {
    "title": "Paul Smith: HAPPY",

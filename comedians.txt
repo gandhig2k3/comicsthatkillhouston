@@ -2,9 +2,6 @@
 # To pick one, copy its line into picks.txt. Soonest shows come first.
 
 # ----- November 2026 -----
-FOR THE CULTURE: A Tuesday Comedy Show for The Culture
-C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
-PASS THE MIC: Tuesday Open Mic Comedy
 Ali Siddiq Presents: the Jive Turkeys
 Leanna Firestone
 Lotto Marie & Friends
@@ -36,6 +33,9 @@ NIGHT COURT: Monday Open Mic Comedy
 
 # ----- December 2026 -----
 Kanes and Komedy
+FOR THE CULTURE: A Tuesday Comedy Show for The Culture
+C U Next Tuesday: Weekly Comedy hosted by Corlis DeLauren and Tess Vergult
+PASS THE MIC: Tuesday Open Mic Comedy
 Boyacoman (En Espa¢±Ol)
 Comedy Allstars
 Keropi Sánchez: Remastered (En Español)
@@ -149,6 +149,7 @@ Danny Jolles
 Ben Bankas: On Thin Ice
 Johnny Pemberton
 Giggly Squad: The Gehls Gehl Tour
+Alyce Chan
 
 # ----- April 2027 -----
 Luke Kidgell - Live In The USA
@@ -179,6 +180,9 @@ Nimesh Patel
 
 # ----- August 2027 -----
 Jessica Kirson
+
+# ----- September 2027 -----
+Craig Robinson
 
 # ----- October 2027 -----
 Paul Smith: HAPPY
