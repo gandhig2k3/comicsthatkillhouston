@@ -1,14 +1,6 @@
 {
- "updated": "2026-11-26T04:43:49Z",
+ "updated": "2026-11-26T19:55:58Z",
  "shows": [
-  {
-   "title": "Ali Siddiq Presents: the Jive Turkeys",
-   "venue": "Houston Improv",
-   "start": "2026-11-25T17:00:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/ali-siddiq-presents-the-jive-houston-improv-tickets/15067113?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/a/8b9/0a83a81b-0da6-4434-9b7d-4e59027c58b9_TABLET_LANDSCAPE_16_9.jpg"
-  },
   {
    "title": "Ali Siddiq Presents: the Jive Turkeys",
    "venue": "Houston Improv",
@@ -16,40 +8,6 @@
    "price": null,
    "url": "https://www.ticketweb.com/event/ali-siddiq-presents-the-jive-houston-improv-tickets/14376654?REFERRAL_ID=tmfeed",
    "img": "https://s1.ticketm.net/dam/a/8b9/0a83a81b-0da6-4434-9b7d-4e59027c58b9_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Lotto Marie & Friends",
-   "venue": "Punch Line Houston",
-   "start": "2026-11-25T19:30:00",
-   "price": null,
-   "url": "https://www.ticketmaster.com/lotto-marie-friends-houston-texas-11-25-2026/event/3A00653CB225BA41",
-   "img": "https://s1.ticketm.net/dam/a/17e/96f709dc-16d2-4942-b1fa-bf263613317e_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Ali Siddiq Presents: the Jive Turkeys",
-   "venue": "Houston Improv",
-   "start": "2026-11-25T21:45:00",
-   "price": null,
-   "url": "https://www.ticketweb.com/event/ali-siddiq-presents-the-jive-houston-improv-tickets/14376664?REFERRAL_ID=tmfeed",
-   "img": "https://s1.ticketm.net/dam/a/8b9/0a83a81b-0da6-4434-9b7d-4e59027c58b9_TABLET_LANDSCAPE_16_9.jpg"
-  },
-  {
-   "title": "Master Debaters",
-   "venue": "The Secret Group",
-   "start": "2026-11-25T22:00:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/master-debaters-tickets-2003923425911",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1186105427%2F3558237521%2F1%2Foriginal.20260603-215732?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.459&fp-y=0.062&s=407a0319bd1ae4b2bdaf6f5ca6173ebd",
-   "extra": true
-  },
-  {
-   "title": "WITCHY WEDNESDAYS: Wednesday Open Mic Comedy",
-   "venue": "The Secret Group",
-   "start": "2026-11-25T23:59:00",
-   "price": null,
-   "url": "https://www.eventbrite.com/e/witchy-wednesdays-wednesday-open-mic-comedy-tickets-2003923530223",
-   "img": "https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F1116853183%2F3558237521%2F1%2Foriginal.20250907-205756?crop=focalpoint&fit=crop&h=200&w=450&auto=format%2Ccompress&q=75&sharp=10&fp-x=0.494449513382&fp-y=0.0152963126216&s=433d5d01aafb873c52d5f84bdb2bf590",
-   "extra": true
   },
   {
    "title": "Thanksgiving Show at The Secret Group",
